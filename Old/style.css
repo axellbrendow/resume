@@ -15,9 +15,8 @@
 
 .presentation-section
 {
-    /* color: white;
-    background-color: #3d3d3d; */
-    border-bottom: 1px solid black;
+    color: white;
+    background-color: #3d3d3d;
 }
 
 .presentation-section .presentation
@@ -61,11 +60,6 @@
 
 /* Experiences Section */
 
-.experiences-section
-{
-    border-bottom: 1px solid black;
-}
-
 .experiences-section .title
 {
     margin-bottom: 1em;
@@ -81,24 +75,11 @@
 
 .abilities-section
 {
-    /* color: white;
-    background-color: #3d3d3d; */
+    color: white;
+    background-color: #3d3d3d;
 }
 
 .abilities-section ul > li
 {
     margin-top: 10px;
-}
-
-.progress
-{
-    background-color: transparent;
-    border: 1px solid black;
-}
-
-.progress-bar
-{
-    background-color: transparent;
-    border-right: 1px solid black;
-    color: black;
 }
