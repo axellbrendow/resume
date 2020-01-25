@@ -1,0 +1,3 @@
+Tive uma ótima experiência no meu primeiro estágio! Que foi quando tive contato com o meu primeiro framework (Laravel), com a minha primeira equipe e com a minha primeira aplicação.
+
+Nesse estágio tive o prazer de ser confiado a produzir uma aplicação do zero ao deploy! Eu e mais outro estagiário produzimos todo o back-end (models, views, controllers, middlewares) e todo o front-end (html, css, js, template AdminLTE) além de lidar com o banco de dados MySQL, com o servidor Apache e, depois, com a mudança para o servidor NGINX e também com conteinerização de cada uma dessas coisas por meio do Docker.
