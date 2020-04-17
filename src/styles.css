@@ -19,6 +19,7 @@ ul {
 }
 
 .site-container section {
+  width: 100%;
   padding: 10px;
 }
 
@@ -41,6 +42,10 @@ ul {
 .presentation-section .presentation .name {
   text-align: center;
   font-size: x-large;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .presentation-section .presentation .name .photo {
@@ -50,7 +55,7 @@ ul {
 
 @media (min-width: 576px) {
   .presentation-section .presentation .name .photo {
-    width: 150px;
+    width: 200px;
     border-radius: 50%;
     visibility: hidden;
     display: block;
