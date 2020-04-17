@@ -1,8 +1,0 @@
-- Pensar em soluções algorítmicas.
-- Back-end com Frameworks MVC (Laravel, Django)
-- Front-end (HTML, CSS, JS, React e Angular)
-- MySQL
-- Ensinar
-- Aprender
-- Ser focado e atento
-- Empatia
