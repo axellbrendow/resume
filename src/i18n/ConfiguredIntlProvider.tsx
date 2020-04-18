@@ -6,12 +6,7 @@ import BgWithSpinner from "components/core/BgWithSpinner";
 import history from "utils/history";
 import flattenMessages from "utils/flattenMessages";
 import translations from "./translations";
-import {
-  DEFAULT_LANGUAGE,
-  localeIsSupported,
-  changeLang,
-  getUrlLang,
-} from "./languages";
+import { DEFAULT_LANGUAGE, localeIsSupported, getUrlLang } from "./languages";
 
 export const cache = createIntlCache();
 export let intl = createIntl(
@@ -20,17 +15,25 @@ export let intl = createIntl(
 );
 export let fmt = intl.formatMessage;
 
+const getAppropriateLocale = () => {
+  const urlLang = getUrlLang();
+  let { locale } = DEFAULT_LANGUAGE;
+
+  if (localeIsSupported(urlLang)) locale = urlLang;
+  else if (localeIsSupported(navigator.language)) locale = navigator.language;
+
+  return locale.toLowerCase();
+};
+
+const initialLocale = getAppropriateLocale();
+
 const ConfiguredIntlProvider: React.FC = ({ children }) => {
   const [loading, setLoading] = useState(true);
-  const localeState = useState(getUrlLang());
-  const locale = localeState[0].toLowerCase();
-  const setLocale = localeState[1];
+  const [locale, setLocale] = useState(initialLocale);
 
   useEffect(() => {
     return history.listen(location => setLocale(getUrlLang(location.pathname)));
   }, [setLocale]);
-
-  if (!localeIsSupported(locale)) changeLang(DEFAULT_LANGUAGE.locale);
 
   useEffect(() => {
     (async () => {
