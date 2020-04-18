@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 // import styled from "styled-components";
 
-import { LANGUAGES /* , changeLang */ } from "i18n/languages";
+import { LANGUAGES /* , changeLang */, changeUrlLangTo } from "i18n/languages";
 
 import { LanguageListStyle, LanguageItem } from "./styles";
 
@@ -19,19 +19,19 @@ import { LanguageListStyle, LanguageItem } from "./styles";
 //   }
 // `;
 
-const LanguageList = () => {
-  return (
-    <LanguageListStyle>
-      {Object.values(LANGUAGES).map(language => (
-        <LanguageItem key={language.locale}>
-          {/* <LanguageButton onClick={() => changeLang(language.locale)}>
-            {language.name}
-          </LanguageButton> */}
-          <Link to={`/${language.locale}`}>{language.name}</Link>
-        </LanguageItem>
-      ))}
-    </LanguageListStyle>
-  );
-};
+const languages = Object.values(LANGUAGES);
+
+const LanguageList = () => (
+  <LanguageListStyle>
+    {languages.map(language => (
+      <LanguageItem key={language.locale}>
+        {/* <LanguageButton onClick={() => changeLang(language.locale)}>
+          {language.name}
+        </LanguageButton> */}
+        <Link to={changeUrlLangTo(language.locale)}>{language.name}</Link>
+      </LanguageItem>
+    ))}
+  </LanguageListStyle>
+);
 
 export default LanguageList;
