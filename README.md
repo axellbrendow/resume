@@ -1,12 +1,12 @@
 # English
 
-[Here](https://axell-brendow.github.io/resume/en-us) you can see my resume.
+[Here](https://axell-brendow.github.io/resume/) you can see my resume.
 
 In this repository I have the code made in React and the deployment of the application in the gh-pages branch.
 
 # Português
 
-[Aqui](https://axell-brendow.github.io/resume/pt-br) você pode ver o meu currículo.
+[Aqui](https://axell-brendow.github.io/resume/) você pode ver o meu currículo.
 
 Neste repositório eu tenho o código feito em React e a implantação (deploy) da aplicação na branch gh-pages.
 
