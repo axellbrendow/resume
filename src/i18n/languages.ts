@@ -16,7 +16,8 @@ export const LANGUAGES: Record<string, Language> = {
   },
 };
 
-export const localeIsSupported = (locale: string) => locale in LANGUAGES;
+export const localeIsSupported = (locale: string) =>
+  locale.toLowerCase() in LANGUAGES;
 
 export const getLang = (locale: string) => LANGUAGES[locale.toLowerCase()];
 
