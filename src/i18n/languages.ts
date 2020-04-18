@@ -24,10 +24,17 @@ export const getLang = (locale: string) => LANGUAGES[locale.toLowerCase()];
 export const splitUrl = (url = history.location.pathname) => url.split("/");
 export const getUrlLang = (url = history.location.pathname) => splitUrl(url)[1];
 
-export const changeLang = (locale: string) => {
-  const splittedUrl = splitUrl();
+export const changeUrlLangTo = (
+  locale: string,
+  url = history.location.pathname
+) => {
+  const splittedUrl = splitUrl(url);
   splittedUrl[1] = locale;
-  history.push(splittedUrl.join("/"));
+  return splittedUrl.join("/");
+};
+
+export const changeLang = (locale: string) => {
+  history.push(changeUrlLangTo(locale));
 };
 
 export const DEFAULT_LOCALE = "en-us";
