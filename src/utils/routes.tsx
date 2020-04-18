@@ -1,16 +1,16 @@
 import React from "react";
-import { HashRouter, Router, Route } from "react-router-dom";
+import { BrowserRouter, Router, Route } from "react-router-dom";
 
 import Resume from "containers/Resume";
 
 import history from "./history";
 
 const Routes = () => (
-  <HashRouter>
+  <BrowserRouter>
     <Router history={history}>
       <Route exact path="/:lang?" component={Resume} />
     </Router>
-  </HashRouter>
+  </BrowserRouter>
 );
 
 export default Routes;
