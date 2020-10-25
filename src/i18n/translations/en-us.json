@@ -3,7 +3,7 @@
   "madeIn": "Made in",
   "presentation": {
     "aboutMe": "About me",
-    "aboutMeValue": "First, know that I love things that challenge me 🎯. I have knowledge in front-end, back-end and MVC frameworks. I work as a Full Stack and my biggest wish is to be able to learn more 📖, spend my energy on projects ⚡ and share experiences 🌎! I started programming in C at 12, since then, I have fallen in love with this activity 💕 and experienced other languages like C++, C#, Java, PHP, JavaScript, Python, Go and others."
+    "aboutMeValue": "First, know that I love things that challenge me 🎯. I work as a Full Stack and my biggest wish is to be able to learn more 📖, spend my energy on projects ⚡ and share experiences 🌎! I started programming in C at 12, since then, I have fallen in love with this activity 💕 and experienced other languages like C++, C#, Java, PHP, JavaScript, Python, Go and others."
   },
   "contacts": {
     "title": "Contact informations"
@@ -14,22 +14,21 @@
       "graduation": {
         "period": "2018-Current",
         "name": "Graduation in Computer Science",
-        "description": "PUC Minas - 5th period"
+        "description": "PUC Minas - 6th period"
       },
       "frontEndDev": {
         "period": "2018-2018",
         "name": "Front-End Developer (140hrs)",
         "description": "Front-end Developer career completed at"
       },
+      "microservicesApplications": {
+        "period": "2020-Current",
+        "name": "Architecting and developing modern and scalable applications based on microservices"
+      },
       "levelUp": {
         "period": "2019-2019",
         "name": "LevelUp - Professional Transformation",
         "description": "\"LevelUp Front-end React\" a program offered by PUC Minas and partner companies. 40 classroom hours and 20 virtual hours distributed in technical training activities, project development with visits to companies and behavioral training."
-      },
-      "basicEnglish": {
-        "period": "2013-2013",
-        "name": "Basic English Course",
-        "description": "Shortcut"
       }
     },
     "projects": {
@@ -59,6 +58,13 @@
     },
     "experiences": {
       "title": "Experiences",
+      "internIoasys": {
+        "period": "2020-",
+        "period2": "9 months",
+        "name": "Full Stack Development Intern",
+        "description": "Node.JS, JWT, OAuth 2.0, sequelize, tests (jest, chai, sinon), serverless, AWS Lambda, SAML, dotenv, MySQL, Postgres",
+        "description2": "React, hooks, redux, redux-saga, styled components, yup, bootstrap, i18n (react-intl), tests (jest)"
+      },
       "webDevIntern": {
         "period": "2019-",
         "period2": "10 months",

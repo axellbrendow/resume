@@ -3,7 +3,7 @@
   "madeIn": "Feito em",
   "presentation": {
     "aboutMe": "Sobre mim",
-    "aboutMeValue": "Primeiro, saiba que amo coisas que me desafiam 🎯. Tenho conhecimentos em front-end, back-end e frameworks MVC. Trabalho como Full Stack e meu maior desejo é poder aprender mais 📖, gastar minha energia em projetos ⚡ e compartilhar experiências 🌎! Comecei a programar em C aos 12, desde então, apaixonei-me por essa atividade 💕 e experimentei outras linguagens como C++, C#, Java, PHP, JavaScript, Python, Go e outras."
+    "aboutMeValue": "Primeiro, saiba que amo coisas que me desafiam 🎯. Trabalho como Full Stack e meu maior desejo é poder aprender mais 📖, gastar minha energia em projetos ⚡ e compartilhar experiências 🌎! Comecei a programar em C aos 12, desde então, apaixonei-me por essa atividade 💕 e experimentei outras linguagens como C++, C#, Java, PHP, JavaScript, Python, Go e outras."
   },
   "contacts": {
     "title": "Informações de contato"
@@ -14,22 +14,21 @@
       "graduation": {
         "period": "2018-Atual",
         "name": "Graduação em Ciência da Computação",
-        "description": "PUC Minas - 5º período"
+        "description": "PUC Minas - 6º período"
       },
       "frontEndDev": {
         "period": "2018-2018",
         "name": "Desenvolvedor Front-End (140hrs)",
         "description": "Carreira Desenvolvedor Front-end concluída na"
       },
+      "microservicesApplications": {
+        "period": "2020-Atual",
+        "name": "Arquitetando e desenvolvendo aplicações modernas e escaláveis baseadas em Microsserviços"
+      },
       "levelUp": {
         "period": "2019-2019",
         "name": "LevelUp - Transformação Profissional",
         "description": "\"LevelUp Front-end React\" um programa oferecido pela PUC Minas e empresas parceiras. 40 horas presenciais e 20 horas virtuais distribuídas nas atividades de capacitação técnica, desenvolvimento de projeto com visita nas empresas e formação comportamental."
-      },
-      "basicEnglish": {
-        "period": "2013-2013",
-        "name": "Curso de Inglês Básico",
-        "description": "Shortcut"
       }
     },
     "projects": {
@@ -59,10 +58,17 @@
     },
     "experiences": {
       "title": "Experiências",
+      "internIoasys": {
+        "period": "2020-",
+        "period2": "9 meses",
+        "name": "Estagiário de Desenvolvimento Full Stack",
+        "description": "Node.JS, JWT, OAuth 2.0, sequelize, tests (jest, chai, sinon), serverless, AWS Lambda, SAML, dotenv, MySQL, Postgres",
+        "description2": "React, hooks, redux, redux-saga, styled components, yup, bootstrap, i18n (react-intl), tests (jest)"
+      },
       "webDevIntern": {
         "period": "2019-",
         "period2": "10 meses",
-        "name": "Estágio de Desenvolvimento Web",
+        "name": "Estagiário de Desenvolvimento Web",
         "description": "HTML, CSS, JavaScript, PHP, Laravel, MySQL, Docker, Nginx",
         "description2": "CRC do ICEI"
       }

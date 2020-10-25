@@ -52,11 +52,41 @@ export const experiences = (): Experience[] => [
         ),
       },
       {
-        period: fmt({ id: "experiences.formation.basicEnglish.period" }),
-        name: fmt({ id: "experiences.formation.basicEnglish.name" }),
-        description: fmt({
-          id: "experiences.formation.basicEnglish.description",
+        period: fmt({
+          id: "experiences.formation.microservicesApplications.period",
         }),
+        name: (
+          <a href="https://drive.google.com/file/d/1JXXmYhfi-Sk0zwiEbBIEswDC6AFeyBlD/view?usp=sharing">
+            {fmt({
+              id: "experiences.formation.microservicesApplications.name",
+            })}
+          </a>
+        ),
+        description: (
+          <>
+            <ul>
+              <li>
+                <strong>React</strong> - TypeScript, Hooks, Redux
+              </li>
+              <li>
+                <strong>Node.JS</strong> - Microservices, TypeScript,
+                ElasticSearch, Messaging, Docker, Loopback
+              </li>
+              <li>
+                <strong>DevOps</strong> - Git Flow, Docker, Continuous
+                Integration, Continuous Deployment, Kubernetes, Monitoring
+              </li>
+              <li>
+                <strong>Software Enginerring</strong> - Services and
+                Microservices, Service Discovery, Queues and BFF
+              </li>
+              <li>
+                <strong>Domain Driven Design</strong> - Ubiquitous Language,
+                Bounded Contexts, Context Map and Strategic Modeling
+              </li>
+            </ul>
+          </>
+        ),
       },
     ],
   },
@@ -139,6 +169,27 @@ export const experiences = (): Experience[] => [
     titleIconClass: "building",
     title: fmt({ id: "experiences.experiences.title" }),
     items: [
+      {
+        period: (
+          <>
+            {fmt({ id: "experiences.experiences.internIoasys.period" })}
+            <br />
+            {fmt({ id: "experiences.experiences.internIoasys.period2" })}
+          </>
+        ),
+        name: <>{fmt({ id: "experiences.experiences.internIoasys.name" })}</>,
+        description: (
+          <>
+            <span style={{ textDecoration: "underline" }}>Back end</span>:{" "}
+            {fmt({ id: "experiences.experiences.internIoasys.description" })}
+            <br />
+            <span style={{ textDecoration: "underline" }}>Front end</span>:{" "}
+            {fmt({ id: "experiences.experiences.internIoasys.description2" })}
+            <br />
+            <a href="https://ioasys.com.br/">Ioasys</a>
+          </>
+        ),
+      },
       {
         period: (
           <>
