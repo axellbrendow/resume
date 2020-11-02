@@ -14,7 +14,7 @@ const ExperienceItemContainer = ({
         ? name
         : ReactDOMServer.renderToString(name as React.ReactElement)
     }
-    className="row"
+    className="row mb-3"
   >
     <div className="col-sm-3">
       <strong className="period">{period}</strong>
@@ -23,7 +23,7 @@ const ExperienceItemContainer = ({
       <p className="name">
         <strong>{name}</strong>
       </p>
-      <p className="description">{description}</p>
+      <div className="description">{description}</div>
     </div>
   </li>
 );

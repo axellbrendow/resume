@@ -22,14 +22,16 @@ export const localeIsSupported = (locale: string) =>
 export const getLang = (locale: string) => LANGUAGES[locale.toLowerCase()];
 
 export const splitUrl = (url = history.location.pathname) => url.split("/");
-export const getUrlLang = (url = history.location.pathname) => splitUrl(url)[1];
+export const getUrlLang = (url = history.location.pathname) =>
+  splitUrl(url)[2] || "";
 
 export const changeUrlLangTo = (
   locale: string,
   url = history.location.pathname
 ) => {
   const splittedUrl = splitUrl(url);
-  splittedUrl[1] = locale;
+  if (splittedUrl.length === 2) splittedUrl.push(locale);
+  else splittedUrl[2] = locale;
   return splittedUrl.join("/");
 };
 

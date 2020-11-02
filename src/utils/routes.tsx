@@ -8,7 +8,7 @@ import history from "./history";
 const Routes = () => (
   <BrowserRouter>
     <Router history={history}>
-      <Route exact path="/:lang?" component={Resume} />
+      <Route exact path="/resume/:lang?" component={Resume} />
     </Router>
   </BrowserRouter>
 );
