@@ -27,31 +27,6 @@ export const experiences = (): Experience[] => [
         }),
       },
       {
-        period: fmt({ id: "experiences.formation.frontEndDev.period" }),
-        name: (
-          <a href="https://cursos.alura.com.br/user/axell-b/career/desenvolvedor-front-end/certificate">
-            {fmt({ id: "experiences.formation.frontEndDev.name" })}
-          </a>
-        ),
-        description: (
-          <>
-            {fmt({ id: "experiences.formation.frontEndDev.description" })}{" "}
-            <a href="https://cursos.alura.com.br/user/axell-b">Alura</a>
-          </>
-        ),
-      },
-      {
-        period: fmt({ id: "experiences.formation.levelUp.period" }),
-        name: (
-          <a href="https://icei.pucminas.br/levelup/">
-            {fmt({ id: "experiences.formation.levelUp.name" })}
-          </a>
-        ),
-        description: (
-          <>{fmt({ id: "experiences.formation.levelUp.description" })}</>
-        ),
-      },
-      {
         period: fmt({
           id: "experiences.formation.microservicesApplications.period",
         }),
@@ -86,6 +61,31 @@ export const experiences = (): Experience[] => [
               </li>
             </ul>
           </>
+        ),
+      },
+      {
+        period: fmt({ id: "experiences.formation.frontEndDev.period" }),
+        name: (
+          <a href="https://cursos.alura.com.br/user/axell-b/career/desenvolvedor-front-end/certificate">
+            {fmt({ id: "experiences.formation.frontEndDev.name" })}
+          </a>
+        ),
+        description: (
+          <>
+            {fmt({ id: "experiences.formation.frontEndDev.description" })}{" "}
+            <a href="https://cursos.alura.com.br/user/axell-b">Alura</a>
+          </>
+        ),
+      },
+      {
+        period: fmt({ id: "experiences.formation.levelUp.period" }),
+        name: (
+          <a href="https://icei.pucminas.br/levelup/">
+            {fmt({ id: "experiences.formation.levelUp.name" })}
+          </a>
+        ),
+        description: (
+          <>{fmt({ id: "experiences.formation.levelUp.description" })}</>
         ),
       },
     ],
