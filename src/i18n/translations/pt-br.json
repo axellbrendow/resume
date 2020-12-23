@@ -14,7 +14,7 @@
       "graduation": {
         "period": "2018-Atual",
         "name": "Graduação em Ciência da Computação",
-        "description": "PUC Minas - 6º período"
+        "description": "PUC Minas - 7º período"
       },
       "frontEndDev": {
         "period": "2018-2018",
@@ -33,20 +33,17 @@
     },
     "projects": {
       "title": "Projetos",
-      "omnistack10": {
-        "period": "2019-2019",
-        "name": "Semana Omnistack 10",
-        "description": "Projeto produzido na",
-        "description2": "10ª Semana Omnistack",
-        "description3": "promovida pela",
-        "description4": "Uma semana pensada para motivar as pessoas a elevarem suas carreiras como programadores(as) conhecendo a stack Node.JS, React e React Native para desenvolvimento Front-end, Back-end e Mobile.",
-        "description5": "Post no LinkedIn"
+      "omnistack11": {
+        "period": "2020-2020",
+        "name": "Semana Omnistack 11",
+        "description": "Projeto produzido na 11ª Semana Omnistack promovida pela",
+        "description2": "Uma semana pensada para motivar as pessoas a elevarem suas carreiras como programadores(as) conhecendo a stack Node.JS, React e React Native para desenvolvimento Front-end, Back-end e Mobile.",
+        "description3": "Post no LinkedIn"
       },
-      "starWarsApp": {
-        "period": "2019-2019",
-        "name": "Star Wars App",
-        "description": "Site com o tema Star Wars desenvolvido em React no programa",
-        "description2": "oferecido pela PUC Minas e empresas parceiras."
+      "imageProcessing": {
+        "period": "2020-2020",
+        "name": "Classificador de imagens de mamografia",
+        "description": "Um programa que lê imagens de exames mamográficos e busca diferenciar a densidade das mamas no intuito de identificar tumores ou outros problemas."
       },
       "machineLearningGame": {
         "period": "2019-2019",
@@ -60,9 +57,9 @@
       "title": "Experiências",
       "internIoasys": {
         "period": "2020-",
-        "period2": "9 meses",
+        "period2": "1 ano (atual)",
         "name": "Estagiário de Desenvolvimento Full Stack",
-        "description": "Node.JS, JWT, OAuth 2.0, sequelize, tests (jest, chai, sinon), serverless, AWS Lambda, SAML, dotenv, MySQL, Postgres",
+        "description": "Node.JS, express, JWT, OAuth 2.0, sequelize, tests (jest, chai, sinon), AWS Lambda Serverless, AWS RDS, AWS EC2, AWS S3, SAML, dotenv, MySQL, Postgres, Ruby, Ruby on Rails",
         "description2": "React, hooks, redux, redux-saga, styled components, yup, bootstrap, i18n (react-intl), tests (jest)"
       },
       "webDevIntern": {
@@ -77,7 +74,7 @@
       "title": "Interesses e Hobbies",
       "softwareEngineering": {
         "name": "Engenharia de Software em Projetos",
-        "description": "Como estruturar todo um sistema."
+        "description": "Sempre buscando casos de uso onde eu possa aprender e aplicar padrões de engenharia de software para estruturar um sistema :D"
       },
       "artificialIntelligence": {
         "name": "Inteligência Artificial",

@@ -14,7 +14,7 @@
       "graduation": {
         "period": "2018-Current",
         "name": "Graduation in Computer Science",
-        "description": "PUC Minas - 6th period"
+        "description": "PUC Minas - 7th period"
       },
       "frontEndDev": {
         "period": "2018-2018",
@@ -33,20 +33,17 @@
     },
     "projects": {
       "title": "Projects",
-      "omnistack10": {
-        "period": "2019-2019",
-        "name": "10th Omnistack Week",
-        "description": "Project produced in the",
-        "description2": "10th Omnistack Week",
-        "description3": "promoted by",
-        "description4": "A week designed to motivate people to raise their careers as programmers getting to know the Node.JS, React and React Native stack for Front-end, Back-end and Mobile development.",
-        "description5": "Post on LinkedIn"
+      "omnistack11": {
+        "period": "2020-2020",
+        "name": "11th Omnistack Week",
+        "description": "Project produced in the 10th Omnistack Week promoted by",
+        "description2": "A week designed to motivate people to raise their careers as programmers getting to know the Node.JS, React and React Native stack for Front-end, Back-end and Mobile development.",
+        "description3": "Post on LinkedIn"
       },
-      "starWarsApp": {
-        "period": "2019-2019",
-        "name": "Star Wars App",
-        "description": "Site with the Star Wars theme developed in React in the",
-        "description2": "program offered by PUC Minas and partner companies."
+      "imageProcessing": {
+        "period": "2020-2020",
+        "name": "Mammography images classifier",
+        "description": "A program that reads images from mammography exams and seeks to differentiate breast density in order to identify tumors or other problems."
       },
       "machineLearningGame": {
         "period": "2019-2019",
@@ -60,9 +57,9 @@
       "title": "Experiences",
       "internIoasys": {
         "period": "2020-",
-        "period2": "9 months",
+        "period2": "1 year (current)",
         "name": "Full Stack Development Intern",
-        "description": "Node.JS, JWT, OAuth 2.0, sequelize, tests (jest, chai, sinon), serverless, AWS Lambda, SAML, dotenv, MySQL, Postgres",
+        "description": "Node.JS, express, JWT, OAuth 2.0, sequelize, tests (jest, chai, sinon), AWS Lambda Serverless, AWS RDS, AWS EC2, AWS S3, SAML, dotenv, MySQL, Postgres, Ruby, Ruby on Rails",
         "description2": "React, hooks, redux, redux-saga, styled components, yup, bootstrap, i18n (react-intl), tests (jest)"
       },
       "webDevIntern": {
@@ -77,7 +74,7 @@
       "title": "Interests and Hobbies",
       "softwareEngineering": {
         "name": "Software Engineering in Projects",
-        "description": "How to structure an entire system."
+        "description": "Always wanting use cases where I can learn and apply software engineering patterns to structure the system :D"
       },
       "artificialIntelligence": {
         "name": "Artificial intelligence",

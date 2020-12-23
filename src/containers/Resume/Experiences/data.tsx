@@ -92,48 +92,46 @@ export const experiences = (): Experience[] => [
   },
   {
     titleIconClass: "folder",
-    title: fmt({ id: "experiences.projects.title" }),
+    title: (
+      <a href="https://axell-brendow.github.io/">
+        {fmt({ id: "experiences.projects.title" })}
+      </a>
+    ),
     items: [
       {
-        period: <>{fmt({ id: "experiences.projects.omnistack10.period" })}</>,
+        period: <>{fmt({ id: "experiences.projects.omnistack11.period" })}</>,
         name: (
           <>
-            <a href="https://github.com/axell-brendow/SemanaOmnistack10">
-              {fmt({ id: "experiences.projects.omnistack10.name" })}
+            <a href="https://github.com/axell-brendow/omnistackweek11">
+              {fmt({ id: "experiences.projects.omnistack11.name" })}
             </a>
           </>
         ),
         description: (
           <>
-            {fmt({ id: "experiences.projects.omnistack10.description" })}{" "}
-            <a href="https://rocketseat.com.br/week-10/inscricao">
-              {fmt({ id: "experiences.projects.omnistack10.description2" })}
-            </a>{" "}
-            {fmt({ id: "experiences.projects.omnistack10.description3" })}{" "}
+            {fmt({ id: "experiences.projects.omnistack11.description" })}{" "}
             <a href="https://rocketseat.com.br/">Rocketseat</a>.{" "}
-            {fmt({ id: "experiences.projects.omnistack10.description4" })}{" "}
-            <a href="https://www.linkedin.com/feed/update/urn:li:activity:6624636245584818176/">
-              {fmt({ id: "experiences.projects.omnistack10.description5" })}
+            {fmt({ id: "experiences.projects.omnistack11.description2" })}{" "}
+            <a href="https://www.linkedin.com/feed/update/urn:li:activity:6652611731518562304/">
+              {fmt({ id: "experiences.projects.omnistack11.description3" })}
             </a>
             .
           </>
         ),
       },
       {
-        period: <>{fmt({ id: "experiences.projects.starWarsApp.period" })}</>,
+        period: (
+          <>{fmt({ id: "experiences.projects.imageProcessing.period" })}</>
+        ),
         name: (
           <>
-            <a href="https://github.com/axell-brendow/StarWarsApp">
-              {fmt({ id: "experiences.projects.starWarsApp.name" })}
+            <a href="https://github.com/axell-brendow/image-processing-work">
+              {fmt({ id: "experiences.projects.imageProcessing.name" })}
             </a>
           </>
         ),
         description: (
-          <>
-            {fmt({ id: "experiences.projects.starWarsApp.description" })}{" "}
-            <a href="https://icei.pucminas.br/levelup/">Level Up</a>{" "}
-            {fmt({ id: "experiences.projects.starWarsApp.description2" })}
-          </>
+          <>{fmt({ id: "experiences.projects.imageProcessing.description" })}</>
         ),
       },
       {
