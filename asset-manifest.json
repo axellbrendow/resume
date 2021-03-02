@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/resume/static/css/main.a1da2b9c.chunk.css",
-    "main.js": "/resume/static/js/main.c244110f.chunk.js",
-    "main.js.map": "/resume/static/js/main.c244110f.chunk.js.map",
-    "runtime-main.js": "/resume/static/js/runtime-main.cd542b30.js",
-    "runtime-main.js.map": "/resume/static/js/runtime-main.cd542b30.js.map",
+    "main.js": "/resume/static/js/main.e6b14f75.chunk.js",
+    "main.js.map": "/resume/static/js/main.e6b14f75.chunk.js.map",
+    "runtime-main.js": "/resume/static/js/runtime-main.70bb35db.js",
+    "runtime-main.js.map": "/resume/static/js/runtime-main.70bb35db.js.map",
     "static/js/2.88e50f12.chunk.js": "/resume/static/js/2.88e50f12.chunk.js",
     "static/js/2.88e50f12.chunk.js.map": "/resume/static/js/2.88e50f12.chunk.js.map",
-    "static/js/3.24f4ab28.chunk.js": "/resume/static/js/3.24f4ab28.chunk.js",
-    "static/js/3.24f4ab28.chunk.js.map": "/resume/static/js/3.24f4ab28.chunk.js.map",
-    "static/js/4.a9b35071.chunk.js": "/resume/static/js/4.a9b35071.chunk.js",
-    "static/js/4.a9b35071.chunk.js.map": "/resume/static/js/4.a9b35071.chunk.js.map",
+    "static/js/3.7f4f4706.chunk.js": "/resume/static/js/3.7f4f4706.chunk.js",
+    "static/js/3.7f4f4706.chunk.js.map": "/resume/static/js/3.7f4f4706.chunk.js.map",
+    "static/js/4.dbd9e724.chunk.js": "/resume/static/js/4.dbd9e724.chunk.js",
+    "static/js/4.dbd9e724.chunk.js.map": "/resume/static/js/4.dbd9e724.chunk.js.map",
     "index.html": "/resume/index.html",
-    "precache-manifest.4ff9ff38cdc8ddebe4be23292a80488c.js": "/resume/precache-manifest.4ff9ff38cdc8ddebe4be23292a80488c.js",
+    "precache-manifest.c85824b0624faa669bb892a14c2ef408.js": "/resume/precache-manifest.c85824b0624faa669bb892a14c2ef408.js",
     "service-worker.js": "/resume/service-worker.js",
     "static/css/main.a1da2b9c.chunk.css.map": "/resume/static/css/main.a1da2b9c.chunk.css.map",
     "static/js/2.88e50f12.chunk.js.LICENSE.txt": "/resume/static/js/2.88e50f12.chunk.js.LICENSE.txt",
     "static/media/axell.png": "/resume/static/media/axell.a9a4e4d9.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.cd542b30.js",
+    "static/js/runtime-main.70bb35db.js",
     "static/js/2.88e50f12.chunk.js",
     "static/css/main.a1da2b9c.chunk.css",
-    "static/js/main.c244110f.chunk.js"
+    "static/js/main.e6b14f75.chunk.js"
   ]
 }
