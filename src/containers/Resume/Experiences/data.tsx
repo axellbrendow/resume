@@ -31,7 +31,7 @@ export const experiences = (): Experience[] => [
           id: "experiences.formation.microservicesApplications.period",
         }),
         name: (
-          <a href="https://drive.google.com/file/d/1JXXmYhfi-Sk0zwiEbBIEswDC6AFeyBlD/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/1JXXmYhfi-Sk0zwiEbBIEswDC6AFeyBlD/view?usp=sharing" target="_blank">
             {fmt({
               id: "experiences.formation.microservicesApplications.name",
             })}
@@ -64,28 +64,28 @@ export const experiences = (): Experience[] => [
         ),
       },
       {
+        period: fmt({ id: "experiences.formation.interJava.period" }),
+        name: (
+          <a href="https://drive.google.com/file/d/1FbcMmesNN53tPjX8OfAgH6RXAzNjQDAS/view" target="_blank">
+            {fmt({ id: "experiences.formation.interJava.name" })}
+          </a>
+        ),
+        description: (
+          <>{fmt({ id: "experiences.formation.interJava.description" })}</>
+        ),
+      },
+      {
         period: fmt({ id: "experiences.formation.frontEndDev.period" }),
         name: (
-          <a href="https://cursos.alura.com.br/user/axell-b/career/desenvolvedor-front-end/certificate">
+          <a href="https://cursos.alura.com.br/user/axell-b/career/desenvolvedor-front-end/certificate" target="_blank">
             {fmt({ id: "experiences.formation.frontEndDev.name" })}
           </a>
         ),
         description: (
           <>
             {fmt({ id: "experiences.formation.frontEndDev.description" })}{" "}
-            <a href="https://cursos.alura.com.br/user/axell-b">Alura</a>
+            <a href="https://cursos.alura.com.br/user/axell-b" target="_blank">Alura</a>
           </>
-        ),
-      },
-      {
-        period: fmt({ id: "experiences.formation.levelUp.period" }),
-        name: (
-          <a href="https://icei.pucminas.br/levelup/">
-            {fmt({ id: "experiences.formation.levelUp.name" })}
-          </a>
-        ),
-        description: (
-          <>{fmt({ id: "experiences.formation.levelUp.description" })}</>
         ),
       },
     ],
@@ -93,30 +93,39 @@ export const experiences = (): Experience[] => [
   {
     titleIconClass: "folder",
     title: (
-      <a href="https://axell-brendow.github.io/">
+      <a href="https://axell-brendow.github.io/" target="_blank">
         {fmt({ id: "experiences.projects.title" })}
       </a>
     ),
     items: [
       {
-        period: <>{fmt({ id: "experiences.projects.omnistack11.period" })}</>,
+        period: <>{fmt({ id: "experiences.projects.localizaLabs.period" })}</>,
         name: (
           <>
-            <a href="https://github.com/axell-brendow/omnistackweek11">
-              {fmt({ id: "experiences.projects.omnistack11.name" })}
+            <a href="https://github.com/matheussinnis/ProjetoLocalizaLabsAPI" target="_blank">
+              {fmt({ id: "experiences.projects.localizaLabs.name" })}
             </a>
           </>
         ),
         description: (
+          <div dangerouslySetInnerHTML={{
+            __html: fmt({ id: "experiences.projects.localizaLabs.description" })
+          }} />
+        ),
+      },
+      {
+        period: <>{fmt({ id: "experiences.projects.devOpsModule.period" })}</>,
+        name: (
           <>
-            {fmt({ id: "experiences.projects.omnistack11.description" })}{" "}
-            <a href="https://rocketseat.com.br/">Rocketseat</a>.{" "}
-            {fmt({ id: "experiences.projects.omnistack11.description2" })}{" "}
-            <a href="https://www.linkedin.com/feed/update/urn:li:activity:6652611731518562304/">
-              {fmt({ id: "experiences.projects.omnistack11.description3" })}
+            <a href="https://github.com/axell-brendow/microservices-devops-challenge01" target="_blank">
+              {fmt({ id: "experiences.projects.devOpsModule.name" })}
             </a>
-            .
           </>
+        ),
+        description: (
+          <div dangerouslySetInnerHTML={{
+            __html: fmt({ id: "experiences.projects.devOpsModule.description" })
+          }} />
         ),
       },
       {
@@ -125,40 +134,13 @@ export const experiences = (): Experience[] => [
         ),
         name: (
           <>
-            <a href="https://github.com/axell-brendow/image-processing-work">
+            <a href="https://github.com/axell-brendow/image-processing-work" target="_blank">
               {fmt({ id: "experiences.projects.imageProcessing.name" })}
             </a>
           </>
         ),
         description: (
           <>{fmt({ id: "experiences.projects.imageProcessing.description" })}</>
-        ),
-      },
-      {
-        period: (
-          <>{fmt({ id: "experiences.projects.machineLearningGame.period" })}</>
-        ),
-        name: (
-          <>
-            <a href="https://scratch.mit.edu/projects/300708903/">
-              {fmt({ id: "experiences.projects.machineLearningGame.name" })}
-            </a>
-          </>
-        ),
-        description: (
-          <>
-            {fmt({
-              id: "experiences.projects.machineLearningGame.description",
-            })}{" "}
-            <a href="https://scratch.mit.edu/projects/313216273/">
-              {fmt({
-                id: "experiences.projects.machineLearningGame.description2",
-              })}
-            </a>{" "}
-            {fmt({
-              id: "experiences.projects.machineLearningGame.description3",
-            })}
-          </>
         ),
       },
     ],
@@ -184,7 +166,7 @@ export const experiences = (): Experience[] => [
             <span style={{ textDecoration: "underline" }}>Front end</span>:{" "}
             {fmt({ id: "experiences.experiences.internIoasys.description2" })}
             <br />
-            <a href="https://ioasys.com.br/">Ioasys</a>
+            <a href="https://ioasys.com.br/" target="_blank">Ioasys</a>
           </>
         ),
       },
@@ -201,7 +183,7 @@ export const experiences = (): Experience[] => [
           <>
             {fmt({ id: "experiences.experiences.webDevIntern.description" })}
             <br />
-            <a href="https://crc.pucminas.br/">
+            <a href="https://crc.pucminas.br/" target="_blank">
               {fmt({ id: "experiences.experiences.webDevIntern.description2" })}
             </a>{" "}
             - PUC Minas

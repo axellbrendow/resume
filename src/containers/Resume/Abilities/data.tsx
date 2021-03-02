@@ -15,20 +15,20 @@ export const abilities = (): Ability[] => [
     title: fmt({ id: "abilities.skills.title" }),
     items: [
       {
-        width: 90,
-        name: fmt({ id: "abilities.skills.css" }),
+        width: 60,
+        name: fmt({ id: "abilities.skills.softwareArchitecture" }),
       },
       {
-        width: 90,
-        name: fmt({ id: "abilities.skills.javaScript" }),
+        width: 50,
+        name: fmt({ id: "abilities.skills.kubernetes" }),
       },
       {
-        width: 55,
-        name: fmt({ id: "abilities.skills.php" }),
-      },
-      {
-        width: 55,
+        width: 80,
         name: fmt({ id: "abilities.skills.docker" }),
+      },
+      {
+        width: 70,
+        name: fmt({ id: "abilities.skills.react" }),
       },
     ],
   },

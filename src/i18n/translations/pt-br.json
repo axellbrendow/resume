@@ -25,32 +25,28 @@
         "period": "2020-Atual",
         "name": "Arquitetando e desenvolvendo aplicações modernas e escaláveis baseadas em Microsserviços"
       },
-      "levelUp": {
-        "period": "2019-2019",
-        "name": "LevelUp - Transformação Profissional",
-        "description": "\"LevelUp Front-end React\" um programa oferecido pela PUC Minas e empresas parceiras. 40 horas presenciais e 20 horas virtuais distribuídas nas atividades de capacitação técnica, desenvolvimento de projeto com visita nas empresas e formação comportamental."
+      "interJava": {
+        "period": "2021-2021",
+        "name": "Bootcamp Inter Java Developer",
+        "description": "Bootcamp Inter Java Developer feito na plataforma Digital Innovation One com aprendizado de vários tópicos como Spring Boot, JPA, Kafka, Cloud Stream, Postgres, Lombok, Schema Registry, CQRS, Quarkus, Kubernetes, AWS EKS, Tests, Arquitetura de mensageria, BI, Data Warehouse, Big Data, Data Lake, DevOps."
       }
     },
     "projects": {
       "title": "Projetos",
-      "omnistack11": {
+      "devOpsModule": {
         "period": "2020-2020",
-        "name": "Semana Omnistack 11",
-        "description": "Projeto produzido na 11ª Semana Omnistack promovida pela",
-        "description2": "Uma semana pensada para motivar as pessoas a elevarem suas carreiras como programadores(as) conhecendo a stack Node.JS, React e React Native para desenvolvimento Front-end, Back-end e Mobile.",
-        "description3": "Post no LinkedIn"
+        "name": "Desafio de DevOps",
+        "description": "Desafios do módulo de DevOps do meu <a href=\"https://drive.google.com/file/d/1JXXmYhfi-Sk0zwiEbBIEswDC6AFeyBlD/view?usp=sharing\" target=\"_blank\">curso</a> de microsserviços. Nginx + Laravel + Redis + MySQL com docker-compose, Kubernetes e pipelines de integração contínua e deploy contínuo num Cluster Kubernetes no Google Cloud Platform."
       },
       "imageProcessing": {
         "period": "2020-2020",
         "name": "Classificador de imagens de mamografia",
         "description": "Um programa que lê imagens de exames mamográficos e busca diferenciar a densidade das mamas no intuito de identificar tumores ou outros problemas."
       },
-      "machineLearningGame": {
-        "period": "2019-2019",
-        "name": "Machine Learning Game",
-        "description": "Um jogo feito durante a minha disciplina de Introdução à Pesquisa em Informática. A ideia foi aprender um pouco de Machine/Reinforcement Learning e já criar algo aplicando. Há uma",
-        "description2": "2ª versão",
-        "description3": "também."
+      "localizaLabs": {
+        "period": "2021-2021",
+        "name": "Localiza Labs API",
+        "description": "O <a href=\"https://corp.gama.academy/localiza-labs/inscricao\" target=\"_blank\">Localiza Labs Academy</a> foi um programa que selecionou, dentro milhares, 20 candidatos para um treinamento intensivo de .NET em 3 semanas tendo desenvolvimento de um desafio no final. Esse projeto foi o projeto vencedor na área de backend :D. <a href=\"https://drive.google.com/file/d/1E0Hf4IWn9TRrooU_zOka3t03pjf18ukF/view\" target=\"_blank\">Certificado</a>"
       }
     },
     "experiences": {
@@ -59,7 +55,7 @@
         "period": "2020-",
         "period2": "1 ano (atual)",
         "name": "Estagiário de Desenvolvimento Full Stack",
-        "description": "Node.JS, express, JWT, OAuth 2.0, sequelize, tests (jest, chai, sinon), AWS Lambda Serverless, AWS RDS, AWS EC2, AWS S3, SAML, dotenv, MySQL, Postgres, Ruby, Ruby on Rails",
+        "description": "Node.JS, express, JWT, OAuth 2.0, sequelize, tests (jest, chai, sinon), AWS Lambda Serverless, AWS RDS, AWS EC2, AWS S3, SAML, dotenv, MySQL, Postgres, Ruby, Ruby on Rails, Bitbucket Pipelines CI/CD",
         "description2": "React, hooks, redux, redux-saga, styled components, yup, bootstrap, i18n (react-intl), tests (jest)"
       },
       "webDevIntern": {
@@ -85,9 +81,9 @@
   "abilities": {
     "skills": {
       "title": "Habilidades",
-      "css": "CSS",
-      "javaScript": "JavaScript",
-      "php": "PHP",
+      "react": "React",
+      "kubernetes": "Kubernetes",
+      "softwareArchitecture": "Arquitetura de software",
       "docker": "Docker"
     },
     "languages": {
