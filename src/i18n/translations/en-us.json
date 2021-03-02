@@ -53,7 +53,7 @@
       "title": "Experiences",
       "internIoasys": {
         "period": "2020-",
-        "period2": "1 year (current)",
+        "period2": "1 year",
         "name": "Full Stack Development Intern",
         "description": "Node.JS, express, JWT, OAuth 2.0, sequelize, tests (jest, chai, sinon), AWS Lambda Serverless, AWS RDS, AWS EC2, AWS S3, SAML, dotenv, MySQL, Postgres, Ruby, Ruby on Rails, Bitbucket Pipelines CI/CD",
         "description2": "React, hooks, redux, redux-saga, styled components, yup, bootstrap, i18n (react-intl), tests (jest)"

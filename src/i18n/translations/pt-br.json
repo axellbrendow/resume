@@ -53,7 +53,7 @@
       "title": "Experiências",
       "internIoasys": {
         "period": "2020-",
-        "period2": "1 ano (atual)",
+        "period2": "1 ano",
         "name": "Estagiário de Desenvolvimento Full Stack",
         "description": "Node.JS, express, JWT, OAuth 2.0, sequelize, tests (jest, chai, sinon), AWS Lambda Serverless, AWS RDS, AWS EC2, AWS S3, SAML, dotenv, MySQL, Postgres, Ruby, Ruby on Rails, Bitbucket Pipelines CI/CD",
         "description2": "React, hooks, redux, redux-saga, styled components, yup, bootstrap, i18n (react-intl), tests (jest)"
