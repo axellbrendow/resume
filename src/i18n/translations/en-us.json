@@ -35,7 +35,7 @@
       "title": "Projects",
       "devOpsModule": {
         "period": "2020-2020",
-        "name": "Desafio de DevOps",
+        "name": "DevOps Challenge",
         "description": "Challenges of the DevOps module of my microservices <a href=\"https://drive.google.com/file/d/1JXXmYhfi-Sk0zwiEbBIEswDC6AFeyBlD/view?usp=sharing\" target=\"_blank\">course</a>. Nginx + Laravel + Redis + MySQL with docker-compose, Kubernetes and pipelines for continuous integration and continuous deployment in a Kubernetes Cluster on Google Cloud Platform."
       },
       "imageProcessing": {
