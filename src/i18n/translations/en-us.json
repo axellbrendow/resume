@@ -3,7 +3,7 @@
   "madeIn": "Made in",
   "presentation": {
     "aboutMe": "About me",
-    "aboutMeValue": "First, know that I love things that challenge me 🎯. I work as a Full Stack and my biggest wish is to be able to learn more 📖, spend my energy on projects ⚡ and share experiences 🌎! I started programming in C at 12, since then, I have fallen in love with this activity 💕 and experienced other languages like C++, C#, Java, PHP, JavaScript, Python, Go and others."
+    "aboutMeValue": "Hello, nice to meet you! First, know that I love things that challenge me 🎯. I have knowledge in front-end, back-end, Cloud, DevOps and a little of artificial intelligence 🤖 with the use of neural networks. At the moment, I am interested in working with back-end and devops and/or artificial intelligence. My biggest wish is to be able to learn more 📖, spend my energy on projects ⚡ and share experiences 🌎!"
   },
   "contacts": {
     "title": "Contact informations"
@@ -41,7 +41,7 @@
       "imageProcessing": {
         "period": "2020-2020",
         "name": "Mammography images classifier",
-        "description": "A program that reads images from mammography exams and seeks to differentiate breast density in order to identify tumors or other problems."
+        "description": "A Python program that uses neural networks to classify mammography exams and seeks to differentiate breast density in order to identify tumors or other problems."
       },
       "localizaLabs": {
         "period": "2021-2021",
