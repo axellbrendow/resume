@@ -91,6 +91,66 @@ export const experiences = (): Experience[] => [
     ],
   },
   {
+    titleIconClass: "building",
+    title: fmt({ id: "experiences.experiences.title" }),
+    items: [
+      {
+        period: (
+          <>
+            {fmt({ id: "experiences.experiences.accenture.period" })}
+            <br />
+            {fmt({ id: "experiences.experiences.accenture.period2" })}
+          </>
+        ),
+        name:
+          <div dangerouslySetInnerHTML={{
+            __html: fmt({ id: "experiences.experiences.accenture.name" })
+          }} />,
+        description: (
+          <>
+            {fmt({ id: "experiences.experiences.accenture.description" })}
+          </>
+        ),
+      },
+      {
+        period: (
+          <>
+            {fmt({ id: "experiences.experiences.internIoasys.period" })}
+            <br />
+            {fmt({ id: "experiences.experiences.internIoasys.period2" })}
+          </>
+        ),
+        name:
+          <div dangerouslySetInnerHTML={{
+            __html: fmt({ id: "experiences.experiences.internIoasys.name" })
+          }} />,
+        description: (
+          <div dangerouslySetInnerHTML={{
+            __html: fmt({ id: "experiences.experiences.internIoasys.description" })
+          }} />
+        ),
+      },
+      {
+        period: (
+          <>
+            {fmt({ id: "experiences.experiences.webDevIntern.period" })}
+            <br />
+            {fmt({ id: "experiences.experiences.webDevIntern.period2" })}
+          </>
+        ),
+        name: 
+        <div dangerouslySetInnerHTML={{
+          __html: fmt({ id: "experiences.experiences.webDevIntern.name" })
+        }} />,
+        description: (
+          <>
+            {fmt({ id: "experiences.experiences.webDevIntern.description" })}
+          </>
+        ),
+      },
+    ],
+  },
+  {
     titleIconClass: "folder",
     title: (
       <a href="https://axell-brendow.github.io/" target="_blank">
@@ -146,56 +206,35 @@ export const experiences = (): Experience[] => [
     ],
   },
   {
-    titleIconClass: "building",
-    title: fmt({ id: "experiences.experiences.title" }),
-    items: [
-      {
-        period: (
-          <>
-            {fmt({ id: "experiences.experiences.internIoasys.period" })}
-            <br />
-            {fmt({ id: "experiences.experiences.internIoasys.period2" })}
-          </>
-        ),
-        name: <>{fmt({ id: "experiences.experiences.internIoasys.name" })}</>,
-        description: (
-          <>
-            <span style={{ textDecoration: "underline" }}>Back end</span>:{" "}
-            {fmt({ id: "experiences.experiences.internIoasys.description" })}
-            <br />
-            <span style={{ textDecoration: "underline" }}>Front end</span>:{" "}
-            {fmt({ id: "experiences.experiences.internIoasys.description2" })}
-            <br />
-            <a href="https://ioasys.com.br/" target="_blank">Ioasys</a>
-          </>
-        ),
-      },
-      {
-        period: (
-          <>
-            {fmt({ id: "experiences.experiences.webDevIntern.period" })}
-            <br />
-            {fmt({ id: "experiences.experiences.webDevIntern.period2" })}
-          </>
-        ),
-        name: <>{fmt({ id: "experiences.experiences.webDevIntern.name" })}</>,
-        description: (
-          <>
-            {fmt({ id: "experiences.experiences.webDevIntern.description" })}
-            <br />
-            <a href="https://crc.pucminas.br/" target="_blank">
-              {fmt({ id: "experiences.experiences.webDevIntern.description2" })}
-            </a>{" "}
-            - PUC Minas
-          </>
-        ),
-      },
-    ],
-  },
-  {
     titleIconClass: "laptop",
     title: fmt({ id: "experiences.interests.title" }),
     items: [
+      {
+        period: <></>,
+        name: (
+          <>{fmt({ id: "experiences.interests.english.name" })}</>
+        ),
+        description: (
+          <>
+            {fmt({
+              id: "experiences.interests.english.description",
+            })}
+          </>
+        ),
+      },
+      {
+        period: <></>,
+        name: (
+          <>{fmt({ id: "experiences.interests.portuguese.name" })}</>
+        ),
+        description: (
+          <>
+            {fmt({
+              id: "experiences.interests.portuguese.description",
+            })}
+          </>
+        ),
+      },
       {
         period: <></>,
         name: (

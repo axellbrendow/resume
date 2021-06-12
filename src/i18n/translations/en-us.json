@@ -14,7 +14,7 @@
       "graduation": {
         "period": "2018-Current",
         "name": "Graduation in Computer Science",
-        "description": "PUC Minas - 7th period"
+        "description": "PUC Minas - 7th semester"
       },
       "frontEndDev": {
         "period": "2018-2018",
@@ -51,45 +51,43 @@
     },
     "experiences": {
       "title": "Experiences",
+      "accenture": {
+        "period": "2021-",
+        "period2": "3 months",
+        "name": "Application Development Analyst - <a href=\"https://www.accenture.com/\">Accenture</a>",
+        "description": "In the 1st project, I was assigned to understand a need of the SAP team and create a solution from scratch, including layout, frontend (React), backend (Node), mobile, database (Postgres) and infrastructure on AWS (S3 and RDS)."
+      },
       "internIoasys": {
         "period": "2020-",
         "period2": "1 year",
-        "name": "Full Stack Development Intern",
-        "description": "Node.JS, express, JWT, OAuth 2.0, sequelize, tests (jest, chai, sinon), AWS Lambda Serverless, AWS RDS, AWS EC2, AWS S3, SAML, dotenv, MySQL, Postgres, Ruby, Ruby on Rails, Bitbucket Pipelines CI/CD",
-        "description2": "React, hooks, redux, redux-saga, styled components, yup, bootstrap, i18n (react-intl), tests (jest)"
+        "name": "Full Stack Development Intern - <a href=\"https://ioasys.com.br/\">Ioasys</a>",
+        "description": "Participation in 3 development projects.<br><span style=\"text-decoration: underline;\">The last one</span>, a Ruby on Rails API with infrastructure on AWS (EC2, RDS and S3 with video upload), was the biggest challenge, as in 2 weeks I had to take over the project's backend by myself, adding new clients such as Grupo Pardini and Suvinil and so I went for 3/4 months until the end of my contract with Ioasys.<br><span style=\"text-decoration: underline;\">The penultimate</span>, a Node Serverless project on AWS, was an authentication integration that uses the SAML standard to connect a customer's users with a company product.<br><span style=\"text-decoration: underline;\">The third to last</span>, a front-end in React, was a portfolio for people in the employee experience sector internally."
       },
       "webDevIntern": {
         "period": "2019-",
         "period2": "10 months",
-        "name": "Web Development Intern",
-        "description": "HTML, CSS, JavaScript, PHP, Laravel, MySQL, Docker, Nginx",
-        "description2": "CRC from ICEI"
+        "name": "Web Development Intern - <a href=\"https://crc.pucminas.br/\" target=\"_blank\">CRC of ICEI</a>",
+        "description": "HTML, CSS, JavaScript, PHP, Laravel, MySQL, Docker, Nginx"
       }
     },
     "interests": {
-      "title": "Interests and Hobbies",
+      "title": "Languages, interests and hobbies",
+      "english": {
+        "name": "English",
+        "description": "Able to write, read and listen without problems. I'm also able to talk quietly with little delays in speech from time to time."
+      },
+      "portuguese": {
+        "name": "Portuguese",
+        "description": "Native"
+      },
       "softwareEngineering": {
         "name": "Software Engineering in Projects",
         "description": "Always wanting use cases where I can learn and apply software engineering patterns to structure the system :D"
       },
       "artificialIntelligence": {
         "name": "Artificial intelligence",
-        "description": "Algorithms, approaches, tests, among other things."
+        "description": "Experience in image processing projects using Deep Learning. I am interested in learning more about Data Engineering and Machine Learning."
       }
-    }
-  },
-  "abilities": {
-    "skills": {
-      "title": "Skills",
-      "react": "React",
-      "kubernetes": "Kubernetes",
-      "softwareArchitecture": "Software architecture",
-      "docker": "Docker"
-    },
-    "languages": {
-      "title": "Languages",
-      "english": "English",
-      "portuguese": "Portuguese"
     }
   }
 }

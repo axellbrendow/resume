@@ -51,45 +51,43 @@
     },
     "experiences": {
       "title": "Experiências",
+      "accenture": {
+        "period": "2021-",
+        "period2": "3 meses",
+        "name": "Application Development Analyst - <a href=\"https://www.accenture.com/\">Accenture</a>",
+        "description": "No 1º projeto, fui designado a entender uma necessidade do time de SAP e criar uma solução do zero, incluindo layout, frontend (React), backend (Node), mobile, banco de dados (Postgres) e infraestrutura na AWS (S3 e RDS)."
+      },
       "internIoasys": {
         "period": "2020-",
         "period2": "1 ano",
-        "name": "Estagiário de Desenvolvimento Full Stack",
-        "description": "Node.JS, express, JWT, OAuth 2.0, sequelize, tests (jest, chai, sinon), AWS Lambda Serverless, AWS RDS, AWS EC2, AWS S3, SAML, dotenv, MySQL, Postgres, Ruby, Ruby on Rails, Bitbucket Pipelines CI/CD",
-        "description2": "React, hooks, redux, redux-saga, styled components, yup, bootstrap, i18n (react-intl), tests (jest)"
+        "name": "Estagiário de Desenvolvimento Full Stack - <a href=\"https://ioasys.com.br/\">Ioasys</a>",
+        "description": "Participação em 3 projetos de desenvolvimento.<br><span style=\"text-decoration: underline;\">O último</span>, uma API Ruby on Rails com infra na AWS (EC2, RDS e S3 com upload de vídeos), foi o maior desafio, pois em 2 semanas tive que assumir sozinho o back-end do projeto adicionando novos clientes como Grupo Pardini e Suvinil e assim fui durante 3/4 meses até o final do meu contrato com a Ioasys.<br><span style=\"text-decoration: underline;\">O penúltimo</span>, um projeto Node Serverless na AWS, foi uma integração de autenticação que utiliza o padrão SAML para conectar os usuários de um cliente com um produto da empresa.<br><span style=\"text-decoration: underline;\">O antepenúltimo</span>, um front-end em React, foi um portfolio para as pessoas do setor de experiência internamente."
       },
       "webDevIntern": {
         "period": "2019-",
         "period2": "10 meses",
-        "name": "Estagiário de Desenvolvimento Web",
-        "description": "HTML, CSS, JavaScript, PHP, Laravel, MySQL, Docker, Nginx",
-        "description2": "CRC do ICEI"
+        "name": "Estagiário de Desenvolvimento Web - <a href=\"https://crc.pucminas.br/\" target=\"_blank\">CRC do ICEI</a>",
+        "description": "HTML, CSS, JavaScript, PHP, Laravel, MySQL, Docker, Nginx"
       }
     },
     "interests": {
-      "title": "Interesses e Hobbies",
+      "title": "Idiomas, interesses e hobbies",
+      "english": {
+        "name": "Inglês",
+        "description": "Capaz de escrever, ler e ouvir sem problemas. Também consigo conversar tranquilamente com pequenos delays na fala de vez em quando."
+      },
+      "portuguese": {
+        "name": "Português",
+        "description": "Nativo"
+      },
       "softwareEngineering": {
         "name": "Engenharia de Software em Projetos",
         "description": "Sempre buscando casos de uso onde eu possa aprender e aplicar padrões de engenharia de software para estruturar um sistema :D"
       },
       "artificialIntelligence": {
         "name": "Inteligência Artificial",
-        "description": "Algoritmos, abordagens, testes, entre outras coisas."
+        "description": "Experiência em projetos de processamento de imagens com o uso de Deep Learning. Tenho interesse em aprender mais sobre Data Engineering e Machine Learning."
       }
-    }
-  },
-  "abilities": {
-    "skills": {
-      "title": "Habilidades",
-      "react": "React",
-      "kubernetes": "Kubernetes",
-      "softwareArchitecture": "Arquitetura de software",
-      "docker": "Docker"
-    },
-    "languages": {
-      "title": "Línguas",
-      "english": "Inglês",
-      "portuguese": "Português"
     }
   }
 }

@@ -6,12 +6,12 @@ import { fmt } from "i18n/ConfiguredIntlProvider";
 import Presentation from "./Presentation";
 import Contacts from "./Contacts";
 import Experiences from "./Experiences";
-import Abilities from "./Abilities";
 import ReactLogo from "./ReactLogo";
 
 import { ellipseHeight } from "./ReactLogo/styles";
 
 const ReactLogoContainerStyle = styled.div`
+  margin: 10px 0;
   > p {
     margin-left: calc(${ellipseHeight} + 1ch);
     position: relative;
@@ -33,7 +33,6 @@ const Resume = () => (
     <Presentation />
     <Contacts />
     <Experiences />
-    <Abilities />
     <ReactLogoContainer />
   </div>
 );
