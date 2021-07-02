@@ -41,18 +41,18 @@ export const experiences = (): Experience[] => [
           <>
             <ul>
               <li>
-                <strong>React</strong> - TypeScript, Hooks, Redux
-              </li>
-              <li>
                 <strong>Node.JS</strong> - Microservices, TypeScript,
                 ElasticSearch, Messaging, Docker, Loopback
+              </li>
+              <li>
+                <strong>Golang</strong> - Goroutines, Workers, JobService
               </li>
               <li>
                 <strong>DevOps</strong> - Git Flow, Docker, Continuous
                 Integration, Continuous Deployment, Kubernetes, Monitoring
               </li>
               <li>
-                <strong>Software Enginerring</strong> - Services and
+                <strong>Software Engineering</strong> - Services and
                 Microservices, Service Discovery, Queues and BFF
               </li>
               <li>

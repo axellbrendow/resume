@@ -14,7 +14,7 @@
       "graduation": {
         "period": "2018-Atual",
         "name": "Graduação em Ciência da Computação",
-        "description": "PUC Minas - 7º período"
+        "description": "PUC Minas - 8º período (último)"
       },
       "frontEndDev": {
         "period": "2018-2018",
@@ -36,7 +36,7 @@
       "devOpsModule": {
         "period": "2020-2020",
         "name": "Desafio de DevOps",
-        "description": "Desafios do módulo de DevOps do meu <a href=\"https://drive.google.com/file/d/1JXXmYhfi-Sk0zwiEbBIEswDC6AFeyBlD/view?usp=sharing\" target=\"_blank\">curso</a> de microsserviços. Nginx + Laravel + Redis + MySQL com docker-compose, Kubernetes e pipelines de integração contínua e deploy contínuo num Cluster Kubernetes no Google Cloud Platform."
+        "description": "Desafios do módulo de DevOps do meu <a href=\"https://drive.google.com/file/d/1MdN-qK_8Pfg6YI3TSfSa5_2-FHmqGxEP/view?usp=sharing\" target=\"_blank\">curso</a> de microsserviços. Nginx + Laravel + Redis + MySQL com docker-compose, Kubernetes e pipelines de integração contínua e deploy contínuo num Cluster Kubernetes no Google Cloud Platform."
       },
       "imageProcessing": {
         "period": "2020-2020",
@@ -55,7 +55,7 @@
         "period": "2021-",
         "period2": "3 meses",
         "name": "Application Development Analyst - <a href=\"https://www.accenture.com/\">Accenture</a>",
-        "description": "No 1º projeto, fui designado a entender uma necessidade do time de SAP e criar uma solução do zero, incluindo layout, frontend (React), backend (Node), mobile, banco de dados (Postgres) e infraestrutura na AWS (S3 e RDS)."
+        "description": "No 1º projeto, fui designado a entender uma necessidade do time de SAP e criar uma solução do zero, incluindo layout, frontend (React), backend (Node), banco de dados (Postgres) e infraestrutura na AWS (EC2, S3 e RDS)."
       },
       "internIoasys": {
         "period": "2020-",

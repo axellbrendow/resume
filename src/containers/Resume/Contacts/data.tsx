@@ -19,7 +19,7 @@ export const contacts: Contact[] = [
     iconType: "fas",
     iconName: "mobile-alt",
     anchorHref: "tel:+5531989575463",
-    anchorChildren: " 31 98957-5463",
+    anchorChildren: " +55 31 98957-5463",
   },
   {
     classNameLi: "linkedin",
