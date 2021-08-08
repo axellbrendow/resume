@@ -46,7 +46,7 @@
       "localizaLabs": {
         "period": "2021-2021",
         "name": "Localiza Labs API",
-        "description": "The <a href=\"https://corp.gama.academy/localiza-labs/inscricao\" target=\"_blank\">Localiza Labs Academy</a> was a program that selected, among thousands, 20 candidates for an intensive .NET training in 3 weeks with the development of a challenge at the end. This project was the winning project in the backend area :D. <a href=\"https://drive.google.com/file/d/1E0Hf4IWn9TRrooU_zOka3t03pjf18ukF/view\" target=\"_blank\">Certificate</a>"
+        "description": "The <a href=\"https://corp.gama.academy/localiza-labs/inscricao\" target=\"_blank\">Localiza Labs Academy</a> was a program that selected, among thousands, 20 candidates for an intensive .NET training in 3 weeks with the development of a challenge at the end. This project was the <strong>winner</strong> in the backend area. I created a .NET 5 REST API with SQL Server, Kubernetes, CI/CD Azure DevOps, Docker-Compose and Unit Tests. <a href=\"https://drive.google.com/file/d/1E0Hf4IWn9TRrooU_zOka3t03pjf18ukF/view\" target=\"_blank\">Certificate</a>"
       }
     },
     "experiences": {
