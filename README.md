@@ -1,15 +1,8 @@
-# English
+# My CV/Resume made in React with TypeScript
 
-[Here](https://axell-brendow.github.io/resume/) you can see my CV/resume.
+[Here you can access my CV/resume](https://axell-brendow.github.io/resume/).
 
-# Português
-
-[Aqui](https://axell-brendow.github.io/resume/) você pode ver o meu currículo.
-
-<br/>
-<br/>
-
-## React README Template
+# React README Template
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
