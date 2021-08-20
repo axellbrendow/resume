@@ -46,7 +46,7 @@
       "localizaLabs": {
         "period": "2021-2021",
         "name": "Localiza Labs API",
-        "description": "O <a href=\"https://corp.gama.academy/localiza-labs/inscricao\" target=\"_blank\">Localiza Labs Academy</a> foi um programa que selecionou, dentro milhares, 20 candidatos para um treinamento intensivo de .NET em 3 semanas tendo desenvolvimento de um desafio no final. Esse projeto foi o <strong>vencedor</strong> na área de backend. Eu criei uma API REST .NET 5 com SQL Server, Kubernetes, CI/CD Azure DevOps, Docker-Compose e Unit Tests. <a href=\"https://drive.google.com/file/d/1E0Hf4IWn9TRrooU_zOka3t03pjf18ukF/view\" target=\"_blank\">Certificado</a>"
+        "description": "O <a href=\"https://corp.gama.academy/localiza-labs/inscricao\" target=\"_blank\">Localiza Labs Academy</a> foi um programa que selecionou, dentro milhares, 20 candidatos para um treinamento intensivo de .NET em 3 semanas tendo desenvolvimento de um desafio no final. Esse projeto foi o <strong>vencedor</strong> na área de backend. Criamos uma API REST .NET 5 com SQL Server, Kubernetes, CI/CD Azure DevOps, Docker-Compose e Unit Tests. <a href=\"https://drive.google.com/file/d/1E0Hf4IWn9TRrooU_zOka3t03pjf18ukF/view\" target=\"_blank\">Certificado</a>"
       }
     },
     "experiences": {
