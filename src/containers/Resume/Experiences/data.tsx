@@ -152,11 +152,7 @@ export const experiences = (): Experience[] => [
   },
   {
     titleIconClass: "folder",
-    title: (
-      <a href="https://axell-brendow.github.io/" target="_blank">
-        {fmt({ id: "experiences.projects.title" })}
-      </a>
-    ),
+    title: fmt({ id: "experiences.projects.title" }),
     items: [
       {
         period: <>{fmt({ id: "experiences.projects.localizaLabs.period" })}</>,

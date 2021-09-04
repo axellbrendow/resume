@@ -6,13 +6,13 @@ interface Language {
 }
 
 export const LANGUAGES: Record<string, Language> = {
-  "pt-br": {
-    locale: "pt-br",
-    name: "Português",
-  },
   "en-us": {
     locale: "en-us",
     name: "English",
+  },
+  "pt-br": {
+    locale: "pt-br",
+    name: "Português",
   },
 };
 

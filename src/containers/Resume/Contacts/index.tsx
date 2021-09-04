@@ -1,7 +1,7 @@
 import React from "react";
 
 import { fmt } from "i18n/ConfiguredIntlProvider";
-import { contacts, Contact } from "./data";
+import { getContacts, Contact } from "./data";
 
 const ContactContainer = ({
   classNameLi,
@@ -9,10 +9,15 @@ const ContactContainer = ({
   iconName,
   anchorHref,
   anchorChildren,
+  srOnlyAnchorChildren,
 }: Contact) => (
   <li key={classNameLi} className={`${classNameLi} col-sm-6 col-md`}>
     <i className={`${iconType} fa-${iconName}`} />
-    <a href={anchorHref}>{anchorChildren}</a>
+    {' '}
+    <a href={anchorHref}>
+      <span className="sr-only">{srOnlyAnchorChildren}</span>
+      {anchorChildren}
+    </a>
   </li>
 );
 
@@ -21,7 +26,7 @@ const Contacts = () => (
     <h2>
       <i className="fas fa-address-card" /> {fmt({ id: "contacts.title" })}
     </h2>
-    <ul className="informations row mt-4">{contacts.map(ContactContainer)}</ul>
+    <ul className="informations row mt-4">{getContacts().map(ContactContainer)}</ul>
   </section>
 );
 

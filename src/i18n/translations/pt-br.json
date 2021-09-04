@@ -3,16 +3,20 @@
   "madeIn": "Feito em",
   "presentation": {
     "aboutMe": "Sobre mim",
-    "aboutMeValue": "Olá, prazer! Primeiro, saiba que amo coisas que me desafiam 🎯. Tenho experiência em front-end, back-end, Cloud, DevOps e um pouco de inteligência artificial 🤖 com o uso de redes neurais. No momento, tenho interesse em trabalhar com back-end e devops e/ou inteligência artificial. Meu maior desejo é poder aprender mais 📖, gastar minha energia em projetos ⚡ e compartilhar experiências 🌎!"
+    "aboutMeValue": "Olá, prazer! Primeiro, saiba que amo coisas que me desafiam 🎯. Tenho experiência em front-end, back-end, Cloud, DevOps e um pouco de inteligência artificial 🤖 com o uso de redes neurais. No momento, tenho interesse em trabalhar com back-end e devops e/ou inteligência artificial. Meu maior desejo é poder aprender mais 📖, gastar minha energia em projetos ⚡ e compartilhar experiências 🌎!",
+    "availableLanguages": "Idiomas disponíveis"
   },
   "contacts": {
-    "title": "Informações de contato"
+    "title": "Informações de contato",
+    "phone": {
+      "sr": "Telefone"
+    }
   },
   "experiences": {
     "formation": {
       "title": "Formação e Certificados",
       "graduation": {
-        "period": "2018-Atual",
+        "period": "2018-2021",
         "name": "Graduação em Ciência da Computação",
         "description": "PUC Minas - 8º período (último)"
       },
@@ -53,7 +57,7 @@
       "title": "Experiências",
       "accenture": {
         "period": "2021-",
-        "period2": "3 meses",
+        "period2": "5 meses",
         "name": "Application Development Analyst - <a href=\"https://www.accenture.com/\">Accenture</a>",
         "description": "No 1º projeto, fui designado a entender uma necessidade do time de SAP e criar uma solução do zero, incluindo layout, frontend (React), backend (Node), banco de dados (Postgres) e infraestrutura na AWS (EC2, S3 e RDS)."
       },
@@ -86,7 +90,7 @@
       },
       "artificialIntelligence": {
         "name": "Inteligência Artificial",
-        "description": "Experiência em projetos de processamento de imagens com o uso de Deep Learning. Tenho interesse em aprender mais sobre Data Engineering e Machine Learning."
+        "description": "Experiência em projetos de processamento de imagens com o uso de Deep Learning. Tenho interesse em aprender mais sobre Machine Learning e Deep Learning."
       }
     }
   }

@@ -3,16 +3,20 @@
   "madeIn": "Made in",
   "presentation": {
     "aboutMe": "About me",
-    "aboutMeValue": "Hello, nice to meet you! First, know that I love things that challenge me 🎯. I have experience in front-end, back-end, Cloud, DevOps and a little of artificial intelligence 🤖 with the use of neural networks. At the moment, I am interested in working with back-end and devops and/or artificial intelligence. My biggest wish is to be able to learn more 📖, spend my energy on projects ⚡ and share experiences 🌎!"
+    "aboutMeValue": "Hello, nice to meet you! First, know that I love things that challenge me 🎯. I have experience in front-end, back-end, Cloud, DevOps and a little of artificial intelligence 🤖 with the use of neural networks. At the moment, I am interested in working with back-end and devops and/or artificial intelligence. My biggest wish is to be able to learn more 📖, spend my energy on projects ⚡ and share experiences 🌎!",
+    "availableLanguages": "Available languages"
   },
   "contacts": {
-    "title": "Contact informations"
+    "title": "Contact informations",
+    "phone": {
+      "sr": "Phone"
+    }
   },
   "experiences": {
     "formation": {
       "title": "Formation and Certificates",
       "graduation": {
-        "period": "2018-Current",
+        "period": "2018-2021",
         "name": "Graduation in Computer Science",
         "description": "PUC Minas - 8th semester (last)"
       },
@@ -53,7 +57,7 @@
       "title": "Experiences",
       "accenture": {
         "period": "2021-",
-        "period2": "3 months",
+        "period2": "5 months",
         "name": "Application Development Analyst - <a href=\"https://www.accenture.com/\">Accenture</a>",
         "description": "In the 1st project, I was assigned to understand a need of the SAP team and create a solution from scratch, including layout, frontend (React), backend (Node), database (Postgres) and infrastructure on AWS (EC2, S3 and RDS)."
       },
@@ -86,7 +90,7 @@
       },
       "artificialIntelligence": {
         "name": "Artificial intelligence",
-        "description": "Experience in image processing projects using Deep Learning. I am interested in learning more about Data Engineering and Machine Learning."
+        "description": "Experience in image processing projects using Deep Learning. I am interested in learning more about Machine Learning and Deep Learning."
       }
     }
   }

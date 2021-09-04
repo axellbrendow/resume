@@ -11,9 +11,10 @@ const Presentation = () => (
     <div className="presentation container row">
       <div className="name col-sm">
         {/* <img src={MyPhoto} alt="Me" className="photo" /> */}
+        <h1 className="h2">Axell Brendow Batista Moreira</h1>
       </div>
       <div className="about-me col-sm">
-        <h3>{fmt({ id: "presentation.aboutMe" })}</h3>
+        <h2>{fmt({ id: "presentation.aboutMe" })}</h2>
         <p>{fmt({ id: "presentation.aboutMeValue" })}</p>
       </div>
     </div>

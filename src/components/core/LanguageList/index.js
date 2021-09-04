@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 // import styled from "styled-components";
 
 import { LANGUAGES /* , changeLang */, changeUrlLangTo } from "i18n/languages";
+import { fmt } from "i18n/ConfiguredIntlProvider";
 
 import { LanguageListStyle, LanguageItem } from "./styles";
 
@@ -23,6 +24,7 @@ const languages = Object.values(LANGUAGES);
 
 const LanguageList = () => (
   <LanguageListStyle>
+    <span className="sr-only">{fmt({ id: "presentation.availableLanguages" })}</span>
     {languages.map(language => (
       <LanguageItem key={language.locale}>
         {/* <LanguageButton onClick={() => changeLang(language.locale)}>
