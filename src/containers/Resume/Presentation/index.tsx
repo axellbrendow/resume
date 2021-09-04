@@ -4,14 +4,13 @@ import { fmt } from "i18n/ConfiguredIntlProvider";
 
 import LanguageList from "components/core/LanguageList";
 
-import MyPhoto from "assets/axell.png";
+// import MyPhoto from "assets/axell.png";
 
 const Presentation = () => (
   <section className="presentation-section">
     <div className="presentation container row">
       <div className="name col-sm">
-        <img src={MyPhoto} alt="Me" className="photo" />
-        <h2>Axell Brendow Batista Moreira</h2>
+        {/* <img src={MyPhoto} alt="Me" className="photo" /> */}
       </div>
       <div className="about-me col-sm">
         <h3>{fmt({ id: "presentation.aboutMe" })}</h3>
