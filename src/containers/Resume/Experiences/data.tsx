@@ -41,13 +41,6 @@ export const experiences = (): Experience[] => [
           <>
             <ul>
               <li>
-                <strong>Node.JS</strong> - Microservices, TypeScript,
-                ElasticSearch, Messaging, Docker, Loopback
-              </li>
-              <li>
-                <strong>Golang</strong> - Goroutines, Workers, JobService
-              </li>
-              <li>
                 <strong>DevOps</strong> - Git Flow, Docker, Continuous
                 Integration, Continuous Deployment, Kubernetes, Monitoring
               </li>
@@ -59,6 +52,13 @@ export const experiences = (): Experience[] => [
                 <strong>Domain Driven Design</strong> - Ubiquitous Language,
                 Bounded Contexts, Context Map and Strategic Modeling
               </li>
+              <li>
+                <strong>Node.JS</strong> - Microservices, TypeScript,
+                ElasticSearch, Messaging, Docker, Loopback
+              </li>
+              <li>
+                <strong>Golang</strong> - Goroutines, Workers, JobService
+              </li>
             </ul>
           </>
         ),
@@ -66,12 +66,23 @@ export const experiences = (): Experience[] => [
       {
         period: fmt({ id: "experiences.formation.interJava.period" }),
         name: (
-          <a href="https://drive.google.com/file/d/1FbcMmesNN53tPjX8OfAgH6RXAzNjQDAS/view" target="_blank">
+          <a href="https://certificates.digitalinnovation.one/247D11F0" target="_blank">
             {fmt({ id: "experiences.formation.interJava.name" })}
           </a>
         ),
         description: (
           <>{fmt({ id: "experiences.formation.interJava.description" })}</>
+        ),
+      },
+      {
+        period: fmt({ id: "experiences.formation.gftJava.period" }),
+        name: (
+          <a href="https://certificates.digitalinnovation.one/76784B06" target="_blank">
+            {fmt({ id: "experiences.formation.gftJava.name" })}
+          </a>
+        ),
+        description: (
+          <>{fmt({ id: "experiences.formation.gftJava.description" })}</>
         ),
       },
       {
@@ -107,9 +118,9 @@ export const experiences = (): Experience[] => [
             __html: fmt({ id: "experiences.experiences.accenture.name" })
           }} />,
         description: (
-          <>
-            {fmt({ id: "experiences.experiences.accenture.description" })}
-          </>
+          <div dangerouslySetInnerHTML={{
+            __html: fmt({ id: "experiences.experiences.accenture.description" })
+          }} />
         ),
       },
       {
@@ -170,6 +181,36 @@ export const experiences = (): Experience[] => [
         ),
       },
       {
+        period: <>{fmt({ id: "experiences.projects.ecommerceMicroservices.period" })}</>,
+        name: (
+          <>
+            <a href="https://github.com/axell-brendow/dio-spring-ecommerce-microservices" target="_blank">
+              {fmt({ id: "experiences.projects.ecommerceMicroservices.name" })}
+            </a>
+          </>
+        ),
+        description: (
+          <div dangerouslySetInnerHTML={{
+            __html: fmt({ id: "experiences.projects.ecommerceMicroservices.description" })
+          }} />
+        ),
+      },
+      {
+        period: <>{fmt({ id: "experiences.projects.webfluxStockQuote.period" })}</>,
+        name: (
+          <>
+            <a href="https://github.com/axell-brendow/dio-spring-webflux-stock-quote" target="_blank">
+              {fmt({ id: "experiences.projects.webfluxStockQuote.name" })}
+            </a>
+          </>
+        ),
+        description: (
+          <div dangerouslySetInnerHTML={{
+            __html: fmt({ id: "experiences.projects.webfluxStockQuote.description" })
+          }} />
+        ),
+      },
+      {
         period: <>{fmt({ id: "experiences.projects.devOpsModule.period" })}</>,
         name: (
           <>
@@ -184,21 +225,21 @@ export const experiences = (): Experience[] => [
           }} />
         ),
       },
-      {
-        period: (
-          <>{fmt({ id: "experiences.projects.imageProcessing.period" })}</>
-        ),
-        name: (
-          <>
-            <a href="https://github.com/axell-brendow/image-processing-work" target="_blank">
-              {fmt({ id: "experiences.projects.imageProcessing.name" })}
-            </a>
-          </>
-        ),
-        description: (
-          <>{fmt({ id: "experiences.projects.imageProcessing.description" })}</>
-        ),
-      },
+      // {
+      //   period: (
+      //     <>{fmt({ id: "experiences.projects.imageProcessing.period" })}</>
+      //   ),
+      //   name: (
+      //     <>
+      //       <a href="https://github.com/axell-brendow/image-processing-work" target="_blank">
+      //         {fmt({ id: "experiences.projects.imageProcessing.name" })}
+      //       </a>
+      //     </>
+      //   ),
+      //   description: (
+      //     <>{fmt({ id: "experiences.projects.imageProcessing.description" })}</>
+      //   ),
+      // },
     ],
   },
   {

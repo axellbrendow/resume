@@ -3,7 +3,7 @@
   "madeIn": "Feito em",
   "presentation": {
     "aboutMe": "Sobre mim",
-    "aboutMeValue": "Olá, prazer! Primeiro, saiba que amo coisas que me desafiam 🎯. Tenho experiência em front-end, back-end, Cloud, DevOps e um pouco de inteligência artificial 🤖 com o uso de redes neurais. No momento, tenho interesse em trabalhar com back-end e devops e/ou inteligência artificial. Meu maior desejo é poder aprender mais 📖, gastar minha energia em projetos ⚡ e compartilhar experiências 🌎!",
+    "aboutMeValue": "Se você quer no seu time uma das raras pessoas com soft skills e hard skills que se destacam, vale a pena uma conversa comigo 😁. Considero-me uma pessoa que pratica a empatia no dia a dia tanto com meus colegas de equipe, quanto com os clientes ou usuários finais do meu trabalho. No mais, nunca paro de aprender hahah 📖!",
     "availableLanguages": "Idiomas disponíveis"
   },
   "contacts": {
@@ -32,7 +32,12 @@
       "interJava": {
         "period": "2021-2021",
         "name": "Bootcamp Inter Java Developer",
-        "description": "Bootcamp Inter Java Developer feito na plataforma Digital Innovation One com aprendizado de vários tópicos como Spring Boot, JPA, Kafka, Cloud Stream, Postgres, Lombok, Schema Registry, CQRS, Quarkus, Kubernetes, AWS EKS, Tests, Arquitetura de mensageria, BI, Data Warehouse, Big Data, Data Lake, DevOps."
+        "description": "Bootcamp feito na plataforma Digital Innovation One com aprendizado de vários tópicos como Spring Boot, JPA, Kafka, Cloud Stream, Postgres, Lombok, Schema Registry, CQRS, Quarkus, Kubernetes, AWS EKS, Tests, Arquitetura de mensageria, BI, Data Warehouse, Big Data, Data Lake, DevOps."
+      },
+      "gftJava": {
+        "period": "2021-2021",
+        "name": "Bootcamp GFT Java & AWS Developer",
+        "description": "Bootcamp feito na plataforma Digital Innovation One com aprendizado de vários tópicos como Spring Boot, Spring Web MVC, Spring Cloud, Spring Web Flux, API REST, JPA, Lombok, Java 8+, Serverless, Tests."
       }
     },
     "projects": {
@@ -40,7 +45,7 @@
       "devOpsModule": {
         "period": "2020-2020",
         "name": "Desafio de DevOps",
-        "description": "Desafios do módulo de DevOps do meu <a href=\"https://drive.google.com/file/d/1MdN-qK_8Pfg6YI3TSfSa5_2-FHmqGxEP/view?usp=sharing\" target=\"_blank\">curso</a> de microsserviços. Nginx + Laravel + Redis + MySQL com docker-compose, Kubernetes e pipelines de integração contínua e deploy contínuo num Cluster Kubernetes no Google Cloud Platform."
+        "description": "Desafios do módulo de DevOps do meu <a href=\"https://drive.google.com/file/d/1MdN-qK_8Pfg6YI3TSfSa5_2-FHmqGxEP/view?usp=sharing\" target=\"_blank\">curso de microsserviços</a>. Nginx + Laravel + Redis + MySQL com docker-compose, Kubernetes e pipelines de integração contínua e deploy contínuo num Cluster Kubernetes no Google Cloud Platform."
       },
       "imageProcessing": {
         "period": "2020-2020",
@@ -50,22 +55,32 @@
       "localizaLabs": {
         "period": "2021-2021",
         "name": "Localiza Labs API",
-        "description": "O <a href=\"https://corp.gama.academy/localiza-labs/inscricao\" target=\"_blank\">Localiza Labs Academy</a> foi um programa que selecionou, dentro milhares, 20 candidatos para um treinamento intensivo de .NET em 3 semanas tendo desenvolvimento de um desafio no final. Esse projeto foi o <strong>vencedor</strong> na área de backend. Criamos uma API REST .NET 5 com SQL Server, Kubernetes, CI/CD Azure DevOps, Docker-Compose e Unit Tests. <a href=\"https://drive.google.com/file/d/1E0Hf4IWn9TRrooU_zOka3t03pjf18ukF/view\" target=\"_blank\">Certificado</a>"
+        "description": "O <a href=\"https://corp.gama.academy/localiza-labs/inscricao\" target=\"_blank\">Localiza Labs Academy</a> foi um programa que selecionou, dentre milhares, 20 candidatos para um treinamento intensivo de .NET em 3 semanas tendo desenvolvimento de um desafio no final. Este projeto foi o <strong>vencedor 🏆</strong> na área de backend. Criamos uma API REST .NET 5 com SQL Server, Kubernetes, CI/CD Azure DevOps, Docker-Compose e Unit Tests. <a href=\"https://drive.google.com/file/d/1E0Hf4IWn9TRrooU_zOka3t03pjf18ukF/view\" target=\"_blank\">Certificado</a>"
+      },
+      "ecommerceMicroservices": {
+        "period": "2021-2021",
+        "name": "GFT Bootcamp - Spring Ecommerce Microservices",
+        "description": "Microsserviços feitos com Spring Boot incluindo Elasticsearch, Redis, Config Server, Service Discovery e um Gateway."
+      },
+      "webfluxStockQuote": {
+        "period": "2021-2021",
+        "name": "GFT Bootcamp - Spring Webflux Stock Quote",
+        "description": "Projeto que simula o acompanhamento de ações e seus valores de abertura e fechamento feito com Spring Boot, WebFlux, Project Reactor, Lombok, React, ChartJS."
       }
     },
     "experiences": {
       "title": "Experiências",
       "accenture": {
         "period": "2021-",
-        "period2": "5 meses",
+        "period2": "6 meses",
         "name": "Application Development Analyst - <a href=\"https://www.accenture.com/\">Accenture</a>",
-        "description": "No 1º projeto, fui designado a entender uma necessidade do time de SAP e criar uma solução do zero, incluindo layout, frontend (React), backend (Node), banco de dados (Postgres) e infraestrutura na AWS (EC2, S3 e RDS)."
+        "description": "<span style=\"text-decoration: underline;\">No 1º projeto</span>, fui designado a entender uma necessidade do time de SAP e criar uma solução do zero, incluindo layout, frontend (React), backend (Node), banco de dados (Postgres) e infraestrutura na AWS (EC2, S3 e RDS).<br><span style=\"text-decoration: underline;\">No 2º projeto</span>, estou atuando como líder técnico front-end React. Nossa missão é melhorar a acessibilidade de vários sites de uma grande empresa na área de saúde no Brasil. Isso envolve fazer testes com leitores de tela, contraste de cores e outras coisas descritas nas normas da WCAG. Ajudo a equipe tanto no desenvolvimento das tarefas quanto na organização do projeto (Git Flow, Code Review, CI/CD Pipelines, Refinamento Técnico). <strong>É importante ressaltar que, embora este seja um projeto front-end, não tenho intenção de seguir essa carreira.</strong> Meu foco é 90% back-end e devops."
       },
       "internIoasys": {
         "period": "2020-",
         "period2": "1 ano",
         "name": "Estagiário de Desenvolvimento Full Stack - <a href=\"https://ioasys.com.br/\">Ioasys</a>",
-        "description": "Participação em 3 projetos de desenvolvimento.<br><span style=\"text-decoration: underline;\">O último</span>, uma API Ruby on Rails com infra na AWS (EC2, RDS e S3 com upload de vídeos), foi o maior desafio, pois em 2 semanas tive que assumir sozinho o back-end do projeto adicionando novos clientes como Grupo Pardini e Suvinil e assim fui durante 3/4 meses até o final do meu contrato com a Ioasys.<br><span style=\"text-decoration: underline;\">O penúltimo</span>, um projeto Node Serverless na AWS, foi uma integração de autenticação que utiliza o padrão SAML para conectar os usuários de um cliente com um produto da empresa.<br><span style=\"text-decoration: underline;\">O antepenúltimo</span>, um front-end em React, foi um portfolio para as pessoas do setor de experiência internamente."
+        "description": "Participação em 2 projetos de desenvolvimento.<br><span style=\"text-decoration: underline;\">O último</span>, uma API Ruby on Rails com infra na AWS (EC2, RDS e S3 com upload de vídeos), foi o maior desafio, pois em 2 semanas tive que assumir sozinho o back-end do projeto adicionando novos clientes como Grupo Pardini e Suvinil e assim fui durante 3/4 meses até o final do meu contrato com a Ioasys.<br><span style=\"text-decoration: underline;\">O penúltimo</span>, um projeto Node Serverless na AWS, foi uma integração de autenticação que utiliza o padrão SAML para conectar os usuários de um cliente com um produto da empresa."
       },
       "webDevIntern": {
         "period": "2019-",
@@ -78,7 +93,7 @@
       "title": "Idiomas, interesses e hobbies",
       "english": {
         "name": "Inglês",
-        "description": "Capaz de escrever, ler e ouvir sem problemas. Também consigo conversar tranquilamente com pequenos delays na fala de vez em quando."
+        "description": "Capaz de escrever, ler e ouvir sem problemas. Também consigo conversar tranquilamente com pequenos delays na fala de vez em quando. Estou no nível avançado."
       },
       "portuguese": {
         "name": "Português",
