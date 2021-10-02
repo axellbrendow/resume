@@ -41,12 +41,12 @@ export const experiences = (): Experience[] => [
           <>
             <ul>
               <li>
-                <strong>DevOps</strong> - Git Flow, Docker, Continuous
-                Integration, Continuous Deployment, Kubernetes, Monitoring
+                <strong>DevOps</strong> - Git Flow, Docker, CI/CD, Kubernetes,
+                Terraform, Ansible, Service Mesh (Istio), ElasticStack and Prometheus.
               </li>
               <li>
-                <strong>Software Engineering</strong> - Services and
-                Microservices, Service Discovery, Queues and BFF
+                <strong>Software Engineering</strong> - Services and Microservices,
+                DDD, REST, gRPC, GraphQL, Service Discovery, RabbitMQ, Kafka and BFF
               </li>
               <li>
                 <strong>Domain Driven Design</strong> - Ubiquitous Language,
