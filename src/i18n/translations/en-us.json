@@ -72,7 +72,7 @@
       "title": "Experiences",
       "accenture": {
         "period": "2021-",
-        "period2": "6 months",
+        "period2": "7 months",
         "name": "Application Development Analyst - <a href=\"https://www.accenture.com/\">Accenture</a>",
         "description": "<span style=\"text-decoration: underline;\">In the 1st project</span>, I was assigned to understand a need of the SAP team and create a solution from scratch, including layout, frontend (React), backend (Node), database (Postgres) and infrastructure on AWS (EC2, S3 and RDS).<br><span style=\"text-decoration: underline;\">In the 2nd project</span>, I'm acting as a React front-end technical lead. Our mission is to improve the accessibility of several websites of a large healthcare company in Brazil. This involves testing screen readers, color contrast, and other things described in WCAG standards. I help the team both in the development of tasks and in the organization of the project (Git Flow, Code Review, CI/CD Pipelines, Technical Refinement). <strong>It is important to point out that, although this is a front-end project, I have no intention of following this career.</strong> My focus is 90% backend and devops."
       },
@@ -101,7 +101,7 @@
       },
       "softwareEngineering": {
         "name": "Software Engineering in Projects",
-        "description": "Always wanting use cases where I can learn and apply software engineering patterns to structure the system :D"
+        "description": "I'm looking for use cases where I can learn and apply software engineering patterns to structure the system :D"
       },
       "artificialIntelligence": {
         "name": "Artificial intelligence",
