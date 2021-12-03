@@ -18,7 +18,7 @@
       "graduation": {
         "period": "2018-2021",
         "name": "Graduação em Ciência da Computação",
-        "description": "PUC Minas - 8º período (último)"
+        "description": "PUC Minas"
       },
       "frontEndDev": {
         "period": "2018-2018",
@@ -72,7 +72,7 @@
       "title": "Experiências",
       "accenture": {
         "period": "2021-",
-        "period2": "7 meses",
+        "period2": "8 meses",
         "name": "Application Development Analyst - <a href=\"https://www.accenture.com/\">Accenture</a>",
         "description": "<span style=\"text-decoration: underline;\">No 1º projeto</span>, fui designado a entender uma necessidade do time de SAP e criar uma solução do zero, incluindo layout, frontend (React), backend (Node), banco de dados (Postgres) e infraestrutura na AWS (EC2, S3 e RDS).<br><span style=\"text-decoration: underline;\">No 2º projeto</span>, estou atuando como líder técnico front-end React. Nossa missão é melhorar a acessibilidade de vários sites de uma grande empresa na área de saúde no Brasil. Isso envolve fazer testes com leitores de tela, contraste de cores e outras coisas descritas nas normas da WCAG. Ajudo a equipe tanto no desenvolvimento das tarefas quanto na organização do projeto (Git Flow, Code Review, CI/CD Pipelines, Refinamento Técnico). <strong>É importante ressaltar que, embora este seja um projeto front-end, não tenho intenção de seguir essa carreira.</strong> Meu foco é 90% back-end e devops."
       },
