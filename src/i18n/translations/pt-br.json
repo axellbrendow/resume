@@ -16,54 +16,55 @@
     "formation": {
       "title": "Formação e Certificados",
       "graduation": {
-        "period": "2018-2021",
+        "period": "De 02/2018 Até 12/2021",
         "name": "Graduação em Ciência da Computação",
         "description": "PUC Minas"
       },
       "frontEndDev": {
-        "period": "2018-2018",
+        "period": "De 06/2018 Até 08/2018",
         "name": "Desenvolvedor Front-End (140hrs)",
         "description": "Carreira Desenvolvedor Front-end concluída na"
       },
       "microservicesApplications": {
-        "period": "2020-Atual",
-        "name": "Arquitetando e desenvolvendo aplicações modernas e escaláveis baseadas em Microsserviços"
+        "period": "De 07/2020 Até o momento",
+        "name": "Arquitetando e desenvolvendo aplicações modernas e escaláveis baseadas em Microsserviços (1000hrs+)",
+        "introduction": "O curso forma Desenvolvedores Full Cycle capazes de criar ecossistemas de microsserviços do zero."
       },
       "interJava": {
-        "period": "2021-2021",
-        "name": "Bootcamp Inter Java Developer",
+        "period": "De 03/2021 Até 05/2021",
+        "name": "Bootcamp Inter Java Developer (95hrs)",
         "description": "Bootcamp feito na plataforma Digital Innovation One com aprendizado de vários tópicos como Spring Boot, JPA, Kafka, Cloud Stream, Postgres, Lombok, Schema Registry, CQRS, Quarkus, Kubernetes, AWS EKS, Tests, Arquitetura de mensageria, BI, Data Warehouse, Big Data, Data Lake, DevOps."
       },
       "gftJava": {
-        "period": "2021-2021",
-        "name": "Bootcamp GFT Java & AWS Developer",
+        "period": "De 08/2021 Até 10/2021",
+        "name": "Bootcamp GFT Java & AWS Developer (50hrs)",
         "description": "Bootcamp feito na plataforma Digital Innovation One com aprendizado de vários tópicos como Spring Boot, Spring Web MVC, Spring Cloud, Spring Web Flux, API REST, JPA, Lombok, Java 8+, Serverless, Tests."
       }
     },
     "projects": {
       "title": "Projetos",
       "devOpsModule": {
-        "period": "2020-2020",
+        "period": "De 07/2020 Até 08/2020",
         "name": "Desafio de DevOps",
         "description": "Desafios do módulo de DevOps do meu <a href=\"https://drive.google.com/file/d/1MdN-qK_8Pfg6YI3TSfSa5_2-FHmqGxEP/view?usp=sharing\" target=\"_blank\">curso de microsserviços</a>. Nginx + Laravel + Redis + MySQL com docker-compose, Kubernetes e pipelines de integração contínua e deploy contínuo num Cluster Kubernetes no Google Cloud Platform."
       },
       "imageProcessing": {
-        "period": "2020-2020",
+        "period": "De 10/2020 Até 11/2020",
         "name": "Classificador de imagens de mamografia",
         "description": "Um programa feito em Python que usa redes neurais para classificar imagens de exames mamográficos e busca diferenciar a densidade das mamas no intuito de identificar tumores ou outros problemas."
       },
       "localizaLabs": {
-        "period": "2021-2021",
-        "name": "Localiza Labs API",
+        "period": "De 01/2021 Até 03/2021",
+        "name": "Localiza Labs API (120hrs)",
         "description": "O <a href=\"https://corp.gama.academy/localiza-labs/inscricao\" target=\"_blank\">Localiza Labs Academy</a> foi um programa que selecionou, dentre milhares, 20 candidatos para um treinamento intensivo de .NET em 3 semanas tendo desenvolvimento de um desafio no final. Este projeto foi o <strong>vencedor 🏆</strong> na área de backend. Criamos uma API REST .NET 5 com SQL Server, Kubernetes, CI/CD Azure DevOps, Docker-Compose e Unit Tests. <a href=\"https://drive.google.com/file/d/1E0Hf4IWn9TRrooU_zOka3t03pjf18ukF/view\" target=\"_blank\">Certificado</a>"
       },
       "ecommerceMicroservices": {
-        "period": "2021-2021",
+        "period": "De 10/2021 Até 10/2021",
         "name": "GFT Bootcamp - Spring Ecommerce Microservices",
         "description": "Microsserviços feitos com Spring Boot incluindo Elasticsearch, Redis, Config Server, Service Discovery e um Gateway."
       },
       "webfluxStockQuote": {
-        "period": "2021-2021",
+        "period": "De 10/2021 Até 10/2021",
         "name": "GFT Bootcamp - Spring Webflux Stock Quote",
         "description": "Projeto que simula o acompanhamento de ações e seus valores de abertura e fechamento feito com Spring Boot, WebFlux, Project Reactor, Lombok, React, ChartJS."
       }
@@ -71,22 +72,19 @@
     "experiences": {
       "title": "Experiências",
       "accenture": {
-        "period": "2021-",
-        "period2": "8 meses",
+        "period": "De 04/2021 Até o momento",
         "name": "Application Development Analyst - <a href=\"https://www.accenture.com/\">Accenture</a>",
         "description": "<span style=\"text-decoration: underline;\">No 1º projeto</span>, fui designado a entender uma necessidade do time de SAP e criar uma solução do zero, incluindo layout, frontend (React), backend (Node), banco de dados (Postgres) e infraestrutura na AWS (EC2, S3 e RDS).<br><span style=\"text-decoration: underline;\">No 2º projeto</span>, estou atuando como líder técnico front-end React. Nossa missão é melhorar a acessibilidade de vários sites de uma grande empresa na área de saúde no Brasil. Isso envolve fazer testes com leitores de tela, contraste de cores e outras coisas descritas nas normas da WCAG. Ajudo a equipe tanto no desenvolvimento das tarefas quanto na organização do projeto (Git Flow, Code Review, CI/CD Pipelines, Refinamento Técnico). <strong>É importante ressaltar que, embora este seja um projeto front-end, não tenho intenção de seguir essa carreira.</strong> Meu foco é 90% back-end e devops."
       },
       "internIoasys": {
-        "period": "2020-",
-        "period2": "1 ano",
+        "period": "De 02/2020 Até 02/2021",
         "name": "Estagiário de Desenvolvimento Full Stack - <a href=\"https://ioasys.com.br/\">Ioasys</a>",
-        "description": "Participação em 2 projetos de desenvolvimento.<br><span style=\"text-decoration: underline;\">O último</span>, uma API Ruby on Rails com infra na AWS (EC2, RDS e S3 com upload de vídeos), foi o maior desafio, pois em 2 semanas tive que assumir sozinho o back-end do projeto adicionando novos clientes como Grupo Pardini e Suvinil e assim fui durante 3/4 meses até o final do meu contrato com a Ioasys.<br><span style=\"text-decoration: underline;\">O penúltimo</span>, um projeto Node Serverless na AWS, foi uma integração de autenticação que utiliza o padrão SAML para conectar os usuários de um cliente com um produto da empresa."
+        "description": "Participação em 2 projetos de desenvolvimento.<br><span style=\"text-decoration: underline;\">O último</span>, uma API Ruby on Rails com infra na AWS (EC2, RDS e S3 com upload de vídeos), foi o maior desafio, pois em 2 semanas tive que assumir sozinho o projeto ficando sobre a minha responsabilidade a infraestrutura na AWS, o desenvolvimento do back-end, os deploys e atualizações no banco de dados de produção.<br><span style=\"text-decoration: underline;\">O penúltimo</span>, um projeto Node Serverless na AWS, foi uma integração de autenticação via SAML 2.0. Ficou sobre a minha responsabilidade boa parte do ciclo do projeto: concepção, reuniões técnicas com o cliente, desenvolvimento, testes automatizados e deploy."
       },
       "webDevIntern": {
-        "period": "2019-",
-        "period2": "10 meses",
+        "period": "De 02/2019 Até 12/2019",
         "name": "Estagiário de Desenvolvimento Web - <a href=\"https://crc.pucminas.br/\" target=\"_blank\">CRC do ICEI</a>",
-        "description": "HTML, CSS, JavaScript, PHP, Laravel, MySQL, Docker, Nginx"
+        "description": "Responsável pela concepção, desenvolvimento, teste e deploy de uma aplicação interna da universidade onde os técnicos poderiam pingar as máquinas de vários laboratórios e saber como estava o status delas. Tecnologias: HTML, CSS, JavaScript, PHP, Laravel, MySQL, Docker, Nginx."
       }
     },
     "interests": {
@@ -100,11 +98,11 @@
         "description": "Nativo"
       },
       "softwareEngineering": {
-        "name": "Engenharia de Software em Projetos",
+        "name": "Interesse em Engenharia de Software em Projetos",
         "description": "Estou sempre buscando casos de uso onde eu possa aprender e aplicar padrões de engenharia de software para estruturar um sistema :D"
       },
       "artificialIntelligence": {
-        "name": "Inteligência Artificial",
+        "name": "Interesse em Inteligência Artificial",
         "description": "Experiência em projetos de processamento de imagens com o uso de Deep Learning. Tenho interesse em aprender mais sobre Machine Learning e Deep Learning."
       }
     }

@@ -39,6 +39,7 @@ export const experiences = (): Experience[] => [
         ),
         description: (
           <>
+            {fmt({ id: "experiences.formation.microservicesApplications.introduction" })}
             <ul>
               <li>
                 <strong>DevOps</strong> - Git Flow, Docker, CI/CD, Kubernetes,
@@ -109,8 +110,6 @@ export const experiences = (): Experience[] => [
         period: (
           <>
             {fmt({ id: "experiences.experiences.accenture.period" })}
-            <br />
-            {fmt({ id: "experiences.experiences.accenture.period2" })}
           </>
         ),
         name:
@@ -127,8 +126,6 @@ export const experiences = (): Experience[] => [
         period: (
           <>
             {fmt({ id: "experiences.experiences.internIoasys.period" })}
-            <br />
-            {fmt({ id: "experiences.experiences.internIoasys.period2" })}
           </>
         ),
         name:
@@ -145,8 +142,6 @@ export const experiences = (): Experience[] => [
         period: (
           <>
             {fmt({ id: "experiences.experiences.webDevIntern.period" })}
-            <br />
-            {fmt({ id: "experiences.experiences.webDevIntern.period2" })}
           </>
         ),
         name: 
