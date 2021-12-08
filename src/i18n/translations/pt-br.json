@@ -21,7 +21,7 @@
         "description": "PUC Minas"
       },
       "frontEndDev": {
-        "period": "De 06/2018 Até 08/2018",
+        "period": "De 07/2018 Até 08/2018",
         "name": "Desenvolvedor Front-End (140hrs)",
         "description": "Carreira Desenvolvedor Front-end concluída na"
       },
@@ -31,12 +31,12 @@
         "introduction": "O curso forma Desenvolvedores Full Cycle capazes de criar ecossistemas de microsserviços do zero."
       },
       "interJava": {
-        "period": "De 03/2021 Até 05/2021",
+        "period": "De 02/2021 Até 03/2021",
         "name": "Bootcamp Inter Java Developer (95hrs)",
         "description": "Bootcamp feito na plataforma Digital Innovation One com aprendizado de vários tópicos como Spring Boot, JPA, Kafka, Cloud Stream, Postgres, Lombok, Schema Registry, CQRS, Quarkus, Kubernetes, AWS EKS, Tests, Arquitetura de mensageria, BI, Data Warehouse, Big Data, Data Lake, DevOps."
       },
       "gftJava": {
-        "period": "De 08/2021 Até 10/2021",
+        "period": "De 08/2021 Até 09/2021",
         "name": "Bootcamp GFT Java & AWS Developer (50hrs)",
         "description": "Bootcamp feito na plataforma Digital Innovation One com aprendizado de vários tópicos como Spring Boot, Spring Web MVC, Spring Cloud, Spring Web Flux, API REST, JPA, Lombok, Java 8+, Serverless, Tests."
       }
@@ -54,17 +54,17 @@
         "description": "Um programa feito em Python que usa redes neurais para classificar imagens de exames mamográficos e busca diferenciar a densidade das mamas no intuito de identificar tumores ou outros problemas."
       },
       "localizaLabs": {
-        "period": "De 01/2021 Até 03/2021",
+        "period": "De 01/2021 Até 02/2021",
         "name": "Localiza Labs API (120hrs)",
         "description": "O <a href=\"https://corp.gama.academy/localiza-labs/inscricao\" target=\"_blank\">Localiza Labs Academy</a> foi um programa que selecionou, dentre milhares, 20 candidatos para um treinamento intensivo de .NET em 3 semanas tendo desenvolvimento de um desafio no final. Este projeto foi o <strong>vencedor 🏆</strong> na área de backend. Criamos uma API REST .NET 5 com SQL Server, Kubernetes, CI/CD Azure DevOps, Docker-Compose e Unit Tests. <a href=\"https://drive.google.com/file/d/1E0Hf4IWn9TRrooU_zOka3t03pjf18ukF/view\" target=\"_blank\">Certificado</a>"
       },
       "ecommerceMicroservices": {
-        "period": "De 10/2021 Até 10/2021",
+        "period": "De 09/2021 Até 09/2021",
         "name": "GFT Bootcamp - Spring Ecommerce Microservices",
         "description": "Microsserviços feitos com Spring Boot incluindo Elasticsearch, Redis, Config Server, Service Discovery e um Gateway."
       },
       "webfluxStockQuote": {
-        "period": "De 10/2021 Até 10/2021",
+        "period": "De 09/2021 Até 09/2021",
         "name": "GFT Bootcamp - Spring Webflux Stock Quote",
         "description": "Projeto que simula o acompanhamento de ações e seus valores de abertura e fechamento feito com Spring Boot, WebFlux, Project Reactor, Lombok, React, ChartJS."
       }
@@ -82,7 +82,7 @@
         "description": "Participação em 2 projetos de desenvolvimento.<br><span style=\"text-decoration: underline;\">O último</span>, uma API Ruby on Rails com infra na AWS (EC2, RDS e S3 com upload de vídeos), foi o maior desafio, pois em 2 semanas tive que assumir sozinho o projeto ficando sobre a minha responsabilidade a infraestrutura na AWS, o desenvolvimento do back-end, os deploys e atualizações no banco de dados de produção.<br><span style=\"text-decoration: underline;\">O penúltimo</span>, um projeto Node Serverless na AWS, foi uma integração de autenticação via SAML 2.0. Ficou sobre a minha responsabilidade boa parte do ciclo do projeto: concepção, reuniões técnicas com o cliente, desenvolvimento, testes automatizados e deploy."
       },
       "webDevIntern": {
-        "period": "De 02/2019 Até 12/2019",
+        "period": "De 03/2019 Até 12/2019",
         "name": "Estagiário de Desenvolvimento Web - <a href=\"https://crc.pucminas.br/\" target=\"_blank\">CRC do ICEI</a>",
         "description": "Responsável pela concepção, desenvolvimento, teste e deploy de uma aplicação interna da universidade onde os técnicos poderiam pingar as máquinas de vários laboratórios e saber como estava o status delas. Tecnologias: HTML, CSS, JavaScript, PHP, Laravel, MySQL, Docker, Nginx."
       }
