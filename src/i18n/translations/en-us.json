@@ -3,7 +3,7 @@
   "madeIn": "Made in",
   "presentation": {
     "aboutMe": "About me",
-    "aboutMeValue": "If you want on your team one of the rare people with soft skills and hard skills that stand out, it's worth talking to me 😁. I consider myself a person who practices empathy on a daily basis both with my teammates, as well as with the clients or end users of my work. Also, I never stop learning hahah 📖!",
+    "aboutMeValue": "If you want on your team one of the rare persons with soft skills and hard skills that stand out, it's worth talking to me 😁. I consider myself a person who practices empathy on a daily basis both with my teammates, as well as with the clients or end users of my work. And also, I never stop learning hahah 📖!",
     "availableLanguages": "Available languages"
   },
   "contacts": {
@@ -13,12 +13,12 @@
     }
   },
   "experiences": {
-    "formation": {
-      "title": "Formation and Certificates",
+    "education": {
+      "title": "Education and Certificates",
       "graduation": {
         "period": "From 02/2018 Until 12/2021",
         "name": "Degree in Computer Science",
-        "description": "PUC Minas"
+        "description": "At PUC Minas"
       },
       "frontEndDev": {
         "period": "From 07/2018 Until 08/2018",
@@ -71,14 +71,19 @@
     },
     "experiences": {
       "title": "Experiences",
+      "google": {
+        "period": "From 01/2022 Until now",
+        "name": "Software Engineer - <a href=\"https://about.google/\" target=\"_blank\">Google</a>",
+        "description": "Designing, developing and deploying different projects in different languages."
+      },
       "accenture": {
-        "period": "From 04/2021 Until now",
-        "name": "Application Development Analyst - <a href=\"https://www.accenture.com/\">Accenture</a>",
-        "description": "<span style=\"text-decoration: underline;\">In the 1st project</span>, I was assigned to understand a need of the SAP team and create a solution from scratch, including layout, frontend (React), backend (Node), database (Postgres) and infrastructure on AWS (EC2, S3 and RDS).<br><span style=\"text-decoration: underline;\">In the 2nd project</span>, I'm acting as a React front-end technical lead. Our mission is to improve the accessibility of several websites of a large healthcare company in Brazil. This involves testing screen readers, color contrast, and other things described in WCAG standards. I help the team both in the development of tasks and in the organization of the project (Git Flow, Code Review, CI/CD Pipelines, Technical Refinement). <strong>It is important to point out that, although this is a front-end project, I have no intention of following this career.</strong> My focus is 90% backend and devops."
+        "period": "From 04/2021 Until 01/2022",
+        "name": "Application Development Analyst - <a href=\"https://www.accenture.com/\" target=\"_blank\">Accenture</a>",
+        "description": "<span style=\"text-decoration: underline;\">In the 1st project</span>, I was assigned to understand a need of the SAP team and create a solution from scratch, including layout, frontend (React), backend (Node), database (Postgres) and infrastructure on AWS (EC2, S3 and RDS).<br><span style=\"text-decoration: underline;\">In the 2nd project</span>, I'm acting as a React front-end technical lead. Our mission is to improve the accessibility of several websites of a large healthcare company in Brazil. This involves testing screen readers, color contrast, and other things described in WCAG standards. I helped the team both in the development of tasks and in the organization of the project (Git Flow, Code Review, CI/CD Pipelines, Technical Refinement). <strong>It is important to point out that, although this is a front-end project, I have no intention of following this career.</strong> My focus is 90% backend and devops."
       },
       "internIoasys": {
         "period": "From 02/2020 Until 02/2021",
-        "name": "Full Stack Development Intern - <a href=\"https://ioasys.com.br/\">Ioasys</a>",
+        "name": "Full Stack Development Intern - <a href=\"https://ioasys.com.br/\" target=\"_blank\">Ioasys</a>",
         "description": "Participation in 2 development projects.<br><span style=\"text-decoration: underline;\">The last one</span>, a Ruby on Rails API with infrastructure on AWS (EC2, RDS and S3 with video upload), was the biggest challenge, as in 2 weeks I had to take over the project alone, and I was responsible for the infrastructure on AWS, the backend development, deploys and updates to the production database.<br><span style=\"text-decoration: underline;\">The penultimate</span>, a Node Serverless project on AWS, was an authentication integration via SAML 2.0. I was responsible for a good part of the project cycle: conception, technical meetings with the client, development, automated tests and deployment."
       },
       "webDevIntern": {

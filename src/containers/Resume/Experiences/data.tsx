@@ -16,30 +16,30 @@ export interface Experience {
 
 export const experiences = (): Experience[] => [
   {
-    title: fmt({ id: "experiences.formation.title" }),
+    title: fmt({ id: "experiences.education.title" }),
     titleIconClass: "graduation-cap",
     items: [
       {
-        period: fmt({ id: "experiences.formation.graduation.period" }),
-        name: fmt({ id: "experiences.formation.graduation.name" }),
+        period: fmt({ id: "experiences.education.graduation.period" }),
+        name: fmt({ id: "experiences.education.graduation.name" }),
         description: fmt({
-          id: "experiences.formation.graduation.description",
+          id: "experiences.education.graduation.description",
         }),
       },
       {
         period: fmt({
-          id: "experiences.formation.microservicesApplications.period",
+          id: "experiences.education.microservicesApplications.period",
         }),
         name: (
           <a href="https://drive.google.com/file/d/1MdN-qK_8Pfg6YI3TSfSa5_2-FHmqGxEP/view?usp=sharing" target="_blank">
             {fmt({
-              id: "experiences.formation.microservicesApplications.name",
+              id: "experiences.education.microservicesApplications.name",
             })}
           </a>
         ),
         description: (
           <>
-            {fmt({ id: "experiences.formation.microservicesApplications.introduction" })}
+            {fmt({ id: "experiences.education.microservicesApplications.introduction" })}
             <ul>
               <li>
                 <strong>DevOps</strong> - Git Flow, Docker, CI/CD, Kubernetes,
@@ -65,37 +65,37 @@ export const experiences = (): Experience[] => [
         ),
       },
       {
-        period: fmt({ id: "experiences.formation.interJava.period" }),
+        period: fmt({ id: "experiences.education.interJava.period" }),
         name: (
           <a href="https://certificates.digitalinnovation.one/247D11F0" target="_blank">
-            {fmt({ id: "experiences.formation.interJava.name" })}
+            {fmt({ id: "experiences.education.interJava.name" })}
           </a>
         ),
         description: (
-          <>{fmt({ id: "experiences.formation.interJava.description" })}</>
+          <>{fmt({ id: "experiences.education.interJava.description" })}</>
         ),
       },
       {
-        period: fmt({ id: "experiences.formation.gftJava.period" }),
+        period: fmt({ id: "experiences.education.gftJava.period" }),
         name: (
           <a href="https://certificates.digitalinnovation.one/76784B06" target="_blank">
-            {fmt({ id: "experiences.formation.gftJava.name" })}
+            {fmt({ id: "experiences.education.gftJava.name" })}
           </a>
         ),
         description: (
-          <>{fmt({ id: "experiences.formation.gftJava.description" })}</>
+          <>{fmt({ id: "experiences.education.gftJava.description" })}</>
         ),
       },
       {
-        period: fmt({ id: "experiences.formation.frontEndDev.period" }),
+        period: fmt({ id: "experiences.education.frontEndDev.period" }),
         name: (
           <a href="https://cursos.alura.com.br/user/axell-b/career/desenvolvedor-front-end/certificate" target="_blank">
-            {fmt({ id: "experiences.formation.frontEndDev.name" })}
+            {fmt({ id: "experiences.education.frontEndDev.name" })}
           </a>
         ),
         description: (
           <>
-            {fmt({ id: "experiences.formation.frontEndDev.description" })}{" "}
+            {fmt({ id: "experiences.education.frontEndDev.description" })}{" "}
             <a href="https://cursos.alura.com.br/user/axell-b" target="_blank">Alura</a>
           </>
         ),
@@ -106,6 +106,22 @@ export const experiences = (): Experience[] => [
     titleIconClass: "building",
     title: fmt({ id: "experiences.experiences.title" }),
     items: [
+      {
+        period: (
+          <>
+            {fmt({ id: "experiences.experiences.google.period" })}
+          </>
+        ),
+        name:
+          <div dangerouslySetInnerHTML={{
+            __html: fmt({ id: "experiences.experiences.google.name" })
+          }} />,
+        description: (
+          <div dangerouslySetInnerHTML={{
+            __html: fmt({ id: "experiences.experiences.google.description" })
+          }} />
+        ),
+      },
       {
         period: (
           <>

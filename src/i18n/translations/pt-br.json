@@ -13,12 +13,12 @@
     }
   },
   "experiences": {
-    "formation": {
+    "education": {
       "title": "Formação e Certificados",
       "graduation": {
         "period": "De 02/2018 Até 12/2021",
         "name": "Graduação em Ciência da Computação",
-        "description": "PUC Minas"
+        "description": "Na PUC Minas"
       },
       "frontEndDev": {
         "period": "De 07/2018 Até 08/2018",
@@ -71,14 +71,19 @@
     },
     "experiences": {
       "title": "Experiências",
+      "google": {
+        "period": "De 01/2022 Até o momento",
+        "name": "Software Engineer - <a href=\"https://about.google/\" target=\"_blank\">Google</a>",
+        "description": "Desenhando, desenvolvendo e implantando diferentes projetos em diferentes linguagens."
+      },
       "accenture": {
-        "period": "De 04/2021 Até o momento",
-        "name": "Application Development Analyst - <a href=\"https://www.accenture.com/\">Accenture</a>",
-        "description": "<span style=\"text-decoration: underline;\">No 1º projeto</span>, fui designado a entender uma necessidade do time de SAP e criar uma solução do zero, incluindo layout, frontend (React), backend (Node), banco de dados (Postgres) e infraestrutura na AWS (EC2, S3 e RDS).<br><span style=\"text-decoration: underline;\">No 2º projeto</span>, estou atuando como líder técnico front-end React. Nossa missão é melhorar a acessibilidade de vários sites de uma grande empresa na área de saúde no Brasil. Isso envolve fazer testes com leitores de tela, contraste de cores e outras coisas descritas nas normas da WCAG. Ajudo a equipe tanto no desenvolvimento das tarefas quanto na organização do projeto (Git Flow, Code Review, CI/CD Pipelines, Refinamento Técnico). <strong>É importante ressaltar que, embora este seja um projeto front-end, não tenho intenção de seguir essa carreira.</strong> Meu foco é 90% back-end e devops."
+        "period": "De 04/2021 Até 01/2022",
+        "name": "Application Development Analyst - <a href=\"https://www.accenture.com/\" target=\"_blank\">Accenture</a>",
+        "description": "<span style=\"text-decoration: underline;\">No 1º projeto</span>, fui designado a entender uma necessidade do time de SAP e criar uma solução do zero, incluindo layout, frontend (React), backend (Node), banco de dados (Postgres) e infraestrutura na AWS (EC2, S3 e RDS).<br><span style=\"text-decoration: underline;\">No 2º projeto</span>, estou atuando como líder técnico front-end React. Nossa missão é melhorar a acessibilidade de vários sites de uma grande empresa na área de saúde no Brasil. Isso envolve fazer testes com leitores de tela, contraste de cores e outras coisas descritas nas normas da WCAG. Ajudei a equipe tanto no desenvolvimento das tarefas quanto na organização do projeto (Git Flow, Code Review, CI/CD Pipelines, Refinamento Técnico). <strong>É importante ressaltar que, embora este seja um projeto front-end, não tenho intenção de seguir essa carreira.</strong> Meu foco é 90% back-end e devops."
       },
       "internIoasys": {
         "period": "De 02/2020 Até 02/2021",
-        "name": "Estagiário de Desenvolvimento Full Stack - <a href=\"https://ioasys.com.br/\">Ioasys</a>",
+        "name": "Estagiário de Desenvolvimento Full Stack - <a href=\"https://ioasys.com.br/\" target=\"_blank\">Ioasys</a>",
         "description": "Participação em 2 projetos de desenvolvimento.<br><span style=\"text-decoration: underline;\">O último</span>, uma API Ruby on Rails com infra na AWS (EC2, RDS e S3 com upload de vídeos), foi o maior desafio, pois em 2 semanas tive que assumir sozinho o projeto ficando sobre a minha responsabilidade a infraestrutura na AWS, o desenvolvimento do back-end, os deploys e atualizações no banco de dados de produção.<br><span style=\"text-decoration: underline;\">O penúltimo</span>, um projeto Node Serverless na AWS, foi uma integração de autenticação via SAML 2.0. Ficou sobre a minha responsabilidade boa parte do ciclo do projeto: concepção, reuniões técnicas com o cliente, desenvolvimento, testes automatizados e deploy."
       },
       "webDevIntern": {
