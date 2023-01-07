@@ -1,16 +1,16 @@
 import React from "react";
 
 import Routes from "utils/routes";
-import ConfiguredIntlProvider from "i18n/ConfiguredIntlProvider";
+import ConfiguredI18nProvider from "i18n/ConfiguredI18nProvider";
 
 import "./bootstrap.css";
 import "./styles.css";
 
 const App = () => {
   return (
-    <ConfiguredIntlProvider>
+    <ConfiguredI18nProvider>
       <Routes />
-    </ConfiguredIntlProvider>
+    </ConfiguredI18nProvider>
   );
 };
 

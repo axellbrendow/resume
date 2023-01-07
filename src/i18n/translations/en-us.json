@@ -3,7 +3,7 @@
   "madeIn": "Made in",
   "presentation": {
     "aboutMe": "About me",
-    "aboutMeValue": "If you want on your team one of the rare persons with soft skills and hard skills that stand out, it's worth talking to me 😁. I consider myself a person who practices empathy on a daily basis both with my teammates, as well as with the clients or end users of my work. And also, I never stop learning hahah 📖!",
+    "aboutMeValue": "If you want on your team one of the rare persons with soft skills and hard skills that stand out, it's worth talking to me 😁. I consider myself a person who practices empathy on a daily basis both with my teammates, as well as with the clients or end users of my work.",
     "availableLanguages": "Available languages"
   },
   "contacts": {
@@ -96,7 +96,7 @@
       "title": "Languages, interests and hobbies",
       "english": {
         "name": "English",
-        "description": "Able to write, read and listen without problems. I'm also able to talk quietly with little delays in speech from time to time. I'm at the advanced level."
+        "description": "Able to speak, write, read and listen."
       },
       "portuguese": {
         "name": "Portuguese",

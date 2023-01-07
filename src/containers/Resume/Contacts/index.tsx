@@ -1,6 +1,6 @@
 import React from "react";
 
-import { fmt } from "i18n/ConfiguredIntlProvider";
+import { fmt } from "i18n/ConfiguredI18nProvider";
 import { getContacts, Contact } from "./data";
 
 const ContactContainer = ({

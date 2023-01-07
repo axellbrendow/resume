@@ -27,7 +27,7 @@ const getAppropriateLocale = () => {
 
 const initialLocale = getAppropriateLocale();
 
-const ConfiguredIntlProvider: React.FC = ({ children }) => {
+const ConfiguredI18nProvider: React.FC = ({ children }) => {
   const [loading, setLoading] = useState(true);
   const [locale, setLocale] = useState(initialLocale);
 
@@ -58,4 +58,4 @@ const ConfiguredIntlProvider: React.FC = ({ children }) => {
   );
 };
 
-export default ConfiguredIntlProvider;
+export default ConfiguredI18nProvider;

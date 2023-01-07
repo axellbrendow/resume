@@ -1,4 +1,4 @@
-import { fmt } from "i18n/ConfiguredIntlProvider";
+import { fmt } from "i18n/ConfiguredI18nProvider";
 
 export interface Contact {
   classNameLi: string;
@@ -30,16 +30,16 @@ export const getContacts = (): Contact[] => [
     classNameLi: "linkedin",
     iconType: "fab",
     iconName: "linkedin-in",
-    anchorHref: "https://www.linkedin.com/in/axell-brendow/",
-    anchorChildren: "axell-brendow",
+    anchorHref: "https://www.linkedin.com/in/axellbrendow/",
+    anchorChildren: "axellbrendow",
     srOnlyAnchorChildren: "LinkedIn:",
   },
   {
     classNameLi: "github",
     iconType: "fab",
     iconName: "github-square",
-    anchorHref: "https://github.com/axell-brendow",
-    anchorChildren: "axell-brendow",
+    anchorHref: "https://github.com/axellbrendow",
+    anchorChildren: "axellbrendow",
     srOnlyAnchorChildren: "GitHub:",
   },
 ];

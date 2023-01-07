@@ -1,6 +1,6 @@
 import React from "react";
 
-import { fmt } from "i18n/ConfiguredIntlProvider";
+import { fmt } from "i18n/ConfiguredI18nProvider";
 
 import LanguageList from "components/core/LanguageList";
 
@@ -15,7 +15,11 @@ const Presentation = () => (
       </div>
       <div className="about-me col-sm">
         <h2>{fmt({ id: "presentation.aboutMe" })}</h2>
-        <p>{fmt({ id: "presentation.aboutMeValue" })}</p>
+        <p
+          dangerouslySetInnerHTML={{
+            __html: fmt({ id: "presentation.aboutMeValue" }),
+          }}
+        />
       </div>
     </div>
     <LanguageList />

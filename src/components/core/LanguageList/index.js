@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 // import styled from "styled-components";
 
 import { LANGUAGES /* , changeLang */, changeUrlLangTo } from "i18n/languages";
-import { fmt } from "i18n/ConfiguredIntlProvider";
+import { fmt } from "i18n/ConfiguredI18nProvider";
 
 import { LanguageListStyle, LanguageItem } from "./styles";
 

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-import { fmt } from "i18n/ConfiguredIntlProvider";
+import { fmt } from "i18n/ConfiguredI18nProvider";
 
 import Presentation from "./Presentation";
 import Contacts from "./Contacts";

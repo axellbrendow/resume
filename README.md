@@ -1,6 +1,6 @@
 # My CV/Resume made in React with TypeScript
 
-[Here you can access my CV/resume](https://axell-brendow.github.io/resume/).
+[Here you can access my CV/resume](https://axellbrendow.github.io/resume/).
 
 # React README Template
 

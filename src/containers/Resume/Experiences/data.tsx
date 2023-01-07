@@ -1,6 +1,6 @@
 import React from "react";
 
-import { fmt } from "i18n/ConfiguredIntlProvider";
+import { fmt } from "i18n/ConfiguredI18nProvider";
 
 export interface ExperienceItem {
   period: React.ReactNode;
@@ -195,7 +195,7 @@ export const experiences = (): Experience[] => [
         period: <>{fmt({ id: "experiences.projects.ecommerceMicroservices.period" })}</>,
         name: (
           <>
-            <a href="https://github.com/axell-brendow/dio-spring-ecommerce-microservices" target="_blank">
+            <a href="https://github.com/axellbrendow/dio-spring-ecommerce-microservices" target="_blank">
               {fmt({ id: "experiences.projects.ecommerceMicroservices.name" })}
             </a>
           </>
@@ -210,7 +210,7 @@ export const experiences = (): Experience[] => [
         period: <>{fmt({ id: "experiences.projects.webfluxStockQuote.period" })}</>,
         name: (
           <>
-            <a href="https://github.com/axell-brendow/dio-spring-webflux-stock-quote" target="_blank">
+            <a href="https://github.com/axellbrendow/dio-spring-webflux-stock-quote" target="_blank">
               {fmt({ id: "experiences.projects.webfluxStockQuote.name" })}
             </a>
           </>
@@ -225,7 +225,7 @@ export const experiences = (): Experience[] => [
         period: <>{fmt({ id: "experiences.projects.devOpsModule.period" })}</>,
         name: (
           <>
-            <a href="https://github.com/axell-brendow/microservices-devops-challenge01" target="_blank">
+            <a href="https://github.com/axellbrendow/microservices-devops-challenge01" target="_blank">
               {fmt({ id: "experiences.projects.devOpsModule.name" })}
             </a>
           </>
@@ -242,7 +242,7 @@ export const experiences = (): Experience[] => [
       //   ),
       //   name: (
       //     <>
-      //       <a href="https://github.com/axell-brendow/image-processing-work" target="_blank">
+      //       <a href="https://github.com/axellbrendow/image-processing-work" target="_blank">
       //         {fmt({ id: "experiences.projects.imageProcessing.name" })}
       //       </a>
       //     </>

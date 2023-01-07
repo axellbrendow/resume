@@ -3,7 +3,7 @@
   "madeIn": "Feito em",
   "presentation": {
     "aboutMe": "Sobre mim",
-    "aboutMeValue": "Se você quer no seu time uma das raras pessoas com soft skills e hard skills que se destacam, vale a pena uma conversa comigo 😁. Considero-me uma pessoa que pratica a empatia no dia a dia tanto com meus colegas de equipe, quanto com os clientes ou usuários finais do meu trabalho. No mais, nunca paro de aprender hahah 📖!",
+    "aboutMeValue": "Se você quer no seu time uma das raras pessoas com soft skills e hard skills que se destacam, vale a pena uma conversa comigo 😁. Considero-me uma pessoa que pratica a empatia no dia a dia tanto com meus colegas de equipe, quanto com os clientes ou usuários finais do meu trabalho.",
     "availableLanguages": "Idiomas disponíveis"
   },
   "contacts": {
@@ -79,7 +79,7 @@
       "accenture": {
         "period": "De 04/2021 Até 01/2022",
         "name": "Application Development Analyst - <a href=\"https://www.accenture.com/\" target=\"_blank\">Accenture</a>",
-        "description": "<span style=\"text-decoration: underline;\">No 1º projeto</span>, fui designado a entender uma necessidade do time de SAP e criar uma solução do zero, incluindo layout, frontend (React), backend (Node), banco de dados (Postgres) e infraestrutura na AWS (EC2, S3 e RDS).<br><span style=\"text-decoration: underline;\">No 2º projeto</span>, estou atuando como líder técnico front-end React. Nossa missão é melhorar a acessibilidade de vários sites de uma grande empresa na área de saúde no Brasil. Isso envolve fazer testes com leitores de tela, contraste de cores e outras coisas descritas nas normas da WCAG. Ajudei a equipe tanto no desenvolvimento das tarefas quanto na organização do projeto (Git Flow, Code Review, CI/CD Pipelines, Refinamento Técnico). <strong>É importante ressaltar que, embora este seja um projeto front-end, não tenho intenção de seguir essa carreira.</strong> Meu foco é 90% back-end e devops."
+        "description": "<span style=\"text-decoration: underline;\">No 1º projeto</span>, fui designado a entender uma necessidade do time de SAP e criar uma solução do zero, incluindo layout, frontend (React), backend (Node), banco de dados (Postgres) e infraestrutura na AWS (EC2, S3 e RDS).<br><span style=\"text-decoration: underline;\">No 2º projeto</span>, atuei como líder técnico front-end React. Nossa missão foi melhorar a acessibilidade de vários sites de uma grande empresa na área de saúde no Brasil. Isso envolve fazer testes com leitores de tela, contraste de cores e outras coisas descritas nas normas da WCAG. Ajudei a equipe tanto no desenvolvimento das tarefas quanto na organização do projeto (Git Flow, Code Review, CI/CD Pipelines, Refinamento Técnico). <strong>É importante ressaltar que, embora este seja um projeto front-end, não tenho intenção de seguir essa carreira.</strong> Meu foco é 90% back-end e devops."
       },
       "internIoasys": {
         "period": "De 02/2020 Até 02/2021",
@@ -96,7 +96,7 @@
       "title": "Idiomas, interesses e hobbies",
       "english": {
         "name": "Inglês",
-        "description": "Capaz de escrever, ler e ouvir sem problemas. Também consigo conversar tranquilamente com pequenos delays na fala de vez em quando. Estou no nível avançado."
+        "description": "Capaz de falar, escrever, ler e ouvir."
       },
       "portuguese": {
         "name": "Português",
