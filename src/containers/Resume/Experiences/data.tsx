@@ -31,7 +31,11 @@ export const experiences = (): Experience[] => [
           id: "experiences.education.microservicesApplications.period",
         }),
         name: (
-          <a href="https://drive.google.com/file/d/1MdN-qK_8Pfg6YI3TSfSa5_2-FHmqGxEP/view?usp=sharing" target="_blank">
+          <a
+            href="https://drive.google.com/file/d/1MdN-qK_8Pfg6YI3TSfSa5_2-FHmqGxEP/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
             {fmt({
               id: "experiences.education.microservicesApplications.name",
             })}
@@ -39,15 +43,20 @@ export const experiences = (): Experience[] => [
         ),
         description: (
           <>
-            {fmt({ id: "experiences.education.microservicesApplications.introduction" })}
+            {fmt({
+              id:
+                "experiences.education.microservicesApplications.introduction",
+            })}
             <ul>
               <li>
                 <strong>DevOps</strong> - Git Flow, Docker, CI/CD, Kubernetes,
-                Terraform, Ansible, Service Mesh (Istio), ElasticStack and Prometheus.
+                Terraform, Ansible, Service Mesh (Istio), ElasticStack and
+                Prometheus.
               </li>
               <li>
-                <strong>Software Engineering</strong> - Services and Microservices,
-                DDD, REST, gRPC, GraphQL, Service Discovery, RabbitMQ, Kafka and BFF
+                <strong>Software Engineering</strong> - Services and
+                Microservices, DDD, REST, gRPC, GraphQL, Service Discovery,
+                RabbitMQ, Kafka and BFF
               </li>
               <li>
                 <strong>Domain Driven Design</strong> - Ubiquitous Language,
@@ -67,7 +76,11 @@ export const experiences = (): Experience[] => [
       {
         period: fmt({ id: "experiences.education.interJava.period" }),
         name: (
-          <a href="https://certificates.digitalinnovation.one/247D11F0" target="_blank">
+          <a
+            href="https://certificates.digitalinnovation.one/247D11F0"
+            target="_blank"
+            rel="noreferrer"
+          >
             {fmt({ id: "experiences.education.interJava.name" })}
           </a>
         ),
@@ -78,7 +91,11 @@ export const experiences = (): Experience[] => [
       {
         period: fmt({ id: "experiences.education.gftJava.period" }),
         name: (
-          <a href="https://certificates.digitalinnovation.one/76784B06" target="_blank">
+          <a
+            href="https://certificates.digitalinnovation.one/76784B06"
+            target="_blank"
+            rel="noreferrer"
+          >
             {fmt({ id: "experiences.education.gftJava.name" })}
           </a>
         ),
@@ -89,14 +106,24 @@ export const experiences = (): Experience[] => [
       {
         period: fmt({ id: "experiences.education.frontEndDev.period" }),
         name: (
-          <a href="https://cursos.alura.com.br/user/axell-b/career/desenvolvedor-front-end/certificate" target="_blank">
+          <a
+            href="https://cursos.alura.com.br/user/axell-b/career/desenvolvedor-front-end/certificate"
+            target="_blank"
+            rel="noreferrer"
+          >
             {fmt({ id: "experiences.education.frontEndDev.name" })}
           </a>
         ),
         description: (
           <>
             {fmt({ id: "experiences.education.frontEndDev.description" })}{" "}
-            <a href="https://cursos.alura.com.br/user/axell-b" target="_blank">Alura</a>
+            <a
+              href="https://cursos.alura.com.br/user/axell-b"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Alura
+            </a>
           </>
         ),
       },
@@ -107,67 +134,75 @@ export const experiences = (): Experience[] => [
     title: fmt({ id: "experiences.experiences.title" }),
     items: [
       {
-        period: (
-          <>
-            {fmt({ id: "experiences.experiences.google.period" })}
-          </>
+        period: <>{fmt({ id: "experiences.experiences.google.period" })}</>,
+        name: (
+          <div
+            dangerouslySetInnerHTML={{
+              __html: fmt({ id: "experiences.experiences.google.name" }),
+            }}
+          />
         ),
-        name:
-          <div dangerouslySetInnerHTML={{
-            __html: fmt({ id: "experiences.experiences.google.name" })
-          }} />,
         description: (
-          <div dangerouslySetInnerHTML={{
-            __html: fmt({ id: "experiences.experiences.google.description" })
-          }} />
+          <div
+            dangerouslySetInnerHTML={{
+              __html: fmt({ id: "experiences.experiences.google.description" }),
+            }}
+          />
+        ),
+      },
+      {
+        period: <>{fmt({ id: "experiences.experiences.accenture.period" })}</>,
+        name: (
+          <div
+            dangerouslySetInnerHTML={{
+              __html: fmt({ id: "experiences.experiences.accenture.name" }),
+            }}
+          />
+        ),
+        description: (
+          <div
+            dangerouslySetInnerHTML={{
+              __html: fmt({
+                id: "experiences.experiences.accenture.description",
+              }),
+            }}
+          />
         ),
       },
       {
         period: (
-          <>
-            {fmt({ id: "experiences.experiences.accenture.period" })}
-          </>
+          <>{fmt({ id: "experiences.experiences.internIoasys.period" })}</>
         ),
-        name:
-          <div dangerouslySetInnerHTML={{
-            __html: fmt({ id: "experiences.experiences.accenture.name" })
-          }} />,
+        name: (
+          <div
+            dangerouslySetInnerHTML={{
+              __html: fmt({ id: "experiences.experiences.internIoasys.name" }),
+            }}
+          />
+        ),
         description: (
-          <div dangerouslySetInnerHTML={{
-            __html: fmt({ id: "experiences.experiences.accenture.description" })
-          }} />
+          <div
+            dangerouslySetInnerHTML={{
+              __html: fmt({
+                id: "experiences.experiences.internIoasys.description",
+              }),
+            }}
+          />
         ),
       },
       {
         period: (
-          <>
-            {fmt({ id: "experiences.experiences.internIoasys.period" })}
-          </>
+          <>{fmt({ id: "experiences.experiences.webDevIntern.period" })}</>
         ),
-        name:
-          <div dangerouslySetInnerHTML={{
-            __html: fmt({ id: "experiences.experiences.internIoasys.name" })
-          }} />,
+        name: (
+          <div
+            dangerouslySetInnerHTML={{
+              __html: fmt({ id: "experiences.experiences.webDevIntern.name" }),
+            }}
+          />
+        ),
         description: (
-          <div dangerouslySetInnerHTML={{
-            __html: fmt({ id: "experiences.experiences.internIoasys.description" })
-          }} />
-        ),
-      },
-      {
-        period: (
-          <>
-            {fmt({ id: "experiences.experiences.webDevIntern.period" })}
-          </>
-        ),
-        name: 
-        <div dangerouslySetInnerHTML={{
-          __html: fmt({ id: "experiences.experiences.webDevIntern.name" })
-        }} />,
-        description: (
-          <>
-            {fmt({ id: "experiences.experiences.webDevIntern.description" })}
-          </>
+          <>{fmt({ id: "experiences.experiences.webDevIntern.description" })}</>
         ),
       },
     ],
@@ -180,60 +215,98 @@ export const experiences = (): Experience[] => [
         period: <>{fmt({ id: "experiences.projects.localizaLabs.period" })}</>,
         name: (
           <>
-            <a href="https://github.com/matheussinnis/ProjetoLocalizaLabsAPI" target="_blank">
+            <a
+              href="https://github.com/matheussinnis/ProjetoLocalizaLabsAPI"
+              target="_blank"
+              rel="noreferrer"
+            >
               {fmt({ id: "experiences.projects.localizaLabs.name" })}
             </a>
           </>
         ),
         description: (
-          <div dangerouslySetInnerHTML={{
-            __html: fmt({ id: "experiences.projects.localizaLabs.description" })
-          }} />
+          <div
+            dangerouslySetInnerHTML={{
+              __html: fmt({
+                id: "experiences.projects.localizaLabs.description",
+              }),
+            }}
+          />
         ),
       },
       {
-        period: <>{fmt({ id: "experiences.projects.ecommerceMicroservices.period" })}</>,
+        period: (
+          <>
+            {fmt({ id: "experiences.projects.ecommerceMicroservices.period" })}
+          </>
+        ),
         name: (
           <>
-            <a href="https://github.com/axellbrendow/dio-spring-ecommerce-microservices" target="_blank">
+            <a
+              href="https://github.com/axellbrendow/dio-spring-ecommerce-microservices"
+              target="_blank"
+              rel="noreferrer"
+            >
               {fmt({ id: "experiences.projects.ecommerceMicroservices.name" })}
             </a>
           </>
         ),
         description: (
-          <div dangerouslySetInnerHTML={{
-            __html: fmt({ id: "experiences.projects.ecommerceMicroservices.description" })
-          }} />
+          <div
+            dangerouslySetInnerHTML={{
+              __html: fmt({
+                id: "experiences.projects.ecommerceMicroservices.description",
+              }),
+            }}
+          />
         ),
       },
       {
-        period: <>{fmt({ id: "experiences.projects.webfluxStockQuote.period" })}</>,
+        period: (
+          <>{fmt({ id: "experiences.projects.webfluxStockQuote.period" })}</>
+        ),
         name: (
           <>
-            <a href="https://github.com/axellbrendow/dio-spring-webflux-stock-quote" target="_blank">
+            <a
+              href="https://github.com/axellbrendow/dio-spring-webflux-stock-quote"
+              target="_blank"
+              rel="noreferrer"
+            >
               {fmt({ id: "experiences.projects.webfluxStockQuote.name" })}
             </a>
           </>
         ),
         description: (
-          <div dangerouslySetInnerHTML={{
-            __html: fmt({ id: "experiences.projects.webfluxStockQuote.description" })
-          }} />
+          <div
+            dangerouslySetInnerHTML={{
+              __html: fmt({
+                id: "experiences.projects.webfluxStockQuote.description",
+              }),
+            }}
+          />
         ),
       },
       {
         period: <>{fmt({ id: "experiences.projects.devOpsModule.period" })}</>,
         name: (
           <>
-            <a href="https://github.com/axellbrendow/microservices-devops-challenge01" target="_blank">
+            <a
+              href="https://github.com/axellbrendow/microservices-devops-challenge01"
+              target="_blank"
+              rel="noreferrer"
+            >
               {fmt({ id: "experiences.projects.devOpsModule.name" })}
             </a>
           </>
         ),
         description: (
-          <div dangerouslySetInnerHTML={{
-            __html: fmt({ id: "experiences.projects.devOpsModule.description" })
-          }} />
+          <div
+            dangerouslySetInnerHTML={{
+              __html: fmt({
+                id: "experiences.projects.devOpsModule.description",
+              }),
+            }}
+          />
         ),
       },
       // {
@@ -242,7 +315,11 @@ export const experiences = (): Experience[] => [
       //   ),
       //   name: (
       //     <>
-      //       <a href="https://github.com/axellbrendow/image-processing-work" target="_blank">
+      //       <a
+      //         href="https://github.com/axellbrendow/image-processing-work"
+      //         target="_blank"
+      //         rel="noreferrer"
+      //       >
       //         {fmt({ id: "experiences.projects.imageProcessing.name" })}
       //       </a>
       //     </>
@@ -259,9 +336,7 @@ export const experiences = (): Experience[] => [
     items: [
       {
         period: <></>,
-        name: (
-          <>{fmt({ id: "experiences.interests.english.name" })}</>
-        ),
+        name: <>{fmt({ id: "experiences.interests.english.name" })}</>,
         description: (
           <>
             {fmt({
@@ -272,9 +347,7 @@ export const experiences = (): Experience[] => [
       },
       {
         period: <></>,
-        name: (
-          <>{fmt({ id: "experiences.interests.portuguese.name" })}</>
-        ),
+        name: <>{fmt({ id: "experiences.interests.portuguese.name" })}</>,
         description: (
           <>
             {fmt({

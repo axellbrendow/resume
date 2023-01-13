@@ -12,9 +12,8 @@ const ContactContainer = ({
   srOnlyAnchorChildren,
 }: Contact) => (
   <li key={classNameLi} className={`${classNameLi} col-sm-6 col-md`}>
-    <i className={`${iconType} fa-${iconName}`} />
-    {' '}
-    <a href={anchorHref}>
+    <i className={`${iconType} fa-${iconName}`} />{" "}
+    <a href={anchorHref} target="_blank" rel="noreferrer">
       <span className="sr-only">{srOnlyAnchorChildren}</span>
       {anchorChildren}
     </a>
@@ -26,7 +25,9 @@ const Contacts = () => (
     <h2>
       <i className="fas fa-address-card" /> {fmt({ id: "contacts.title" })}
     </h2>
-    <ul className="informations row mt-4">{getContacts().map(ContactContainer)}</ul>
+    <ul className="informations row mt-4">
+      {getContacts().map(ContactContainer)}
+    </ul>
   </section>
 );
 

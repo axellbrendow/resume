@@ -46,7 +46,7 @@
       "devOpsModule": {
         "period": "De 07/2020 Até 08/2020",
         "name": "Desafio de DevOps",
-        "description": "Desafios do módulo de DevOps do meu <a href=\"https://drive.google.com/file/d/1MdN-qK_8Pfg6YI3TSfSa5_2-FHmqGxEP/view?usp=sharing\" target=\"_blank\">curso de microsserviços</a>. Nginx + Laravel + Redis + MySQL com docker-compose, Kubernetes e pipelines de integração contínua e deploy contínuo num Cluster Kubernetes no Google Cloud Platform."
+        "description": "Desafios do módulo de DevOps do meu <a href=\"https://drive.google.com/file/d/1MdN-qK_8Pfg6YI3TSfSa5_2-FHmqGxEP/view?usp=sharing\" target=\"_blank\" rel=\"noreferrer\">curso de microsserviços</a>. Nginx + Laravel + Redis + MySQL com docker-compose, Kubernetes e pipelines de integração contínua e deploy contínuo num Cluster Kubernetes no Google Cloud Platform."
       },
       "imageProcessing": {
         "period": "De 10/2020 Até 11/2020",
@@ -56,7 +56,7 @@
       "localizaLabs": {
         "period": "De 01/2021 Até 02/2021",
         "name": "Localiza Labs API (120hrs)",
-        "description": "O <a href=\"https://corp.gama.academy/localiza-labs/inscricao\" target=\"_blank\">Localiza Labs Academy</a> foi um programa que selecionou, dentre milhares, 20 candidatos para um treinamento intensivo de .NET em 3 semanas tendo desenvolvimento de um desafio no final. Este projeto foi o <strong>vencedor 🏆</strong> na área de backend. Criamos uma API REST .NET 5 com SQL Server, Kubernetes, CI/CD Azure DevOps, Docker-Compose e Unit Tests. <a href=\"https://drive.google.com/file/d/1E0Hf4IWn9TRrooU_zOka3t03pjf18ukF/view\" target=\"_blank\">Certificado</a>"
+        "description": "O <a href=\"https://corp.gama.academy/localiza-labs/inscricao\" target=\"_blank\" rel=\"noreferrer\">Localiza Labs Academy</a> foi um programa que selecionou, dentre milhares, 20 candidatos para um treinamento intensivo de .NET em 3 semanas tendo desenvolvimento de um desafio no final. Este projeto foi o <strong>vencedor 🏆</strong> na área de backend. Criamos uma API REST .NET 5 com SQL Server, Kubernetes, CI/CD Azure DevOps, Docker-Compose e Unit Tests. <a href=\"https://drive.google.com/file/d/1E0Hf4IWn9TRrooU_zOka3t03pjf18ukF/view\" target=\"_blank\" rel=\"noreferrer\">Certificado</a>"
       },
       "ecommerceMicroservices": {
         "period": "De 09/2021 Até 09/2021",
@@ -73,22 +73,22 @@
       "title": "Experiências",
       "google": {
         "period": "De 01/2022 Até o momento",
-        "name": "Software Engineer - <a href=\"https://about.google/\" target=\"_blank\">Google</a>",
+        "name": "Software Engineer - <a href=\"https://about.google/\" target=\"_blank\" rel=\"noreferrer\">Google</a>",
         "description": "Desenhando, desenvolvendo e implantando diferentes projetos em diferentes linguagens."
       },
       "accenture": {
         "period": "De 04/2021 Até 01/2022",
-        "name": "Application Development Analyst - <a href=\"https://www.accenture.com/\" target=\"_blank\">Accenture</a>",
+        "name": "Application Development Analyst - <a href=\"https://www.accenture.com/\" target=\"_blank\" rel=\"noreferrer\">Accenture</a>",
         "description": "<span style=\"text-decoration: underline;\">No 1º projeto</span>, fui designado a entender uma necessidade do time de SAP e criar uma solução do zero, incluindo layout, frontend (React), backend (Node), banco de dados (Postgres) e infraestrutura na AWS (EC2, S3 e RDS).<br><span style=\"text-decoration: underline;\">No 2º projeto</span>, atuei como líder técnico front-end React. Nossa missão foi melhorar a acessibilidade de vários sites de uma grande empresa na área de saúde no Brasil. Isso envolve fazer testes com leitores de tela, contraste de cores e outras coisas descritas nas normas da WCAG. Ajudei a equipe tanto no desenvolvimento das tarefas quanto na organização do projeto (Git Flow, Code Review, CI/CD Pipelines, Refinamento Técnico). <strong>É importante ressaltar que, embora este seja um projeto front-end, não tenho intenção de seguir essa carreira.</strong> Meu foco é 90% back-end e devops."
       },
       "internIoasys": {
         "period": "De 02/2020 Até 02/2021",
-        "name": "Estagiário de Desenvolvimento Full Stack - <a href=\"https://ioasys.com.br/\" target=\"_blank\">Ioasys</a>",
+        "name": "Estagiário de Desenvolvimento Full Stack - <a href=\"https://ioasys.com.br/\" target=\"_blank\" rel=\"noreferrer\">Ioasys</a>",
         "description": "Participação em 2 projetos de desenvolvimento.<br><span style=\"text-decoration: underline;\">O último</span>, uma API Ruby on Rails com infra na AWS (EC2, RDS e S3 com upload de vídeos), foi o maior desafio, pois em 2 semanas tive que assumir sozinho o projeto ficando sobre a minha responsabilidade a infraestrutura na AWS, o desenvolvimento do back-end, os deploys e atualizações no banco de dados de produção.<br><span style=\"text-decoration: underline;\">O penúltimo</span>, um projeto Node Serverless na AWS, foi uma integração de autenticação via SAML 2.0. Ficou sobre a minha responsabilidade boa parte do ciclo do projeto: concepção, reuniões técnicas com o cliente, desenvolvimento, testes automatizados e deploy."
       },
       "webDevIntern": {
         "period": "De 03/2019 Até 12/2019",
-        "name": "Estagiário de Desenvolvimento Web - <a href=\"https://crc.pucminas.br/\" target=\"_blank\">CRC do ICEI</a>",
+        "name": "Estagiário de Desenvolvimento Web - <a href=\"https://crc.pucminas.br/\" target=\"_blank\" rel=\"noreferrer\">CRC do ICEI</a>",
         "description": "Responsável pela concepção, desenvolvimento, teste e deploy de uma aplicação interna da universidade onde os técnicos poderiam pingar as máquinas de vários laboratórios e saber como estava o status delas. Tecnologias: HTML, CSS, JavaScript, PHP, Laravel, MySQL, Docker, Nginx."
       }
     },

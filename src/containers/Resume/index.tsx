@@ -21,7 +21,7 @@ const ReactLogoContainerStyle = styled.div`
 
 const ReactLogoContainer = () => (
   <ReactLogoContainerStyle>
-    <a href="https://pt-br.reactjs.org/">
+    <a href="https://pt-br.reactjs.org/" target="_blank" rel="noreferrer">
       <ReactLogo />
     </a>
     <p>{fmt({ id: "madeIn" })} React :D</p>
