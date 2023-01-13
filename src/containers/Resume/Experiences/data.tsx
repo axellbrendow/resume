@@ -107,7 +107,7 @@ export const experiences = (): Experience[] => [
         period: fmt({ id: "experiences.education.frontEndDev.period" }),
         name: (
           <a
-            href="https://cursos.alura.com.br/user/axell-b/career/desenvolvedor-front-end/certificate"
+            href="https://cursos.alura.com.br/user/axellbrendow/career/desenvolvedor-front-end/certificate"
             target="_blank"
             rel="noreferrer"
           >
@@ -118,7 +118,7 @@ export const experiences = (): Experience[] => [
           <>
             {fmt({ id: "experiences.education.frontEndDev.description" })}{" "}
             <a
-              href="https://cursos.alura.com.br/user/axell-b"
+              href="https://cursos.alura.com.br/user/axellbrendow"
               target="_blank"
               rel="noreferrer"
             >
