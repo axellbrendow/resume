@@ -34,7 +34,7 @@ export const experiences = (): Experience[] => [
           <a
             href="https://drive.google.com/file/d/1MdN-qK_8Pfg6YI3TSfSa5_2-FHmqGxEP/view?usp=sharing"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             {fmt({
               id: "experiences.education.microservicesApplications.name",
@@ -79,7 +79,7 @@ export const experiences = (): Experience[] => [
           <a
             href="https://certificates.digitalinnovation.one/247D11F0"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             {fmt({ id: "experiences.education.interJava.name" })}
           </a>
@@ -94,7 +94,7 @@ export const experiences = (): Experience[] => [
           <a
             href="https://certificates.digitalinnovation.one/76784B06"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             {fmt({ id: "experiences.education.gftJava.name" })}
           </a>
@@ -109,7 +109,7 @@ export const experiences = (): Experience[] => [
           <a
             href="https://cursos.alura.com.br/user/axellbrendow/career/desenvolvedor-front-end/certificate"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             {fmt({ id: "experiences.education.frontEndDev.name" })}
           </a>
@@ -120,7 +120,7 @@ export const experiences = (): Experience[] => [
             <a
               href="https://cursos.alura.com.br/user/axellbrendow"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Alura
             </a>
@@ -218,7 +218,7 @@ export const experiences = (): Experience[] => [
             <a
               href="https://github.com/matheussinnis/ProjetoLocalizaLabsAPI"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               {fmt({ id: "experiences.projects.localizaLabs.name" })}
             </a>
@@ -245,7 +245,7 @@ export const experiences = (): Experience[] => [
             <a
               href="https://github.com/axellbrendow/dio-spring-ecommerce-microservices"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               {fmt({ id: "experiences.projects.ecommerceMicroservices.name" })}
             </a>
@@ -270,7 +270,7 @@ export const experiences = (): Experience[] => [
             <a
               href="https://github.com/axellbrendow/dio-spring-webflux-stock-quote"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               {fmt({ id: "experiences.projects.webfluxStockQuote.name" })}
             </a>
@@ -293,7 +293,7 @@ export const experiences = (): Experience[] => [
             <a
               href="https://github.com/axellbrendow/microservices-devops-challenge01"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               {fmt({ id: "experiences.projects.devOpsModule.name" })}
             </a>
@@ -318,7 +318,7 @@ export const experiences = (): Experience[] => [
       //       <a
       //         href="https://github.com/axellbrendow/image-processing-work"
       //         target="_blank"
-      //         rel="noreferrer"
+      //         rel="noopener noreferrer"
       //       >
       //         {fmt({ id: "experiences.projects.imageProcessing.name" })}
       //       </a>

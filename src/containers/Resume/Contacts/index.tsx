@@ -13,7 +13,7 @@ const ContactContainer = ({
 }: Contact) => (
   <li key={classNameLi} className={`${classNameLi} col-sm-6 col-md`}>
     <i className={`${iconType} fa-${iconName}`} />{" "}
-    <a href={anchorHref} target="_blank" rel="noreferrer">
+    <a href={anchorHref} target="_blank" rel="noopener noreferrer">
       <span className="sr-only">{srOnlyAnchorChildren}</span>
       {anchorChildren}
     </a>
