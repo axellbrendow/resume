@@ -32,7 +32,7 @@ export const experiences = (): Experience[] => [
         }),
         name: (
           <a
-            href="https://drive.google.com/file/d/1MdN-qK_8Pfg6YI3TSfSa5_2-FHmqGxEP/view?usp=sharing"
+            href="https://drive.google.com/file/d/1bJnFxQPKgSsI30sCvW-KzYK4V5JWzgSs/view?usp=share_link"
             target="_blank"
             rel="noopener noreferrer"
           >
