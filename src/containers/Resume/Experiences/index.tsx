@@ -16,14 +16,16 @@ const ExperienceItemContainer = ({
     }
     className="row mb-3"
   >
-    <div className="col-sm-3">
-      <strong className="period">{period}</strong>
-    </div>
-    <div className="col-sm-9">
-      <p className="name">
-        <strong>{name}</strong>
-      </p>
-      <div className="description">{description}</div>
+    <div className="col">
+      <div>
+        <strong className="period">{period}</strong>
+      </div>
+      <div>
+        <p className="name">
+          <strong>{name}</strong>
+        </p>
+        <div className="description">{description}</div>
+      </div>
     </div>
   </li>
 );
