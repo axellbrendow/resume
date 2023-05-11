@@ -24,7 +24,9 @@ const languages = Object.values(LANGUAGES);
 
 const LanguageList = () => (
   <LanguageListStyle>
-    <span className="sr-only">{fmt({ id: "presentation.availableLanguages" })}</span>
+    <span className="sr-only">
+      {fmt({ id: "presentation.availableLanguages" })}
+    </span>
     {languages.map(language => (
       <LanguageItem key={language.locale}>
         {/* <LanguageButton onClick={() => changeLang(language.locale)}>

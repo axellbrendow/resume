@@ -9,7 +9,7 @@ import LanguageList from "components/core/LanguageList";
 const Presentation = () => (
   <section className="presentation-section">
     <div className="presentation container row">
-      <div className="name col-sm">
+      <div className="name col-sm pb-3">
         {/* <img src={MyPhoto} alt="Me" className="photo" /> */}
         <h1 className="h2">Axell Brendow Batista Moreira</h1>
       </div>

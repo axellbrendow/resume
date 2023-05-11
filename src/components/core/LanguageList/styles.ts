@@ -8,7 +8,7 @@ export const LanguageListStyle = styled.ul`
 export const LanguageItem = styled.li`
   display: inline-block;
 
-  :not(:first-child) {
+  :not(:first-child) + li {
     margin-left: 40px;
   }
 `;
