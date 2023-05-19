@@ -49,25 +49,33 @@ export const experiences = (): Experience[] => [
             })}
             <ul>
               <li>
-                <strong>DevOps</strong> - Git Flow, Docker, CI/CD, Kubernetes,
-                Terraform, Ansible, Service Mesh (Istio), ElasticStack and
-                Prometheus.
+                <strong>DevOps</strong> - Git Flow, Docker, CI/CD, SonarQube,
+                Kubernetes, Terraform, Ansible, Service Mesh (Istio), API
+                Gateway, Rate Limiting, ElasticStack, Prometheus, Grafana, Open
+                Telemetry.
               </li>
               <li>
-                <strong>Software Engineering</strong> - Services and
-                Microservices, DDD, REST, gRPC, GraphQL, Service Discovery,
-                RabbitMQ, Kafka and BFF
+                <strong>Software Engineering</strong> - Monoliths vs
+                Microservices, C4 Diagrams, Clean Code, SOLID, Hexagonal
+                Architecture, Dependency Inversion, Dependency Injection, DDD,
+                REST, BFF, gRPC, GraphQL, Service Discovery, RabbitMQ, Kafka,
+                SAGA Pattern (Orchestration vs Choreography).
               </li>
               <li>
                 <strong>Domain Driven Design</strong> - Ubiquitous Language,
-                Bounded Contexts, Context Map and Strategic Modeling
+                Bounded Contexts, Context Map, Strategic Modeling, Value
+                Objects, Entities, Aggregates, Domain Services, Domain Events.
               </li>
               <li>
-                <strong>Node.JS</strong> - Microservices, TypeScript,
-                ElasticSearch, Messaging, Docker, Loopback
+                <strong>Event Driven Architecture</strong> - Event notification,
+                Event sourcing, Event collaboration, CQRS, Unit of Work.
               </li>
               <li>
-                <strong>Golang</strong> - Goroutines, Workers, JobService
+                <strong>Java 17</strong> - Gradle, Groovy, Spring Boot, JUnit,
+                Mockito.
+              </li>
+              <li>
+                <strong>Golang</strong> - Goroutines, Workers, JobService.
               </li>
             </ul>
           </>
@@ -103,30 +111,30 @@ export const experiences = (): Experience[] => [
           <>{fmt({ id: "experiences.education.gftJava.description" })}</>
         ),
       },
-      {
-        period: fmt({ id: "experiences.education.frontEndDev.period" }),
-        name: (
-          <a
-            href="https://cursos.alura.com.br/user/axellbrendow/career/desenvolvedor-front-end/certificate"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {fmt({ id: "experiences.education.frontEndDev.name" })}
-          </a>
-        ),
-        description: (
-          <>
-            {fmt({ id: "experiences.education.frontEndDev.description" })}{" "}
-            <a
-              href="https://cursos.alura.com.br/user/axellbrendow"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Alura
-            </a>
-          </>
-        ),
-      },
+      // {
+      //   period: fmt({ id: "experiences.education.frontEndDev.period" }),
+      //   name: (
+      //     <a
+      //       href="https://cursos.alura.com.br/user/axellbrendow/career/desenvolvedor-front-end/certificate"
+      //       target="_blank"
+      //       rel="noopener noreferrer"
+      //     >
+      //       {fmt({ id: "experiences.education.frontEndDev.name" })}
+      //     </a>
+      //   ),
+      //   description: (
+      //     <>
+      //       {fmt({ id: "experiences.education.frontEndDev.description" })}{" "}
+      //       <a
+      //         href="https://cursos.alura.com.br/user/axellbrendow"
+      //         target="_blank"
+      //         rel="noopener noreferrer"
+      //       >
+      //         Alura
+      //       </a>
+      //     </>
+      //   ),
+      // },
     ],
   },
   {
