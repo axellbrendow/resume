@@ -51,15 +51,15 @@ export const experiences = (): Experience[] => [
               <li>
                 <strong>DevOps</strong> - Git Flow, Docker, CI/CD, SonarQube,
                 Kubernetes, Terraform, Ansible, Service Mesh (Istio), API
-                Gateway, Rate Limiting, ElasticStack, Prometheus, Grafana, Open
-                Telemetry.
+                Gateway, Kong, Rate Limiting, ElasticStack, Prometheus, Grafana,
+                Open Telemetry.
               </li>
               <li>
                 <strong>Software Engineering</strong> - Monoliths vs
-                Microservices, C4 Diagrams, Clean Code, SOLID, Hexagonal
-                Architecture, Dependency Inversion, Dependency Injection, DDD,
-                REST, BFF, gRPC, GraphQL, Service Discovery, RabbitMQ, Kafka,
-                SAGA Pattern (Orchestration vs Choreography).
+                Microservices, SQL vs NoSQL, C4 Diagrams, Clean Code, SOLID,
+                Hexagonal Architecture, Dependency Inversion, Dependency
+                Injection, DDD, REST, BFF, gRPC, GraphQL, Service Discovery,
+                RabbitMQ, Kafka, SAGA Pattern (Orchestration vs Choreography).
               </li>
               <li>
                 <strong>Domain Driven Design</strong> - Ubiquitous Language,
