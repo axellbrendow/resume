@@ -85,7 +85,7 @@ export const experiences = (): Experience[] => [
         period: fmt({ id: "experiences.education.interJava.period" }),
         name: (
           <a
-            href="https://certificates.digitalinnovation.one/247D11F0"
+            href="https://drive.google.com/file/d/1FbcMmesNN53tPjX8OfAgH6RXAzNjQDAS/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
           >

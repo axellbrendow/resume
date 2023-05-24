@@ -18,7 +18,7 @@
       "graduation": {
         "period": "De 02/2018 Até 12/2021",
         "name": "Graduação em Ciência da Computação",
-        "description": "Na Pontifícia Universidade Católica de Minas Gerais"
+        "description": "Na Pontifícia Universidade Católica de Minas Gerais (PUC Minas)."
       },
       "frontEndDev": {
         "period": "De 07/2018 Até 08/2018",
@@ -46,7 +46,7 @@
       "devOpsModule": {
         "period": "De 07/2020 Até 08/2020",
         "name": "Desafio de DevOps",
-        "description": "Desafios do módulo de DevOps do meu <a href=\"https://drive.google.com/file/d/1MdN-qK_8Pfg6YI3TSfSa5_2-FHmqGxEP/view?usp=sharing\" target=\"_blank\" rel=\"noreferrer\">curso de microsserviços</a>. Nginx + Laravel + Redis + MySQL com docker-compose, Kubernetes e pipelines de integração contínua e deploy contínuo num Cluster Kubernetes no Google Cloud Platform."
+        "description": "Desafios do módulo de DevOps do meu <a href=\"https://drive.google.com/file/d/1bJnFxQPKgSsI30sCvW-KzYK4V5JWzgSs/view?usp=share_link\" target=\"_blank\" rel=\"noreferrer\">curso de microsserviços</a>. Nginx + Laravel + Redis + MySQL com docker-compose, Kubernetes e pipelines de integração contínua e deploy contínuo num Cluster Kubernetes no Google Cloud Platform."
       },
       "imageProcessing": {
         "period": "De 10/2020 Até 11/2020",
@@ -56,7 +56,7 @@
       "localizaLabs": {
         "period": "De 01/2021 Até 02/2021",
         "name": "Localiza Labs API (120hrs)",
-        "description": "O <a href=\"https://corp.gama.academy/localiza-labs/inscricao\" target=\"_blank\" rel=\"noreferrer\">Localiza Labs Academy</a> foi um programa que selecionou, dentre milhares, 20 candidatos para um treinamento intensivo de .NET em 3 semanas tendo desenvolvimento de um desafio no final. Este projeto foi o <strong>vencedor 🏆</strong> na área de backend. Criamos uma API REST .NET 5 com SQL Server, Kubernetes, CI/CD Azure DevOps, Docker-Compose e Unit Tests. <a href=\"https://drive.google.com/file/d/1E0Hf4IWn9TRrooU_zOka3t03pjf18ukF/view\" target=\"_blank\" rel=\"noreferrer\">Certificado</a>"
+        "description": "O Localiza Labs Academy foi um programa que selecionou, dentre milhares, 20 candidatos para um treinamento intensivo de .NET em 3 semanas tendo desenvolvimento de um desafio no final. Este projeto foi o <strong>vencedor 🏆</strong> na área de backend. Criamos uma API REST .NET 5 com SQL Server, Kubernetes, CI/CD Azure DevOps, Docker-Compose e Unit Tests. <a href=\"https://drive.google.com/file/d/1E0Hf4IWn9TRrooU_zOka3t03pjf18ukF/view\" target=\"_blank\" rel=\"noreferrer\">Certificado</a>"
       },
       "ecommerceMicroservices": {
         "period": "De 09/2021 Até 09/2021",
@@ -88,7 +88,7 @@
       },
       "webDevIntern": {
         "period": "De 03/2019 Até 12/2019",
-        "name": "Estagiário de Desenvolvimento Web - <a href=\"https://crc.pucminas.br/\" target=\"_blank\" rel=\"noreferrer\">CRC do ICEI</a>",
+        "name": "Estagiário de Desenvolvimento Web - <a href=\"https://crc.pucminas.br/\" target=\"_blank\" rel=\"noreferrer\">PUC Minas</a>",
         "description": "Responsável pela concepção, desenvolvimento, teste e deploy de uma aplicação interna da universidade onde os técnicos poderiam pingar as máquinas de vários laboratórios e saber como estava o status delas. Tecnologias: HTML, CSS, JavaScript, PHP, Laravel, MySQL, Docker, Nginx."
       }
     },
