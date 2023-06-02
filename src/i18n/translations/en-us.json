@@ -84,7 +84,7 @@
       "internIoasys": {
         "period": "From 02/2020 Until 02/2021",
         "name": "Full Stack Development Intern - <a href=\"https://ioasys.com.br/\" target=\"_blank\" rel=\"noreferrer\">Ioasys</a>",
-        "description": "Participation in 2 development projects.<br><span style=\"text-decoration: underline;\">The last one</span>, a Ruby on Rails API with infrastructure on AWS (EC2, RDS and S3 with video upload), was the biggest challenge, as in 2 weeks I had to take over the project alone, and I was responsible for the infrastructure on AWS, the backend development, deploys and updates to the production database.<br><span style=\"text-decoration: underline;\">The penultimate</span>, a Node Serverless project on AWS, was an authentication integration via SAML 2.0. I was responsible for a good part of the project cycle: conception, technical meetings with the client, development, automated tests and deployment."
+        "description": "Participation in 2 development projects.<br><span style=\"text-decoration: underline;\">The last one</span>, a Ruby on Rails API with infrastructure on AWS (EC2, RDS and S3 with video upload), was the biggest challenge, as in 2 weeks I had to take over the project alone, and I was responsible for the infrastructure on AWS, the backend development, deploys and updates to the production database.<br><span style=\"text-decoration: underline;\">The penultimate</span>, a Node Serverless project using AWS Lambda, was an authentication integration via SAML 2.0. I was responsible for a good part of the project cycle: conception, technical meetings with the client, development, automated tests and deployment."
       },
       "webDevIntern": {
         "period": "From 03/2019 Until 12/2019",
