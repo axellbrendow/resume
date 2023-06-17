@@ -1,6 +1,7 @@
 {
   "title": "Resume",
   "madeIn": "Made in",
+  "brazil": "Brazil",
   "presentation": {
     "aboutMe": "About me",
     "aboutMeValue": "If you want one of the people on your team with a great mix of soft and hard skills, it's worth talking to me 😁. I consider myself a person who practices empathy on a daily basis both with my teammates, as well as with the clients or end users of my work.",
@@ -9,7 +10,7 @@
   "contacts": {
     "title": "Contact informations",
     "phone": {
-      "sr": "Phone"
+      "accessibility": "Phone"
     }
   },
   "experiences": {

@@ -1,6 +1,7 @@
 {
   "title": "Currículo",
   "madeIn": "Feito em",
+  "brazil": "Brasil",
   "presentation": {
     "aboutMe": "Sobre mim",
     "aboutMeValue": "Se você quer no seu time uma das pessoas com um ótimo mix de soft e hard skills, vale a pena uma conversa comigo 😁. Considero-me uma pessoa que pratica a empatia no dia a dia tanto com meus colegas de equipe, quanto com os clientes ou usuários finais do meu trabalho.",
@@ -9,7 +10,7 @@
   "contacts": {
     "title": "Informações de contato",
     "phone": {
-      "sr": "Telefone"
+      "accessibility": "Telefone"
     }
   },
   "experiences": {

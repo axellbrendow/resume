@@ -1,4 +1,8 @@
+import React from "react";
+
 import { fmt } from "i18n/ConfiguredI18nProvider";
+
+import { BrazilFlag } from "./styles";
 
 export interface Contact {
   classNameLi: string;
@@ -6,7 +10,7 @@ export interface Contact {
   iconName: string;
   anchorHref: string;
   anchorChildren: React.ReactNode;
-  srOnlyAnchorChildren: string;
+  accessibilityAnchorChildren: string;
 }
 
 export const getContacts = (): Contact[] => [
@@ -16,15 +20,28 @@ export const getContacts = (): Contact[] => [
     iconName: "envelope",
     anchorHref: "mailto:breno.axel@gmail.com",
     anchorChildren: "breno.axel@gmail.com",
-    srOnlyAnchorChildren: "Email:",
+    accessibilityAnchorChildren: "Email:",
   },
   {
     classNameLi: "phone",
     iconType: "fas",
     iconName: "mobile-alt",
     anchorHref: "tel:+5531989575463",
-    anchorChildren: "+55 31 98957-5463",
-    srOnlyAnchorChildren: `${fmt({ id: "contacts.phone.sr" })}:`,
+    anchorChildren: (
+      <>
+        +55 31 98957 5463
+        <BrazilFlag
+          src="https://cdn-icons-png.flaticon.com/256/4628/4628714.png"
+          alt={fmt({ id: "brazil" })}
+          title={fmt({ id: "brazil" })}
+          width="20"
+          height="20"
+        />
+      </>
+    ),
+    accessibilityAnchorChildren: `${fmt({
+      id: "contacts.phone.accessibility",
+    })}:`,
   },
   {
     classNameLi: "linkedin",
@@ -32,7 +49,7 @@ export const getContacts = (): Contact[] => [
     iconName: "linkedin-in",
     anchorHref: "https://www.linkedin.com/in/axellbrendow/",
     anchorChildren: "axellbrendow",
-    srOnlyAnchorChildren: "LinkedIn:",
+    accessibilityAnchorChildren: "LinkedIn:",
   },
   {
     classNameLi: "github",
@@ -40,6 +57,6 @@ export const getContacts = (): Contact[] => [
     iconName: "github-square",
     anchorHref: "https://github.com/axellbrendow",
     anchorChildren: "axellbrendow",
-    srOnlyAnchorChildren: "GitHub:",
+    accessibilityAnchorChildren: "GitHub:",
   },
 ];
