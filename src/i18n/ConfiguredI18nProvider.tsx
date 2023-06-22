@@ -42,9 +42,10 @@ const ConfiguredI18nProvider: React.FC = ({ children }) => {
         const messages = flattenMessages(await translations.getOne(locale));
         intl = createIntl({ locale, messages }, cache);
         fmt = intl.formatMessage;
-        setTimeout(() => {
-          setLoading(false);
-        }, 1000);
+        setLoading(false);
+        // setTimeout(() => {
+        //   setLoading(false);
+        // }, 1000);
         document.documentElement.lang = locale;
         document.title = fmt({ id: "title" });
       }
