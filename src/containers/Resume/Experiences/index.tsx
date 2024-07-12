@@ -31,7 +31,7 @@ const ExperienceItemContainer = ({
 );
 
 const ExperienceContainer = ({ title, titleIconClass, items }: Experience) => (
-  <div key={titleIconClass} className="col-sm-6">
+  <div key={titleIconClass} className="col-sm-12">
     <h3 className="title">
       <i className={`fas fa-${titleIconClass}`} /> {title}
     </h3>

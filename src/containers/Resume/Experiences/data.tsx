@@ -16,6 +16,101 @@ export interface Experience {
 
 export const experiences = (): Experience[] => [
   {
+    titleIconClass: "building",
+    title: fmt({ id: "experiences.experiences.title" }),
+    items: [
+      {
+        period: <>{fmt({ id: "experiences.experiences.zup.period" })}</>,
+        name: (
+          <div
+            dangerouslySetInnerHTML={{
+              __html: fmt({ id: "experiences.experiences.zup.name" }),
+            }}
+          />
+        ),
+        description: (
+          <div
+            dangerouslySetInnerHTML={{
+              __html: fmt({ id: "experiences.experiences.zup.description" }),
+            }}
+          />
+        ),
+      },
+      {
+        period: <>{fmt({ id: "experiences.experiences.google.period" })}</>,
+        name: (
+          <div
+            dangerouslySetInnerHTML={{
+              __html: fmt({ id: "experiences.experiences.google.name" }),
+            }}
+          />
+        ),
+        description: (
+          <div
+            dangerouslySetInnerHTML={{
+              __html: fmt({ id: "experiences.experiences.google.description" }),
+            }}
+          />
+        ),
+      },
+      {
+        period: <>{fmt({ id: "experiences.experiences.accenture.period" })}</>,
+        name: (
+          <div
+            dangerouslySetInnerHTML={{
+              __html: fmt({ id: "experiences.experiences.accenture.name" }),
+            }}
+          />
+        ),
+        description: (
+          <div
+            dangerouslySetInnerHTML={{
+              __html: fmt({
+                id: "experiences.experiences.accenture.description",
+              }),
+            }}
+          />
+        ),
+      },
+      {
+        period: (
+          <>{fmt({ id: "experiences.experiences.internIoasys.period" })}</>
+        ),
+        name: (
+          <div
+            dangerouslySetInnerHTML={{
+              __html: fmt({ id: "experiences.experiences.internIoasys.name" }),
+            }}
+          />
+        ),
+        description: (
+          <div
+            dangerouslySetInnerHTML={{
+              __html: fmt({
+                id: "experiences.experiences.internIoasys.description",
+              }),
+            }}
+          />
+        ),
+      },
+      {
+        period: (
+          <>{fmt({ id: "experiences.experiences.webDevIntern.period" })}</>
+        ),
+        name: (
+          <div
+            dangerouslySetInnerHTML={{
+              __html: fmt({ id: "experiences.experiences.webDevIntern.name" }),
+            }}
+          />
+        ),
+        description: (
+          <>{fmt({ id: "experiences.experiences.webDevIntern.description" })}</>
+        ),
+      },
+    ],
+  },
+  {
     title: fmt({ id: "experiences.education.title" }),
     titleIconClass: "graduation-cap",
     items: [
@@ -137,261 +232,183 @@ export const experiences = (): Experience[] => [
       // },
     ],
   },
-  {
-    titleIconClass: "building",
-    title: fmt({ id: "experiences.experiences.title" }),
-    items: [
-      {
-        period: <>{fmt({ id: "experiences.experiences.google.period" })}</>,
-        name: (
-          <div
-            dangerouslySetInnerHTML={{
-              __html: fmt({ id: "experiences.experiences.google.name" }),
-            }}
-          />
-        ),
-        description: (
-          <div
-            dangerouslySetInnerHTML={{
-              __html: fmt({ id: "experiences.experiences.google.description" }),
-            }}
-          />
-        ),
-      },
-      {
-        period: <>{fmt({ id: "experiences.experiences.accenture.period" })}</>,
-        name: (
-          <div
-            dangerouslySetInnerHTML={{
-              __html: fmt({ id: "experiences.experiences.accenture.name" }),
-            }}
-          />
-        ),
-        description: (
-          <div
-            dangerouslySetInnerHTML={{
-              __html: fmt({
-                id: "experiences.experiences.accenture.description",
-              }),
-            }}
-          />
-        ),
-      },
-      {
-        period: (
-          <>{fmt({ id: "experiences.experiences.internIoasys.period" })}</>
-        ),
-        name: (
-          <div
-            dangerouslySetInnerHTML={{
-              __html: fmt({ id: "experiences.experiences.internIoasys.name" }),
-            }}
-          />
-        ),
-        description: (
-          <div
-            dangerouslySetInnerHTML={{
-              __html: fmt({
-                id: "experiences.experiences.internIoasys.description",
-              }),
-            }}
-          />
-        ),
-      },
-      {
-        period: (
-          <>{fmt({ id: "experiences.experiences.webDevIntern.period" })}</>
-        ),
-        name: (
-          <div
-            dangerouslySetInnerHTML={{
-              __html: fmt({ id: "experiences.experiences.webDevIntern.name" }),
-            }}
-          />
-        ),
-        description: (
-          <>{fmt({ id: "experiences.experiences.webDevIntern.description" })}</>
-        ),
-      },
-    ],
-  },
-  {
-    titleIconClass: "folder",
-    title: fmt({ id: "experiences.projects.title" }),
-    items: [
-      {
-        period: <>{fmt({ id: "experiences.projects.localizaLabs.period" })}</>,
-        name: (
-          <>
-            <a
-              href="https://github.com/matheussinnis/ProjetoLocalizaLabsAPI"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {fmt({ id: "experiences.projects.localizaLabs.name" })}
-            </a>
-          </>
-        ),
-        description: (
-          <div
-            dangerouslySetInnerHTML={{
-              __html: fmt({
-                id: "experiences.projects.localizaLabs.description",
-              }),
-            }}
-          />
-        ),
-      },
-      {
-        period: (
-          <>
-            {fmt({ id: "experiences.projects.ecommerceMicroservices.period" })}
-          </>
-        ),
-        name: (
-          <>
-            <a
-              href="https://github.com/axellbrendow/dio-spring-ecommerce-microservices"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {fmt({ id: "experiences.projects.ecommerceMicroservices.name" })}
-            </a>
-          </>
-        ),
-        description: (
-          <div
-            dangerouslySetInnerHTML={{
-              __html: fmt({
-                id: "experiences.projects.ecommerceMicroservices.description",
-              }),
-            }}
-          />
-        ),
-      },
-      {
-        period: (
-          <>{fmt({ id: "experiences.projects.webfluxStockQuote.period" })}</>
-        ),
-        name: (
-          <>
-            <a
-              href="https://github.com/axellbrendow/dio-spring-webflux-stock-quote"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {fmt({ id: "experiences.projects.webfluxStockQuote.name" })}
-            </a>
-          </>
-        ),
-        description: (
-          <div
-            dangerouslySetInnerHTML={{
-              __html: fmt({
-                id: "experiences.projects.webfluxStockQuote.description",
-              }),
-            }}
-          />
-        ),
-      },
-      {
-        period: <>{fmt({ id: "experiences.projects.devOpsModule.period" })}</>,
-        name: (
-          <>
-            <a
-              href="https://github.com/axellbrendow/microservices-devops-challenge01"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {fmt({ id: "experiences.projects.devOpsModule.name" })}
-            </a>
-          </>
-        ),
-        description: (
-          <div
-            dangerouslySetInnerHTML={{
-              __html: fmt({
-                id: "experiences.projects.devOpsModule.description",
-              }),
-            }}
-          />
-        ),
-      },
-      // {
-      //   period: (
-      //     <>{fmt({ id: "experiences.projects.imageProcessing.period" })}</>
-      //   ),
-      //   name: (
-      //     <>
-      //       <a
-      //         href="https://github.com/axellbrendow/image-processing-work"
-      //         target="_blank"
-      //         rel="noopener noreferrer"
-      //       >
-      //         {fmt({ id: "experiences.projects.imageProcessing.name" })}
-      //       </a>
-      //     </>
-      //   ),
-      //   description: (
-      //     <>{fmt({ id: "experiences.projects.imageProcessing.description" })}</>
-      //   ),
-      // },
-    ],
-  },
-  {
-    titleIconClass: "laptop",
-    title: fmt({ id: "experiences.interests.title" }),
-    items: [
-      {
-        period: <></>,
-        name: <>{fmt({ id: "experiences.interests.english.name" })}</>,
-        description: (
-          <>
-            {fmt({
-              id: "experiences.interests.english.description",
-            })}
-          </>
-        ),
-      },
-      {
-        period: <></>,
-        name: <>{fmt({ id: "experiences.interests.portuguese.name" })}</>,
-        description: (
-          <>
-            {fmt({
-              id: "experiences.interests.portuguese.description",
-            })}
-          </>
-        ),
-      },
-      {
-        period: <></>,
-        name: (
-          <>{fmt({ id: "experiences.interests.softwareEngineering.name" })}</>
-        ),
-        description: (
-          <>
-            {fmt({
-              id: "experiences.interests.softwareEngineering.description",
-            })}
-          </>
-        ),
-      },
-      {
-        period: <></>,
-        name: (
-          <>
-            {fmt({ id: "experiences.interests.artificialIntelligence.name" })}
-          </>
-        ),
-        description: (
-          <>
-            {fmt({
-              id: "experiences.interests.artificialIntelligence.description",
-            })}
-          </>
-        ),
-      },
-    ],
-  },
+  // {
+  //   titleIconClass: "folder",
+  //   title: fmt({ id: "experiences.projects.title" }),
+  //   items: [
+  //     {
+  //       period: <>{fmt({ id: "experiences.projects.localizaLabs.period" })}</>,
+  //       name: (
+  //         <>
+  //           <a
+  //             href="https://github.com/matheussinnis/ProjetoLocalizaLabsAPI"
+  //             target="_blank"
+  //             rel="noopener noreferrer"
+  //           >
+  //             {fmt({ id: "experiences.projects.localizaLabs.name" })}
+  //           </a>
+  //         </>
+  //       ),
+  //       description: (
+  //         <div
+  //           dangerouslySetInnerHTML={{
+  //             __html: fmt({
+  //               id: "experiences.projects.localizaLabs.description",
+  //             }),
+  //           }}
+  //         />
+  //       ),
+  //     },
+  //     {
+  //       period: (
+  //         <>
+  //           {fmt({ id: "experiences.projects.ecommerceMicroservices.period" })}
+  //         </>
+  //       ),
+  //       name: (
+  //         <>
+  //           <a
+  //             href="https://github.com/axellbrendow/dio-spring-ecommerce-microservices"
+  //             target="_blank"
+  //             rel="noopener noreferrer"
+  //           >
+  //             {fmt({ id: "experiences.projects.ecommerceMicroservices.name" })}
+  //           </a>
+  //         </>
+  //       ),
+  //       description: (
+  //         <div
+  //           dangerouslySetInnerHTML={{
+  //             __html: fmt({
+  //               id: "experiences.projects.ecommerceMicroservices.description",
+  //             }),
+  //           }}
+  //         />
+  //       ),
+  //     },
+  //     {
+  //       period: (
+  //         <>{fmt({ id: "experiences.projects.webfluxStockQuote.period" })}</>
+  //       ),
+  //       name: (
+  //         <>
+  //           <a
+  //             href="https://github.com/axellbrendow/dio-spring-webflux-stock-quote"
+  //             target="_blank"
+  //             rel="noopener noreferrer"
+  //           >
+  //             {fmt({ id: "experiences.projects.webfluxStockQuote.name" })}
+  //           </a>
+  //         </>
+  //       ),
+  //       description: (
+  //         <div
+  //           dangerouslySetInnerHTML={{
+  //             __html: fmt({
+  //               id: "experiences.projects.webfluxStockQuote.description",
+  //             }),
+  //           }}
+  //         />
+  //       ),
+  //     },
+  //     {
+  //       period: <>{fmt({ id: "experiences.projects.devOpsModule.period" })}</>,
+  //       name: (
+  //         <>
+  //           <a
+  //             href="https://github.com/axellbrendow/microservices-devops-challenge01"
+  //             target="_blank"
+  //             rel="noopener noreferrer"
+  //           >
+  //             {fmt({ id: "experiences.projects.devOpsModule.name" })}
+  //           </a>
+  //         </>
+  //       ),
+  //       description: (
+  //         <div
+  //           dangerouslySetInnerHTML={{
+  //             __html: fmt({
+  //               id: "experiences.projects.devOpsModule.description",
+  //             }),
+  //           }}
+  //         />
+  //       ),
+  //     },
+  //     // {
+  //     //   period: (
+  //     //     <>{fmt({ id: "experiences.projects.imageProcessing.period" })}</>
+  //     //   ),
+  //     //   name: (
+  //     //     <>
+  //     //       <a
+  //     //         href="https://github.com/axellbrendow/image-processing-work"
+  //     //         target="_blank"
+  //     //         rel="noopener noreferrer"
+  //     //       >
+  //     //         {fmt({ id: "experiences.projects.imageProcessing.name" })}
+  //     //       </a>
+  //     //     </>
+  //     //   ),
+  //     //   description: (
+  //     //     <>{fmt({ id: "experiences.projects.imageProcessing.description" })}</>
+  //     //   ),
+  //     // },
+  //   ],
+  // },
+  // {
+  //   titleIconClass: "laptop",
+  //   title: fmt({ id: "experiences.interests.title" }),
+  //   items: [
+  //     {
+  //       period: <></>,
+  //       name: <>{fmt({ id: "experiences.interests.english.name" })}</>,
+  //       description: (
+  //         <>
+  //           {fmt({
+  //             id: "experiences.interests.english.description",
+  //           })}
+  //         </>
+  //       ),
+  //     },
+  //     {
+  //       period: <></>,
+  //       name: <>{fmt({ id: "experiences.interests.portuguese.name" })}</>,
+  //       description: (
+  //         <>
+  //           {fmt({
+  //             id: "experiences.interests.portuguese.description",
+  //           })}
+  //         </>
+  //       ),
+  //     },
+  //     {
+  //       period: <></>,
+  //       name: (
+  //         <>{fmt({ id: "experiences.interests.softwareEngineering.name" })}</>
+  //       ),
+  //       description: (
+  //         <>
+  //           {fmt({
+  //             id: "experiences.interests.softwareEngineering.description",
+  //           })}
+  //         </>
+  //       ),
+  //     },
+  //     {
+  //       period: <></>,
+  //       name: (
+  //         <>
+  //           {fmt({ id: "experiences.interests.artificialIntelligence.name" })}
+  //         </>
+  //       ),
+  //       description: (
+  //         <>
+  //           {fmt({
+  //             id: "experiences.interests.artificialIntelligence.description",
+  //           })}
+  //         </>
+  //       ),
+  //     },
+  //   ],
+  // },
 ];
