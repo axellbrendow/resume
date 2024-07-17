@@ -18,12 +18,12 @@ const ExperienceItemContainer = ({
   >
     <div className="col">
       <div>
-        <strong className="period">{period}</strong>
-      </div>
-      <div>
         <p className="name">
           <strong>{name}</strong>
         </p>
+      </div>
+      <div>
+        <strong className="period">{period}</strong>
         <div className="description">{description}</div>
       </div>
     </div>
