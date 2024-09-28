@@ -4,7 +4,7 @@
   "brazil": "Brasil",
   "presentation": {
     "aboutMe": "Sobre mim",
-    "aboutMeValue": "Comecei a programar em C quando tinha 12 anos e, desde então, apaixonei-me por essa atividade 💕. Hoje trabalho com: Desenvolvimento de backend, Sistemas distribuídos, Mensageria, Microsserviços, AWS, Docker, NodeJS, TypeScript e Java. Minhas duas soft skills principais são empatia e comunicação.",
+    "aboutMeValue": "Comecei a programar em C quando tinha 12 anos e, desde então, apaixonei-me por essa atividade 💕. Hoje trabalho com: Desenvolvimento de  e frontend, Sistemas distribuídos, Mensageria, Microsserviços, AWS, Docker, NodeJS, TypeScript e Java. Minhas duas soft skills principais são empatia e comunicação.",
     "availableLanguages": "Idiomas disponíveis"
   },
   "contacts": {
@@ -17,55 +17,60 @@
     "education": {
       "title": "Formação",
       "graduation": {
-        "period": "De 02/2018 Até 12/2021",
+        "period": "02/2018 - 12/2021",
         "name": "Graduação em Ciência da Computação",
         "description": "Na Pontifícia Universidade Católica de Minas Gerais (PUC Minas)."
       },
       "frontEndDev": {
-        "period": "De 07/2018 Até 08/2018",
+        "period": "07/2018 - 08/2018",
         "name": "Desenvolvedor Front-End (140hrs)",
         "description": "Carreira Desenvolvedor Front-end concluída na"
       },
       "microservicesApplications": {
-        "period": "De 07/2020 Até o momento",
+        "period": "07/2020 - Presente",
         "name": "Arquitetando e desenvolvendo aplicações modernas e escaláveis baseadas em Microsserviços (1000hrs+)",
         "introduction": "O curso forma Desenvolvedores Full Cycle capazes de criar ecossistemas de microsserviços do zero."
       },
       "interJava": {
-        "period": "De 02/2021 Até 03/2021",
+        "period": "02/2021 - 03/2021",
         "name": "Bootcamp Inter Java Developer (95hrs)",
         "description": "Bootcamp feito na plataforma Digital Innovation One com aprendizado de vários tópicos como Spring Boot, JPA, Kafka, Cloud Stream, Postgres, Lombok, Schema Registry, CQRS, Quarkus, Kubernetes, AWS EKS, Tests, Arquitetura de mensageria, BI, Data Warehouse, Big Data, Data Lake, DevOps."
       },
       "gftJava": {
-        "period": "De 08/2021 Até 09/2021",
+        "period": "08/2021 - 09/2021",
         "name": "Bootcamp GFT Java & AWS Developer (50hrs)",
         "description": "Bootcamp feito na plataforma Digital Innovation One com aprendizado de vários tópicos como Spring Boot, Spring Web MVC, Spring Cloud, Spring Web Flux, API REST, JPA, Lombok, Java 8+, Serverless, Tests."
+      },
+      "neuralNetworks": {
+        "period": "07/2021 - 07/2021",
+        "name": "Neural Networks and Deep Learning",
+        "description": "Um curso da DeepLearning.AI oferecido pela Coursera sobre blocos de construção de redes neurais, redes neurais rasas e redes neurais profundas."
       }
     },
     "projects": {
       "title": "Projetos",
       "devOpsModule": {
-        "period": "De 07/2020 Até 08/2020",
+        "period": "07/2020 - 08/2020",
         "name": "Desafio de DevOps",
         "description": "Desafios do módulo de DevOps do meu <a href=\"https://drive.google.com/file/d/1bJnFxQPKgSsI30sCvW-KzYK4V5JWzgSs/view?usp=share_link\" target=\"_blank\" rel=\"noreferrer\">curso de microsserviços</a>. Nginx + Laravel + Redis + MySQL com docker-compose, Kubernetes e pipelines de integração contínua e deploy contínuo num Cluster Kubernetes no Google Cloud Platform."
       },
       "imageProcessing": {
-        "period": "De 10/2020 Até 11/2020",
+        "period": "10/2020 - 11/2020",
         "name": "Classificador de imagens de mamografia",
         "description": "Um programa feito em Python que usa redes neurais para classificar imagens de exames mamográficos e busca diferenciar a densidade das mamas no intuito de identificar tumores ou outros problemas."
       },
       "localizaLabs": {
-        "period": "De 01/2021 Até 02/2021",
+        "period": "01/2021 - 02/2021",
         "name": "Localiza Labs API (120hrs)",
-        "description": "O Localiza Labs Academy foi um programa que selecionou, dentre milhares, 20 candidatos para um treinamento intensivo de .NET em 3 semanas tendo desenvolvimento de um desafio no final. Este projeto foi o <strong>vencedor 🏆</strong> na área de backend. Criamos uma API REST .NET 5 com SQL Server, Kubernetes, CI/CD Azure DevOps, Docker-Compose e Unit Tests. <a href=\"https://drive.google.com/file/d/1E0Hf4IWn9TRrooU_zOka3t03pjf18ukF/view\" target=\"_blank\" rel=\"noreferrer\">Certificado</a>"
+        "description": "O Localiza Labs Academy foi um programa que selecionou, dentre milhares, 20 candidatos para um treinamento intensivo de .NET em 3 semanas tendo desenvolvimento de um desafio no final. Esse projeto foi o <strong>vencedor 🏆</strong> na área de backend. Criamos uma API REST .NET 5 com SQL Server, Kubernetes, CI/CD Azure DevOps, Docker-Compose e Unit Tests. <a href=\"https://drive.google.com/file/d/1E0Hf4IWn9TRrooU_zOka3t03pjf18ukF/view\" target=\"_blank\" rel=\"noreferrer\">Certificado</a>"
       },
       "ecommerceMicroservices": {
-        "period": "De 09/2021 Até 09/2021",
+        "period": "09/2021 - 09/2021",
         "name": "GFT Bootcamp - Spring Ecommerce Microservices",
         "description": "Microsserviços feitos com Spring Boot incluindo Elasticsearch, Redis, Config Server, Service Discovery e um Gateway."
       },
       "webfluxStockQuote": {
-        "period": "De 09/2021 Até 09/2021",
+        "period": "09/2021 - 09/2021",
         "name": "GFT Bootcamp - Spring Webflux Stock Quote",
         "description": "Projeto que simula o acompanhamento de ações e seus valores de abertura e fechamento feito com Spring Boot, WebFlux, Project Reactor, Lombok, React, ChartJS."
       }
@@ -73,29 +78,29 @@
     "experiences": {
       "title": "Experiências",
       "zup": {
-        "period": "De 07/2023 Até Agora",
+        "period": "07/2023 - Presente",
         "name": "Senior Software Engineer - <a href=\"https://www.zupinnovation.com/\" target=\"_blank\" rel=\"noreferrer\">Zup Innovation</a>",
-        "description": "Trabalho na área de seguros de um cliente do setor bancário/financeiro e atuo com microsserviços em Java Spring Boot e aplicações NodeJS/TypeScript em Lambda.<br/><strong>Projeto 1</strong>: Aumentar número de propostas de seguro contratadas através de lembretes agendados. Fiz o desenho de arquitetura, trouxe ao time para discutir e depois desenvolvi a solução. No período de 1 ano, 17 mil propostas foram formalizadas graças aos lembretes. Tecnologias envolvidas: TypeScript, NodeJS, Java, Apache Kafka, AWS Lambda, AWS ECS, AWS EventBridge Scheduler, AWS SNS, AWS SQS, AWS DynamoDB.<br/><strong>Projeto 2</strong>: Extrair dados de propostas de seguro da nossa base e salvar em um bucket S3 particionado para que o time de dados e analytics consiga fazer queries SQL no Amazon Athena. O resultado desse projeto é a democratização dos dados e a possibilidade de descoberta de novos insights sobre o negócio. Tecnologias envolvidas: AWS DynamoDB, DynamoDB Streams, AWS Lambda, AWS Step Functions, AWS EventBridge Scheduler, AWS Glue, Apache Spark, Python, Terraform, CI/CD, Grafana, Prometheus.<br/><strong>Projeto 3</strong>: Possibilitar à squad testar coisas novas em ambiente de desenvolvimento. O contexto desse problema é que só conseguimos testar coisas novas após subir para ambiente de homologação e isso não é o ideal. O meu trabalho foi revisar toda a arquitetura de microsserviços da squad e montar um plano para ajustar todas as aplicações e fazê-las funcionarem em ambiente de desenvolvimento. O resultado desse projeto foi o aumento da produtividade da squad já que ela consegue iterar mais rápido sobre novos desenvolvimentos."
+        "description": "Atuo na área de seguros de um cliente do setor bancário/financeiro e atuo com microsserviços em aplicações Java Spring Boot e NodeJS/TypeScript em Lambda.<br><strong>Projeto 1</strong>: Aumentar o número de propostas de seguro contratadas. A abordagem foi baseada em lembretes agendados. Desenhei a arquitetura, levei para discussão com a equipe e desenvolvi a solução. No período de 1 ano, 17 mil propostas de seguro foram formalizadas graças aos lembretes. Tecnologias: TypeScript, NodeJS, Java, Apache Kafka, AWS DynamoDB, AWS Lambda, AWS ECS, AWS EventBridge Scheduler, AWS SNS, AWS SQS.<br><strong>Projeto 2</strong>: Extrair dados de propostas de seguro do nosso banco de dados e salvá-los em um bucket S3 particionado para que a equipe de dados e analytics possa realizar consultas SQL no Amazon Athena. O resultado desse projeto é a democratização dos dados e a possibilidade de descobrir novos insights sobre o negócio. Tecnologias: AWS DynamoDB, DynamoDB Streams, AWS Lambda, AWS Step Functions, AWS EventBridge Scheduler, AWS Glue, Apache Spark, Python, Terraform, CI/CD, Grafana, Prometheus.<br><strong>Projeto 3</strong>: Permitir que o meu time teste coisas novas no ambiente de desenvolvimento. O contexto desse problema é que nós só conseguíamos testar coisas depois de implantá-las em ambiente de homologação, e isso não é o ideal. Meu trabalho era revisar toda a arquitetura de microsserviços do time e montar um plano para ajustar todas as aplicações e fazê-las funcionar no ambiente de desenvolvimento. O resultado desse projeto foi um aumento na produtividade do time, pois ele conseguiu iterar mais rápido em novos desenvolvimentos."
       },
       "google": {
-        "period": "De 01/2022 Até 05/2023",
+        "period": "01/2022 - 05/2023",
         "name": "Software Engineer - <a href=\"https://about.google/\" target=\"_blank\" rel=\"noreferrer\">Google</a>",
-        "description": "Trabalhei dentro da área de produto do Google Search como engenheiro de software mantendo soluções de Data Engineering (ex: Google Flume, Google Dataflow, Apache Flink) que processam bilhões de logs todos os dias e ajudam o Google a avaliar os seus próprios produtos por meio de pesquisas de satisfação enviadas diretamente a usuários reais (ex: Google Opinion Rewards App). Tecnologias envolvidas: C++, RPC/gRPC, Protocol Buffers, Blaze/Bazel, Java, Python e bancos de dados relacionais.<br>Além disso trabalhei em alguns projetos adicionais:<br><strong>Projeto 1:</strong> Fui responsável por criar jobs agendados que processam bilhões de data points e geram tabelas que posteriormente são usadas para criar dashboards que ajudam a monitorar a saúde de um sistema interno. Todas as tecnologias envolvidas são internas.<br><strong>Projeto 2:</strong> Fui responsável por colaborar no design de uma feature que possibilita usuários internos a criar componentes de UI por meio de arquivos de configuração e desenvolvi o código front end necessário para suportar essa arquitetura. Tecnologias envolvidas: Google Cloud, React, GraphQL, TypeScript, JavaScript e NodeJS.<br><strong>Projeto 3:</strong> Atuei como front e back end desenvolvendo componentes de UI que ajudam usuários internos a construir as pesquisas de satisfação. Tecnologias envolvidas: Google Cloud, C++, RPC/gRPC, Protocol Buffers, Blaze/Bazel, Kotlin, TypeScript, React, GraphQL, NodeJS e bancos de dados relacionais."
+        "description": "Trabalhei na área de produtos do Google Search mantendo soluções de engenharia de dados (semelhantes ao Google Flume, Google Dataflow, Apache Beam, Apache Flink) que processam bilhões de logs todos os dias e ajudam o Google a avaliar seus próprios produtos por meio de pesquisas de satisfação enviadas diretamente a usuários reais (por exemplo, Google Opinion Rewards App).<br>Também trabalhei em alguns projetos adicionais:<br><strong>Projeto 1</strong>: Fui responsável por criar jobs agendados que processam bilhões de data points e geram tabelas que são usadas posteriormente para criar dashboards que ajudam a monitorar a integridade de um sistema interno. Tecnologias: Python, SQL e algumas outras internas (semelhantes às métricas do Prometheus).<br><strong>Projeto 2</strong>: Desenvolvi componentes de front-end e back-end que ajudam os usuários internos a criar pesquisas de satisfação com mais facilidade sem precisar saber os detalhes da pipeline de engenharia de dados da minha equipe. Esse projeto reduziu o tempo de criação de pesquisas de satisfação de horas para minutos e também ajudou a aumentar a adoção da ferramenta que a minha equipe oferece. Tecnologias: Kotlin, C++, RPC/gRPC, Protocol Buffers, Blaze/Bazel, Google Cloud, TypeScript, JavaScript, NodeJS, React, GraphQL, Apollo, banco de dados relacional."
       },
       "accenture": {
-        "period": "De 04/2021 Até 01/2022",
+        "period": "04/2021 - 01/2022",
         "name": "Application Development Analyst - <a href=\"https://www.accenture.com/\" target=\"_blank\" rel=\"noreferrer\">Accenture</a>",
-        "description": "<strong>Projeto 1:</strong> Fui designado a entender uma necessidade do time de SAP e criar uma solução do zero, incluindo layout, frontend (React), backend (Node), banco de dados (Postgres) e infraestrutura na AWS (EC2, S3 e RDS).<br><strong>Projeto 2:</strong> Atuei como líder técnico front-end React. Nossa missão foi melhorar a acessibilidade de vários sites de uma grande empresa na área de saúde no Brasil. Isso envolve fazer testes com leitores de tela, contraste de cores e outras coisas descritas nas normas da WCAG. Ajudei a equipe tanto no desenvolvimento das tarefas quanto na organização do projeto (Git Flow, Code Review, CI/CD Pipelines, Refinamento Técnico)."
+        "description": "<strong>Projeto 1</strong>: Fui designado a entender uma necessidade do time de SAP da Accenture e criar uma solução do zero, incluindo layout, frontend (React), backend (Node), banco de dados (Postgres) e infraestrutura na AWS (EC2, S3 e RDS). Esse projeto permitiu que a equipe SAP registrasse projetos criados no passado e os procurasse rapidamente para reutilizá-los em novos projetos.<br><strong>Projeto 2</strong>: Trabalhei como líder técnico de front-end React. Nossa missão era melhorar a acessibilidade de vários sites de uma grande empresa da área de saúde no Brasil. Isso envolve testar leitores de tela, contraste de cores e outras coisas descritas nos padrões WCAG. Nosso cliente usou evidências geradas durante o projeto para responder a um processo legal e nos deu um feedback positivo sobre a qualidade do projeto e o andamento do processo legal. Tecnologias: JavaScript, React, NodeJS, Azure DevOps, CI/CD, Git Flow, WCAG, Refinamento Técnico."
       },
       "internIoasys": {
-        "period": "De 02/2020 Até 02/2021",
+        "period": "02/2020 - 02/2021",
         "name": "Estagiário de Desenvolvimento Full Stack - <a href=\"https://ioasys.com.br/\" target=\"_blank\" rel=\"noreferrer\">Ioasys</a>",
-        "description": "Participação em 2 projetos de desenvolvimento.<br><strong>Projeto 1:</strong> Uma API Ruby on Rails com infra na AWS (EC2, RDS e S3 com upload de vídeos), foi o maior desafio, pois em 2 semanas tive que assumir sozinho o projeto ficando sobre a minha responsabilidade a infraestrutura na AWS, o desenvolvimento do back-end, os deploys e atualizações no banco de dados de produção.<br><strong>Projeto 2:</strong> Um projeto Node Serverless usando AWS Lambda, foi uma integração de autenticação via SAML 2.0. Ficou sobre a minha responsabilidade boa parte do ciclo do projeto: concepção, reuniões técnicas com o cliente, desenvolvimento, testes automatizados e deploy."
+        "description": "<strong>Projeto 1</strong>: Desenvolvi uma integração de autenticação via SAML 2.0 usando NodeJS e AWS Lambda. Esse projeto permitiu integrar um novo cliente ao nosso projeto através do Azure Active Directory dele.<br><strong>Projeto 2</strong>: Eu era um desenvolvedor de uma API Ruby on Rails que funciona como um aplicativo de mídia social empresarial. Esse foi um grande desafio, porque em 2 semanas eu tive que assumir o projeto sozinho (como estagiário!!) e era responsável pela infraestrutura na AWS, o desenvolvimento do backend, implantações e migrações de esquema no banco de dados de produção. Tecnologias: Ruby, Ruby on Rails, Active Record, AWS EC2, AWS RDS (MySQL), AWS S3, Nginx, certificados SSL/TLS, SSH."
       },
       "webDevIntern": {
-        "period": "De 03/2019 Até 12/2019",
+        "period": "03/2019 - 12/2019",
         "name": "Estagiário de Desenvolvimento Web - <a href=\"https://crc.pucminas.br/\" target=\"_blank\" rel=\"noreferrer\">PUC Minas</a>",
-        "description": "Responsável pela concepção, desenvolvimento, teste e deploy de uma aplicação interna da universidade onde os técnicos poderiam pingar as máquinas de vários laboratórios e saber como estava o status delas. Tecnologias: HTML, CSS, JavaScript, PHP, Laravel, MySQL, Docker, Nginx."
+        "description": "Desenvolvi uma aplicação interna na universidade onde os técnicos podiam pingar máquinas de vários laboratórios e descobrir o status delas. Tecnologias: HTML, CSS, JavaScript, PHP, Laravel, MySQL, Docker, Nginx."
       }
     },
     "interests": {

@@ -166,7 +166,7 @@ export const experiences = (): Experience[] => [
                 Event sourcing, Event collaboration, CQRS, Unit of Work.
               </li>
               <li>
-                <strong>Java 17</strong> - Gradle, Groovy, Spring Boot, JUnit,
+                <strong>Java</strong> - Gradle, Groovy, Spring Boot, JUnit,
                 Mockito.
               </li>
               <li>
@@ -176,21 +176,21 @@ export const experiences = (): Experience[] => [
           </>
         ),
       },
-      {
-        period: fmt({ id: "experiences.education.interJava.period" }),
-        name: (
-          <a
-            href="https://drive.google.com/file/d/1FbcMmesNN53tPjX8OfAgH6RXAzNjQDAS/view?usp=drive_link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {fmt({ id: "experiences.education.interJava.name" })}
-          </a>
-        ),
-        description: (
-          <>{fmt({ id: "experiences.education.interJava.description" })}</>
-        ),
-      },
+      // {
+      //   period: fmt({ id: "experiences.education.interJava.period" }),
+      //   name: (
+      //     <a
+      //       href="https://drive.google.com/file/d/1FbcMmesNN53tPjX8OfAgH6RXAzNjQDAS/view?usp=drive_link"
+      //       target="_blank"
+      //       rel="noopener noreferrer"
+      //     >
+      //       {fmt({ id: "experiences.education.interJava.name" })}
+      //     </a>
+      //   ),
+      //   description: (
+      //     <>{fmt({ id: "experiences.education.interJava.description" })}</>
+      //   ),
+      // },
       {
         period: fmt({ id: "experiences.education.gftJava.period" }),
         name: (
@@ -204,6 +204,21 @@ export const experiences = (): Experience[] => [
         ),
         description: (
           <>{fmt({ id: "experiences.education.gftJava.description" })}</>
+        ),
+      },
+      {
+        period: fmt({ id: "experiences.education.neuralNetworks.period" }),
+        name: (
+          <a
+            href="https://www.coursera.org/account/accomplishments/certificate/DULPREJ9FCER"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {fmt({ id: "experiences.education.neuralNetworks.name" })}
+          </a>
+        ),
+        description: (
+          <>{fmt({ id: "experiences.education.neuralNetworks.description" })}</>
         ),
       },
       // {
