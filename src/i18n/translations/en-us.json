@@ -39,12 +39,17 @@
       "gftJava": {
         "period": "08/2021 - 09/2021",
         "name": "Bootcamp GFT Java & AWS Developer (50hrs)",
-        "description": "Bootcamp made on Digital Innovation One platform with learning of various topics such as Spring Boot, Spring Web MVC, Spring Cloud, Spring Web Flux, REST API, JPA, Lombok, Java 8+, Serverless, Tests."
+        "description": "Bootcamp made on the Digital Innovation One platform with learning of various topics such as Spring Boot, Spring Web MVC, Spring Cloud, Spring Web Flux, REST API, JPA, Lombok, Java 8+, Serverless, Tests."
       },
       "neuralNetworks": {
         "period": "07/2021 - 07/2021",
         "name": "Neural Networks and Deep Learning",
         "description": "DeepLearning.AI course offered through Coursera about neural networks building blocks, shallow neural networks and deep neural networks."
+      },
+      "localizaLabs": {
+        "period": "01/2021 - 02/2021",
+        "name": "Localiza Labs API (120hrs)",
+        "description": "The Localiza Labs Academy was a program that selected, from thousands, 20 candidates for an intensive .NET training in 3 weeks with the development of a challenge at the end. This project was the <strong>winner 🏆</strong> in the backend area. I created a .NET 5 REST API with SQL Server, Kubernetes, CI/CD Azure DevOps, Docker-Compose and Unit Tests. <a href=\"https://drive.google.com/file/d/1E0Hf4IWn9TRrooU_zOka3t03pjf18ukF/view\" target=\"_blank\" rel=\"noreferrer\">Certificate</a>"
       }
     },
     "projects": {
@@ -62,7 +67,7 @@
       "localizaLabs": {
         "period": "01/2021 - 02/2021",
         "name": "Localiza Labs API (120hrs)",
-        "description": "The Localiza Labs Academy was a program that selected, from thousands, 20 candidates for an intensive .NET training in 3 weeks with the development of a challenge at the end. This project was the <strong>winner 🏆</strong> in the backend area. We created a .NET 5 REST API with SQL Server, Kubernetes, CI/CD Azure DevOps, Docker-Compose and Unit Tests. <a href=\"https://drive.google.com/file/d/1E0Hf4IWn9TRrooU_zOka3t03pjf18ukF/view\" target=\"_blank\" rel=\"noreferrer\">Certificate</a>"
+        "description": "The Localiza Labs Academy was a program that selected, from thousands, 20 candidates for an intensive .NET training in 3 weeks with the development of a challenge at the end. This project was the <strong>winner 🏆</strong> in the backend area. I created a .NET 5 REST API with SQL Server, Kubernetes, CI/CD Azure DevOps, Docker-Compose and Unit Tests. <a href=\"https://drive.google.com/file/d/1E0Hf4IWn9TRrooU_zOka3t03pjf18ukF/view\" target=\"_blank\" rel=\"noreferrer\">Certificate</a>"
       },
       "ecommerceMicroservices": {
         "period": "09/2021 - 09/2021",

@@ -34,17 +34,22 @@
       "interJava": {
         "period": "02/2021 - 03/2021",
         "name": "Bootcamp Inter Java Developer (95hrs)",
-        "description": "Bootcamp feito na plataforma Digital Innovation One com aprendizado de vários tópicos como Spring Boot, JPA, Kafka, Cloud Stream, Postgres, Lombok, Schema Registry, CQRS, Quarkus, Kubernetes, AWS EKS, Tests, Arquitetura de mensageria, BI, Data Warehouse, Big Data, Data Lake, DevOps."
+        "description": "Bootcamp feito na plataforma da Digital Innovation One com aprendizado de vários tópicos como Spring Boot, JPA, Kafka, Cloud Stream, Postgres, Lombok, Schema Registry, CQRS, Quarkus, Kubernetes, AWS EKS, Tests, Arquitetura de mensageria, BI, Data Warehouse, Big Data, Data Lake, DevOps."
       },
       "gftJava": {
         "period": "08/2021 - 09/2021",
         "name": "Bootcamp GFT Java & AWS Developer (50hrs)",
-        "description": "Bootcamp feito na plataforma Digital Innovation One com aprendizado de vários tópicos como Spring Boot, Spring Web MVC, Spring Cloud, Spring Web Flux, API REST, JPA, Lombok, Java 8+, Serverless, Tests."
+        "description": "Bootcamp feito na plataforma da Digital Innovation One com aprendizado de vários tópicos como Spring Boot, Spring Web MVC, Spring Cloud, Spring Web Flux, API REST, JPA, Lombok, Java 8+, Serverless, Tests."
       },
       "neuralNetworks": {
         "period": "07/2021 - 07/2021",
         "name": "Neural Networks and Deep Learning",
         "description": "Um curso da DeepLearning.AI oferecido pela Coursera sobre blocos de construção de redes neurais, redes neurais rasas e redes neurais profundas."
+      },
+      "localizaLabs": {
+        "period": "01/2021 - 02/2021",
+        "name": "Localiza Labs API (120hrs)",
+        "description": "O Localiza Labs Academy foi um programa que selecionou, dentre milhares, 20 candidatos para um treinamento intensivo de .NET em 3 semanas tendo desenvolvimento de um desafio no final. Esse projeto foi o <strong>vencedor 🏆</strong> na área de backend. Criei uma API REST .NET 5 com SQL Server, Kubernetes, CI/CD Azure DevOps, Docker-Compose e Unit Tests. <a href=\"https://drive.google.com/file/d/1E0Hf4IWn9TRrooU_zOka3t03pjf18ukF/view\" target=\"_blank\" rel=\"noreferrer\">Certificado</a>"
       }
     },
     "projects": {
@@ -62,7 +67,7 @@
       "localizaLabs": {
         "period": "01/2021 - 02/2021",
         "name": "Localiza Labs API (120hrs)",
-        "description": "O Localiza Labs Academy foi um programa que selecionou, dentre milhares, 20 candidatos para um treinamento intensivo de .NET em 3 semanas tendo desenvolvimento de um desafio no final. Esse projeto foi o <strong>vencedor 🏆</strong> na área de backend. Criamos uma API REST .NET 5 com SQL Server, Kubernetes, CI/CD Azure DevOps, Docker-Compose e Unit Tests. <a href=\"https://drive.google.com/file/d/1E0Hf4IWn9TRrooU_zOka3t03pjf18ukF/view\" target=\"_blank\" rel=\"noreferrer\">Certificado</a>"
+        "description": "O Localiza Labs Academy foi um programa que selecionou, dentre milhares, 20 candidatos para um treinamento intensivo de .NET em 3 semanas tendo desenvolvimento de um desafio no final. Esse projeto foi o <strong>vencedor 🏆</strong> na área de backend. Criei uma API REST .NET 5 com SQL Server, Kubernetes, CI/CD Azure DevOps, Docker-Compose e Unit Tests. <a href=\"https://drive.google.com/file/d/1E0Hf4IWn9TRrooU_zOka3t03pjf18ukF/view\" target=\"_blank\" rel=\"noreferrer\">Certificado</a>"
       },
       "ecommerceMicroservices": {
         "period": "09/2021 - 09/2021",

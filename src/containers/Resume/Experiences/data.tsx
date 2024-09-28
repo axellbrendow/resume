@@ -192,6 +192,29 @@ export const experiences = (): Experience[] => [
       //   ),
       // },
       {
+        period: <>{fmt({ id: "experiences.education.localizaLabs.period" })}</>,
+        name: (
+          <>
+            <a
+              href="https://github.com/matheussinnis/ProjetoLocalizaLabsAPI"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {fmt({ id: "experiences.education.localizaLabs.name" })}
+            </a>
+          </>
+        ),
+        description: (
+          <div
+            dangerouslySetInnerHTML={{
+              __html: fmt({
+                id: "experiences.education.localizaLabs.description",
+              }),
+            }}
+          />
+        ),
+      },
+      {
         period: fmt({ id: "experiences.education.gftJava.period" }),
         name: (
           <a
@@ -206,21 +229,21 @@ export const experiences = (): Experience[] => [
           <>{fmt({ id: "experiences.education.gftJava.description" })}</>
         ),
       },
-      {
-        period: fmt({ id: "experiences.education.neuralNetworks.period" }),
-        name: (
-          <a
-            href="https://www.coursera.org/account/accomplishments/certificate/DULPREJ9FCER"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {fmt({ id: "experiences.education.neuralNetworks.name" })}
-          </a>
-        ),
-        description: (
-          <>{fmt({ id: "experiences.education.neuralNetworks.description" })}</>
-        ),
-      },
+      // {
+      //   period: fmt({ id: "experiences.education.neuralNetworks.period" }),
+      //   name: (
+      //     <a
+      //       href="https://www.coursera.org/account/accomplishments/certificate/DULPREJ9FCER"
+      //       target="_blank"
+      //       rel="noopener noreferrer"
+      //     >
+      //       {fmt({ id: "experiences.education.neuralNetworks.name" })}
+      //     </a>
+      //   ),
+      //   description: (
+      //     <>{fmt({ id: "experiences.education.neuralNetworks.description" })}</>
+      //   ),
+      // },
       // {
       //   period: fmt({ id: "experiences.education.frontEndDev.period" }),
       //   name: (
