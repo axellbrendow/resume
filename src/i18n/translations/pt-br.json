@@ -49,7 +49,7 @@
       "localizaLabs": {
         "period": "01/2021 - 02/2021",
         "name": "Localiza Labs API (120hrs)",
-        "description": "O Localiza Labs Academy foi um programa que selecionou, dentre milhares, 20 candidatos para um treinamento intensivo de .NET em 3 semanas tendo desenvolvimento de um desafio no final. Esse projeto foi o <strong>vencedor 🏆</strong> na área de backend. Criei uma API REST .NET 5 com SQL Server, Kubernetes, CI/CD Azure DevOps, Docker-Compose e Unit Tests. <a href=\"https://drive.google.com/file/d/1E0Hf4IWn9TRrooU_zOka3t03pjf18ukF/view\" target=\"_blank\" rel=\"noreferrer\">Certificado</a>"
+        "description": "O Localiza Labs Academy foi um programa que selecionou, dentre milhares, 20 candidatos para um treinamento intensivo de C# e .NET em 3 semanas tendo desenvolvimento de um desafio no final. Esse projeto foi o <strong>vencedor 🏆</strong> na área de backend. Criei uma API REST em C# usando .NET 5 com SQL Server, Kubernetes, CI/CD Azure DevOps, Docker-Compose e Unit Tests. <a href=\"https://drive.google.com/file/d/1E0Hf4IWn9TRrooU_zOka3t03pjf18ukF/view\" target=\"_blank\" rel=\"noreferrer\">Certificado</a>"
       }
     },
     "projects": {
