@@ -4,7 +4,7 @@
   "brazil": "Brazil",
   "presentation": {
     "aboutMe": "About me",
-    "aboutMeValue": "I started programming in C when I was 12, and since then I've fallen in love with this activity 💕. Today I work with backend and frontend development, distributed systems, messaging, microservices, AWS, Docker, NodeJS, Typescript, and Java. My two main soft skills are empathy and communication.",
+    "aboutMeValue": "I started programming in C when I was 12 years old and since then I have fallen in love with this activity 💕. Today I work with backend and frontend development, distributed systems, messaging, microservices, AWS, Docker, NodeJS, Typescript, and Java.",
     "availableLanguages": "Available languages"
   },
   "contacts": {
@@ -26,10 +26,10 @@
         "name": "Front-End Developer (140hrs)",
         "description": "Front-end Developer career completed at"
       },
-      "microservicesApplications": {
+      "fullCycle": {
         "period": "07/2020 - Present",
-        "name": "Architecting and developing modern and scalable applications based on microservices (1000hrs+)(pt-br)",
-        "introduction": "The course trains Full Cycle Developers capable of creating microservice ecosystems from scratch."
+        "name": "Full Cycle course (microservices) (1000hrs+)(pt-br)",
+        "description": "The course teaches everything from analyzing a company's domains to developing, deploying and monitoring a microservices ecosystem."
       },
       "interJava": {
         "period": "02/2021 - 03/2021",

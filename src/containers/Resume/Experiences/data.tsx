@@ -123,7 +123,7 @@ export const experiences = (): Experience[] => [
       },
       {
         period: fmt({
-          id: "experiences.education.microservicesApplications.period",
+          id: "experiences.education.fullCycle.period",
         }),
         name: (
           <a
@@ -132,15 +132,14 @@ export const experiences = (): Experience[] => [
             rel="noopener noreferrer"
           >
             {fmt({
-              id: "experiences.education.microservicesApplications.name",
+              id: "experiences.education.fullCycle.name",
             })}
           </a>
         ),
         description: (
           <>
             {fmt({
-              id:
-                "experiences.education.microservicesApplications.introduction",
+              id: "experiences.education.fullCycle.description",
             })}
             <ul>
               <li>

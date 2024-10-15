@@ -4,7 +4,7 @@
   "brazil": "Brasil",
   "presentation": {
     "aboutMe": "Sobre mim",
-    "aboutMeValue": "Comecei a programar em C quando tinha 12 anos e, desde então, apaixonei-me por essa atividade 💕. Hoje trabalho com desenvolvimento de backend e frontend, sistemas distribuídos, mensageria, microsserviços, AWS, Docker, NodeJS, TypeScript e Java. Minhas duas soft skills principais são empatia e comunicação.",
+    "aboutMeValue": "Comecei a programar em C quando tinha 12 anos e, desde então, apaixonei-me por essa atividade 💕. Hoje trabalho com desenvolvimento de backend e frontend, sistemas distribuídos, mensageria, microsserviços, AWS, Docker, NodeJS, TypeScript e Java.",
     "availableLanguages": "Idiomas disponíveis"
   },
   "contacts": {
@@ -26,10 +26,10 @@
         "name": "Desenvolvedor Front-End (140hrs)",
         "description": "Carreira Desenvolvedor Front-end concluída na"
       },
-      "microservicesApplications": {
+      "fullCycle": {
         "period": "07/2020 - Presente",
-        "name": "Arquitetando e desenvolvendo aplicações modernas e escaláveis baseadas em Microsserviços (1000hrs+)",
-        "introduction": "O curso forma Desenvolvedores Full Cycle capazes de criar ecossistemas de microsserviços do zero."
+        "name": "Curso Full Cycle (microsserviços) (1000hrs+)",
+        "description": "O curso ensina desde a análise de domínios de uma empresa até o desenvolvimento, deploy e monitoramento de um ecossistema de microsserviços."
       },
       "interJava": {
         "period": "02/2021 - 03/2021",
