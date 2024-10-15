@@ -127,7 +127,7 @@ export const experiences = (): Experience[] => [
         }),
         name: (
           <a
-            href="https://drive.google.com/file/d/1bJnFxQPKgSsI30sCvW-KzYK4V5JWzgSs/view?usp=share_link"
+            href="https://curso.fullcycle.com.br/curso-fullcycle/"
             target="_blank"
             rel="noopener noreferrer"
           >
