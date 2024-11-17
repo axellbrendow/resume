@@ -213,36 +213,42 @@ export const experiences = (): Experience[] => [
           />
         ),
       },
-      {
-        period: fmt({ id: "experiences.education.gftJava.period" }),
-        name: (
-          <a
-            href="https://certificates.digitalinnovation.one/76784B06"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {fmt({ id: "experiences.education.gftJava.name" })}
-          </a>
-        ),
-        description: (
-          <>{fmt({ id: "experiences.education.gftJava.description" })}</>
-        ),
-      },
       // {
-      //   period: fmt({ id: "experiences.education.neuralNetworks.period" }),
+      //   period: fmt({ id: "experiences.education.gftJava.period" }),
       //   name: (
       //     <a
-      //       href="https://www.coursera.org/account/accomplishments/certificate/DULPREJ9FCER"
+      //       href="https://certificates.digitalinnovation.one/76784B06"
       //       target="_blank"
       //       rel="noopener noreferrer"
       //     >
-      //       {fmt({ id: "experiences.education.neuralNetworks.name" })}
+      //       {fmt({ id: "experiences.education.gftJava.name" })}
       //     </a>
       //   ),
       //   description: (
-      //     <>{fmt({ id: "experiences.education.neuralNetworks.description" })}</>
+      //     <>{fmt({ id: "experiences.education.gftJava.description" })}</>
       //   ),
       // },
+      {
+        period: fmt({ id: "experiences.education.neuralNetworks.period" }),
+        name: (
+          <a
+            href="https://www.coursera.org/learn/neural-networks-deep-learning"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {fmt({ id: "experiences.education.neuralNetworks.name" })}
+          </a>
+        ),
+        description: (
+          <div
+            dangerouslySetInnerHTML={{
+              __html: fmt({
+                id: "experiences.education.neuralNetworks.description",
+              }),
+            }}
+          />
+        ),
+      },
       // {
       //   period: fmt({ id: "experiences.education.frontEndDev.period" }),
       //   name: (

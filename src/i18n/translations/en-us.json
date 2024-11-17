@@ -18,7 +18,7 @@
       "title": "Education",
       "graduation": {
         "period": "02/2018 - 12/2021",
-        "name": "Degree in Computer Science",
+        "name": "Bachelor's Degree in Computer Science",
         "description": "At the Pontifical Catholic University of Minas Gerais (PUC Minas)."
       },
       "frontEndDev": {
@@ -43,8 +43,8 @@
       },
       "neuralNetworks": {
         "period": "07/2021 - 07/2021",
-        "name": "Neural Networks and Deep Learning",
-        "description": "DeepLearning.AI course offered through Coursera about neural networks building blocks, shallow neural networks and deep neural networks."
+        "name": "Artificial Intelligence (AI), Neural Networks and Deep Learning",
+        "description": "I took this course when I was writing my paper about the application of Deep Learning in mammography image recognition. <a href=\"https://www.coursera.org/account/accomplishments/certificate/DULPREJ9FCER\" target=\"_blank\" rel=\"noreferrer noopener\">Certificate</a>."
       },
       "localizaLabs": {
         "period": "01/2021 - 02/2021",
