@@ -20,6 +20,25 @@ export const experiences = (): Experience[] => [
     title: fmt({ id: "experiences.experiences.title" }),
     items: [
       {
+        period: <>{fmt({ id: "experiences.experiences.mindbody.period" })}</>,
+        name: (
+          <div
+            dangerouslySetInnerHTML={{
+              __html: fmt({ id: "experiences.experiences.mindbody.name" }),
+            }}
+          />
+        ),
+        description: (
+          <div
+            dangerouslySetInnerHTML={{
+              __html: fmt({
+                id: "experiences.experiences.mindbody.description",
+              }),
+            }}
+          />
+        ),
+      },
+      {
         period: <>{fmt({ id: "experiences.experiences.zup.period" })}</>,
         name: (
           <div
